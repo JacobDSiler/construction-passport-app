@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Construction Passport",
+    "slug": "construction-passport",
+    "scheme": "constructionpassport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "ie.constructionpassport.app",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "ie.primemanagement18.constructionpassport",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Construction Passport uses the camera to scan your certificates and tickets into your Passport.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Construction Passport records where a timesheet entry or photo was taken so employers can verify it. It is only read when you clock in or attach a photo."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Construction Passport lets you choose certificate photos from your library to add to your Passport."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1E4D7B"
+        }
+      ]
+    ],
+    "extra": {}
+  }
+}
