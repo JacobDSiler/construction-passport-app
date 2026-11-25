@@ -6,10 +6,12 @@ import { SetupScreen } from '../src/components/SetupScreen';
 import { colors } from '../src/theme';
 import { useSession } from '../src/lib/session';
 import { logIn } from '../src/lib/account';
+import { useStore } from '../src/lib/store';
 
 export default function Login() {
   const router = useRouter();
   const { update } = useSession();
+  const { reload } = useStore();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
@@ -22,6 +24,7 @@ export default function Login() {
     try {
       const { restored } = await logIn(email, password);
       update({ email: email.trim() });
+      await reload();
       if (!restored) {
         setNote('Logged in, but this account has no saved passport yet. Pick who you are to continue.');
       }

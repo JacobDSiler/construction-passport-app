@@ -1,35 +1,64 @@
 import { supabase } from './supabase';
 import { getOwnerToken, setOwnerToken } from './owner';
+import { setItem } from './storage';
+import { SHORT_CODE_KEY, WORKER_KEY, blankWorker, type Qualification } from './passport';
 
-// Email accounts back up the device's owner token so a lost phone does not mean a lost passport.
-// The token is stored in the account's metadata (key cp_owner_token).
-const META = 'cp_owner_token';
+// Matches the original app: Supabase email + password auth. The owner token is linked to the account by the
+// `claim_passport` RPC while signed in, and `restore_passport` (no args) returns it on a new phone.
 
 function need() {
   if (!supabase) throw new Error('Backend not configured (missing EXPO_PUBLIC_SUPABASE_* values).');
   return supabase;
 }
 
-export async function createAccount(email: string, password: string): Promise<void> {
+const norm = (email: string) => email.trim().toLowerCase();
+
+/** Links this phone's owner token to the signed-in account (backup). Safe to call repeatedly. */
+export async function backupToAccount(): Promise<void> {
   const sb = need();
-  const token = await getOwnerToken();
-  const { error } = await sb.auth.signUp({ email: email.trim(), password, options: { data: { [META]: token } } });
-  if (error) throw new Error(error.message);
+  const { data: s } = await sb.auth.getSession();
+  if (!s.session) return;
+  const { error } = await sb.rpc('claim_passport', { p_owner_token: await getOwnerToken() });
+  if (error) console.warn('[claim]', error.message);
 }
 
-/** Logs in. If the account holds a backed-up token, this phone adopts it, which brings the passport back. */
+export async function createAccount(email: string, password: string, meta?: Record<string, unknown>): Promise<void> {
+  const sb = need();
+  const { data, error } = await sb.auth.signUp({ email: norm(email), password, options: { data: meta ?? {} } });
+  if (error) throw new Error(error.message);
+  if (data.session) await backupToAccount();
+}
+
+/** Logs in, then restores the passport from the backend (owner token, short code and passport data). */
 export async function logIn(email: string, password: string): Promise<{ restored: boolean }> {
   const sb = need();
-  const { data, error } = await sb.auth.signInWithPassword({ email: email.trim(), password });
+  const { error } = await sb.auth.signInWithPassword({ email: norm(email), password });
   if (error) throw new Error(error.message);
-  const saved = data.user?.user_metadata?.[META];
-  if (typeof saved === 'string' && saved.length >= 32) {
-    await setOwnerToken(saved);
-    return { restored: true };
+  const { data, error: rerr } = await sb.rpc('restore_passport');
+  if (rerr) console.warn('[restore]', rerr.message);
+  const row: any = Array.isArray(data) ? data[0] : data;
+  if (!row || !row.owner_token) return { restored: false };
+  await setOwnerToken(row.owner_token);
+  if (row.short_code) await setItem(SHORT_CODE_KEY, row.short_code);
+  const d = row.data;
+  if (d) {
+    const quals: Qualification[] = Array.isArray(d.quals)
+      ? d.quals.map((q: any, i: number) => ({
+          id: `q${Date.now()}${i}`,
+          name: q.n ?? 'Ticket',
+          verification: q.verified ? 'verified' : 'unverified',
+          expires: q.expires && !isNaN(Date.parse(q.expires)) ? new Date(q.expires).toISOString() : undefined,
+          imageUri: q.img || undefined,
+          imageBackUri: q.imgBack || undefined,
+        }))
+      : [];
+    const b = blankWorker();
+    await setItem(
+      WORKER_KEY,
+      JSON.stringify({ ...b, id: d.id || b.id, name: d.name || '', trade: d.trade || '', employer: d.employer || '', qualifications: quals }),
+    );
   }
-  // Account exists but has no backup yet: attach this phone's token so future log-ins restore it.
-  await sb.auth.updateUser({ data: { [META]: await getOwnerToken() } });
-  return { restored: false };
+  return { restored: true };
 }
 
 export async function logOut(): Promise<void> {

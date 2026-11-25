@@ -18,6 +18,7 @@ interface Store {
   addEvent: (kind: EventKind, opts?: { at?: Date; note?: string; stamp?: boolean }) => Promise<void>;
   removeEvent: (id: string) => void;
   publish: () => Promise<string>;
+  reload: () => Promise<void>;
 }
 
 const Ctx = createContext<Store | null>(null);
@@ -34,17 +35,19 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const codeRef = useRef<string | null>(null);
   codeRef.current = shortCode;
 
-  useEffect(() => {
-    (async () => {
-      const w = await loadWorker();
-      setWorker(w);
-      await saveWorker(w); // makes sure a stable CP number exists from first launch
-      setEvents(await loadJson<TsEvent[]>(TS_KEY, []));
-      setShortCode(await getShortCode());
-      setAccess(await getAccess());
-      setReady(true);
-    })();
+  const reload = useCallback(async () => {
+    const w = await loadWorker();
+    setWorker(w);
+    await saveWorker(w); // makes sure a stable CP number exists from first launch
+    setEvents(await loadJson<TsEvent[]>(TS_KEY, []));
+    setShortCode(await getShortCode());
+    setAccess(await getAccess());
+    setReady(true);
   }, []);
+
+  useEffect(() => {
+    reload();
+  }, [reload]);
 
   // Any passport change updates the shared copy, once the passport has been shared before.
   const scheduleRepublish = useCallback(() => {
@@ -141,8 +144,8 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const value = useMemo<Store>(
-    () => ({ ready, worker, events, shortCode, access, updateWorker, upsertQualification, removeQualification, addEvent, removeEvent, publish }),
-    [ready, worker, events, shortCode, access, updateWorker, upsertQualification, removeQualification, addEvent, removeEvent, publish],
+    () => ({ ready, worker, events, shortCode, access, updateWorker, upsertQualification, removeQualification, addEvent, removeEvent, publish, reload }),
+    [ready, worker, events, shortCode, access, updateWorker, upsertQualification, removeQualification, addEvent, removeEvent, publish, reload],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
