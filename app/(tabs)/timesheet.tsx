@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Alert, Pressable, ScrollView, Share, StyleSheet, Text, View } from 'react-native';
+import { useRouter } from 'expo-router';
 import { Attribution, Button, Card, Field, Sheet } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';
 import { useStore } from '../../src/lib/store';
@@ -11,6 +12,7 @@ import { Range, exportTimesheetCsv, exportTimesheetPdf } from '../../src/lib/exp
 type Scope = 'Day' | 'Week' | 'Month';
 
 export default function TimesheetTab() {
+  const router = useRouter();
   const { worker, events, addEvent, removeEvent, access } = useStore();
   const [noteFor, setNoteFor] = useState<EventKind | null>(null);
   const [note, setNote] = useState('');
@@ -93,9 +95,9 @@ export default function TimesheetTab() {
       </Card>
 
       <NavCard icon="🔎" title="Find a timesheet" body="Look up a day, week or month — see the hours, and export it." onPress={() => setFindOpen(true)} />
-      <NavCard icon="🗓️" title="Record a day off" body="Holiday, sick, bank holiday, no work — logged to your timesheet and your employer." onPress={() => Alert.alert('Coming next', 'Day off is next on the list.')} />
-      <NavCard icon="🧾" title="Expenses" body="Snap a receipt — submit to your employer, or keep it personal with its own export." onPress={() => Alert.alert('Coming next', 'Expenses are next on the list.')} />
-      <NavCard icon="📋" title="Job sheet" body="Fill in the day's job sheet and export it as a PDF." onPress={() => Alert.alert('Coming next', 'Job sheets are next on the list.')} />
+      <NavCard icon="🗓️" title="Record a day off" body="Holiday, sick, bank holiday, no work — logged to your timesheet and your employer." onPress={() => router.push('/day-off')} />
+      <NavCard icon="🧾" title="Expenses" body="Snap a receipt — submit to your employer, or keep it personal with its own export." onPress={() => router.push('/expenses')} />
+      <NavCard icon="📋" title="Job sheet" body="Fill in the day's job sheet and export it as a PDF." onPress={() => router.push('/job-sheet')} />
 
       <Button
         label="📥 Export today…"

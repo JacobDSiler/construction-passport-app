@@ -58,3 +58,42 @@ export const requestJoin = (orgCode: string, shortCode: string, name?: string | 
 export async function setUploadConsent(allow: boolean) {
   return rpc('set_employer_upload_consent', { p_owner_token: await getOwnerToken(), p_allow: allow });
 }
+
+export async function claimWorker(code: string) {
+  return rpc<{ orgCode?: string | null; name?: string | null; trade?: string | null; certs?: Array<Record<string, unknown>>; workerType?: string; assignment?: string } | null>(
+    'claim_worker',
+    { p_claim_code: up(code) },
+  );
+}
+export async function setSuggestionConsent(allow: boolean) {
+  return rpc('set_suggestion_consent', { p_owner_token: await getOwnerToken(), p_allow: allow });
+}
+
+// ---- Company setup --------------------------------------------------------------------------
+export async function createCompany(setupToken: string, name: string, trade?: string | null) {
+  return rpc<unknown>('create_company', { p_setup_token: setupToken, p_name: name.trim(), p_trade: trade ?? null });
+}
+export const peekCompany = (claimCode: string) => rpc<unknown>('peek_company', { p_claim_code: up(claimCode) });
+export async function claimCompany(claimCode: string) {
+  return rpc<unknown>('claim_company', { p_claim_code: up(claimCode), p_owner_token: await getOwnerToken() });
+}
+export async function listCourses() {
+  return rpc<unknown[]>('list_courses', { p_owner_token: await getOwnerToken() });
+}
+/** The RPCs return either a bare code string or an object; pull the org code out either way. */
+export function extractOrgCode(r: unknown): string | null {
+  if (typeof r === 'string') return r;
+  if (r && typeof r === 'object') {
+    const o = r as Record<string, unknown>;
+    for (const k of ['org_code', 'orgCode', 'code']) if (typeof o[k] === 'string') return o[k] as string;
+    if (Array.isArray(r) && r[0]) return extractOrgCode(r[0]);
+  }
+  return null;
+}
+export function extractName(r: unknown): string | null {
+  if (r && typeof r === 'object' && !Array.isArray(r)) {
+    const o = r as Record<string, unknown>;
+    for (const k of ['name', 'org_name', 'orgName']) if (typeof o[k] === 'string') return o[k] as string;
+  }
+  return null;
+}

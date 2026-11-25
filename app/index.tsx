@@ -1,29 +1,33 @@
+import { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
+import { homeFor, useSession } from '../src/lib/session';
 
-// Welcome screen, mirroring the live app: vest emoji, tagline, create account / log in / try on this device.
+// Welcome screen. Anyone who already picked a role goes straight to their home.
 export default function Welcome() {
   const router = useRouter();
+  const { ready, session } = useSession();
+
+  useEffect(() => {
+    if (ready && session.role) router.replace(homeFor(session.role) as never);
+  }, [ready, session.role, router]);
+
+  if (!ready || session.role) return <SafeAreaView style={styles.screen} />;
+
   return (
     <SafeAreaView style={styles.screen}>
       <View style={styles.top}>
         <Text style={styles.emoji}>🦺</Text>
         <Text style={styles.title}>Construction Passport</Text>
-        <Text style={styles.sub}>
-          Your tickets, always in your pocket. Create an account so your passport is saved and never lost.
-        </Text>
+        <Text style={styles.sub}>Your tickets, always in your pocket. Create an account so your passport is saved and never lost.</Text>
       </View>
       <View style={styles.bottom}>
-        {/* TODO: wire account creation and login to claim_worker / claim_passport once flows are confirmed from screenshots. */}
-        <Button label="Create account" variant="light" onPress={() => router.replace('/(tabs)')} style={styles.stretch} />
-        <Text style={styles.link} onPress={() => router.replace('/(tabs)')}>
+        <Button label="Get started" variant="light" onPress={() => router.push('/role')} style={styles.stretch} />
+        <Text style={styles.link} onPress={() => router.push('/login')}>
           I already have an account · Log in
-        </Text>
-        <Text style={styles.link} onPress={() => router.replace('/(tabs)')}>
-          Just try it on this device
         </Text>
       </View>
     </SafeAreaView>

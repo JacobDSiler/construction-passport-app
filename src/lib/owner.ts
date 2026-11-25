@@ -29,3 +29,9 @@ export function getOwnerToken(): Promise<string> {
 export async function getOwnerFolder(): Promise<string> {
   return (await getOwnerToken()).replace(/[^a-zA-Z0-9]/g, '').slice(0, 24) || 'cp';
 }
+
+/** Adopt a token restored from an email account (log in on a new phone). */
+export async function setOwnerToken(token: string): Promise<void> {
+  await setItem(KEY, token);
+  pending = null;
+}

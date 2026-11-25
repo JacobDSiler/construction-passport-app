@@ -4,6 +4,7 @@ import { attributionFooter, attributionHtml } from './attribution';
 import { certStatus, compliance, publicPassportUrl, Worker } from './passport';
 import { TsEvent, KIND_LABEL, dayStats, eventsForDay } from './timesheet';
 import { addDays, dateDMY, dayLabelLong, fmtDuration, timeHM } from './dates';
+import { Expense, HazardReport, HAZARD_LABEL, Inspection, JobSheet } from './records';
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c] as string);
 
@@ -83,4 +84,73 @@ export async function exportTimesheetCsv(w: Worker, events: TsEvent[], r: Range)
   }
   lines.push('', ...attributionFooter().split('\n'));
   return lines.join('\n');
+}
+
+const stampLine = (st?: { at: string; lat?: number; lng?: number }) =>
+  st ? `${esc(new Date(st.at).toLocaleString('en-IE'))}${st.lat != null ? ` &middot; GPS ${st.lat}, ${st.lng}` : ''}` : '';
+
+export async function exportHazardPdf(h: HazardReport) {
+  const html = `<html><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+<h1>Hazard Observation</h1>
+<div class="muted">${esc(h.ref)} · ${esc(new Date(h.createdAt).toLocaleString('en-IE'))}</div>
+<h2>${esc(HAZARD_LABEL[h.category])}${h.toolbox ? ' · Flagged for toolbox talk' : ''}</h2>
+<table>
+<tr><th>Observation</th><td>${esc(h.observation)}</td></tr>
+<tr><th>Client</th><td>${esc(h.client)}</td></tr><tr><th>Project</th><td>${esc(h.project)}</td></tr>
+<tr><th>Supervisor</th><td>${esc(h.supervisor)}</td></tr><tr><th>Location / site</th><td>${esc(h.location)}</td></tr>
+<tr><th>Observer</th><td>${h.anonymous ? 'Anonymous' : esc(h.observer)}</td></tr>
+<tr><th>Department</th><td>${esc(h.department)}</td></tr><tr><th>Task stopped by</th><td>${esc(h.stoppedBy ?? '')}</td></tr>
+<tr><th>Immediate action taken</th><td>${esc(h.immediateAction)}</td></tr><tr><th>Further action required</th><td>${esc(h.furtherAction)}</td></tr>
+${h.stamp ? `<tr><th>Date / GPS stamp</th><td>${stampLine(h.stamp)}</td></tr>` : ''}
+</table>
+${h.photoUri ? `<p><img src="${esc(h.photoUri)}" style="max-width:100%;max-height:420px"/></p>` : ''}
+${attributionHtml()}</body></html>`;
+  return sharePdf(html, 'Share hazard report');
+}
+
+export async function exportJobSheetPdf(j: JobSheet, w: Worker) {
+  const list = (a: string[]) => (a.length ? a.map(esc).join(', ') : '—');
+  const html = `<html><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+<h1>Job Sheet</h1>
+<div class="muted">${esc(dayLabelLong(new Date(j.date)))} · ${esc(w.employer)}</div>
+<table>
+<tr><th>Job / ref no.</th><td>${esc(j.jobRef)}</td></tr><tr><th>Client</th><td>${esc(j.client)}</td></tr>
+<tr><th>Site / location</th><td>${esc(j.site)}</td></tr><tr><th>Operatives</th><td>${list(j.operatives)}</td></tr>
+<tr><th>Plant / equipment</th><td>${list(j.plant)}</td></tr><tr><th>Description of works</th><td>${esc(j.description)}</td></tr>
+<tr><th>Materials</th><td>${esc(j.materials)}</td></tr><tr><th>Time taken</th><td>${j.hours}h ${j.minutes}min</td></tr>
+<tr><th>Notes</th><td>${esc(j.notes)}</td></tr><tr><th>Signed by</th><td>${esc(j.signedBy)}</td></tr>
+</table>
+${j.photos.map((p) => `<img src="${esc(p)}" style="max-width:48%;margin:4px"/>`).join('')}
+${attributionHtml()}</body></html>`;
+  return sharePdf(html, 'Share job sheet');
+}
+
+export async function exportExpensesPdf(items: Expense[], w: Worker, title: string) {
+  const total = items.reduce((t, e) => t + e.amount, 0);
+  const rows = items
+    .map((e) => `<tr><td>${esc(dateDMY(new Date(e.spentOn)))}</td><td>${esc(e.merchant)}</td><td>${esc(e.category)}</td><td>${esc(e.note)}</td><td style="text-align:right">&euro;${e.amount.toFixed(2)}</td></tr>`)
+    .join('');
+  const html = `<html><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+<h1>Expenses — ${esc(w.name || 'Worker')}</h1>
+<div class="muted">${esc(title)} · ${esc(w.employer)} · ${esc(w.id)}</div>
+<h2>Total: &euro;${total.toFixed(2)}</h2>
+<table><tr><th>Date</th><th>Merchant</th><th>Category</th><th>Note</th><th>Amount</th></tr>${rows || '<tr><td colspan="5">No expenses</td></tr>'}</table>
+${attributionHtml()}</body></html>`;
+  return sharePdf(html, 'Share expenses');
+}
+
+export async function exportInspectionPdf(i: Inspection) {
+  const defects = i.items.filter((x) => !x.ok);
+  const rows = i.items
+    .map((x) => `<tr><td>${esc(x.label)}</td><td>${x.ok ? 'OK' : '<b style="color:#C62828">DEFECT</b>'}</td><td>${esc(x.note ?? '')}</td></tr>`)
+    .join('');
+  const html = `<html><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+<h1>${defects.length ? 'Defect Report' : 'Inspection Report'}</h1>
+<div class="muted">${esc(i.vehicleName)}${i.reg ? ' · ' + esc(i.reg) : ''} · ${esc(new Date(i.at).toLocaleString('en-IE'))}</div>
+<h2>${defects.length ? `${defects.length} defect${defects.length > 1 ? 's' : ''} found — do not use until resolved` : 'No defects found'}</h2>
+<table><tr><th>Check</th><th>Result</th><th>Note</th></tr>${rows}</table>
+<p>Inspector: ${esc(i.inspector)}</p>
+${i.stamp ? `<p class="muted">Date / GPS stamp: ${stampLine(i.stamp)}</p>` : ''}
+${attributionHtml()}</body></html>`;
+  return sharePdf(html, 'Share inspection');
 }
