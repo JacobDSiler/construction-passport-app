@@ -1,8 +1,9 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { getOwnerToken } from './owner';
 import { loadJson, removeItem, saveJson } from './storage';
+import { clearCertifierCode } from './certifier';
 
-export type Role = 'worker' | 'company' | 'trainer';
+export type Role = 'worker' | 'company' | 'trainer' | 'certifier';
 
 export interface Session {
   role: Role | null;
@@ -52,6 +53,7 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
     setSession(EMPTY);
     saveJson(KEY, EMPTY);
     removeItem(SETUP_KEY);
+    clearCertifierCode();
   }, []);
 
   return <SessionCtx.Provider value={{ ready, session, update, reset }}>{children}</SessionCtx.Provider>;
@@ -66,6 +68,7 @@ export function useSession(): Ctx {
 export function homeFor(role: Role | null): string {
   if (role === 'company') return '/(company)';
   if (role === 'trainer') return '/trainer';
+  if (role === 'certifier') return '/certifier';
   if (role === 'worker') return '/(tabs)';
   return '/role';
 }

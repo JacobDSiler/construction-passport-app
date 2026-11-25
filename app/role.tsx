@@ -42,6 +42,9 @@ export default function RolePicker() {
           </Pressable>
         ))}
       </View>
+      <Text style={styles.login} onPress={() => router.push('/setup-certifier')}>
+        I&apos;m a certifier · I have a code
+      </Text>
       {loggedIn ? (
         <Text
           style={styles.login}
