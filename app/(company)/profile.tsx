@@ -13,6 +13,7 @@ const ROWS: Array<[string, string, string, string]> = [
   ['📋', 'Job sheet', 'Fill in a job sheet for the day and export it as a PDF.', '/job-sheet'],
   ['📔', 'Site diary', 'Daily log of work, crew on site, deliveries, delays and visitors.', '/site-diary'],
   ['✅', 'Site audit', 'Audit a site with your own points. Pass, fail or N/A, with the defects written up.', '/site-audit'],
+  ['🏢', "Companies you've set up", 'Set up a company for a client or tester, then send them a claim code.', '/companies'],
   ['🆘', 'Support', 'Free, confidential helplines, including one built for construction. Any hour.', '/support'],
 ];
 

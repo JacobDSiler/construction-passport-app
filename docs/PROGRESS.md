@@ -2,11 +2,12 @@
 
 Last updated: 2026-11-25
 
-Order follows CLAUDE.md "To build next", with the batch order you set: trainer, site diary and audit, companies.
+Order follows CLAUDE.md "To build next", with the batch order you set: trainer, site diary and audit, companies. All three are done; the next items are on CLAUDE.md's list (worker setup, weekly schedule, etc.).
 
 ## Done
 - Trainer, new and edit course (`1e04a02`): form matches docs/reference/web-trainer-02..04. create_course and update_course argument lists were read from the live web bundle and added to BACKEND_CONTRACT.md. Live bundle also calls four RPCs whose arguments are not read yet: new_owner_token, restore_passport, submit_expense, submit_hazard.
 - Site diary and site audit (this batch): rebuilt to match web-employer-08 and -09. Both are on the employer Profile, as in the live app. Audit is built from user-added points (pass, fail or N/A, defect text for a fail). Device-only.
+- Companies you have set up (this batch): list, set up a new company (name, trade), claim code shown with copy, delete. Matches web-employer-12. Claim code field name in list_companies rows is read defensively (claim_code or claimCode); not confirmed.
 - Company side (merged from laptop work, `c038e45`): crew, sites, hazards, expenses, provisioning, setup flows.
 - Trainer side (`c4128a3`): course list, delete course, enrolments per course, remove a student.
 - Certifier role (this batch): sign in with a certifier code (`certifier_login`), review list (`list_review_passports`), certify (`certify_passport`) and revoke (`revoke_certification`). Code is kept in the keychain.

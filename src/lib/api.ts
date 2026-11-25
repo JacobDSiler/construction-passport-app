@@ -233,3 +233,12 @@ export async function getCourse(courseCode: string): Promise<Record<string, unkn
   const first = rows(r)[0];
   return first ?? null;
 }
+
+// ---- Companies you have set up for others (contract: list_companies, create_company, delete_company) ----
+/** The setup token is the device owner token (see getSetupToken in session.tsx; not imported here to avoid a cycle). */
+export async function listCompanies() {
+  return rpc<unknown>('list_companies', { p_setup_token: await getOwnerToken() });
+}
+export async function deleteCompany(orgCode: string) {
+  return rpc('delete_company', { p_setup_token: await getOwnerToken(), p_org_code: up(orgCode) });
+}

@@ -34,6 +34,8 @@ export default function RootLayout() {
         <Stack.Screen name="claim" options={{ headerShown: true, title: 'Claim code' }} />
         <Stack.Screen name="certifier" options={{ headerShown: true, title: 'Certifier' }} />
         <Stack.Screen name="setup-certifier" options={{ headerShown: false }} />
+        <Stack.Screen name="companies" options={{ headerShown: true, title: 'Companies' }} />
+        <Stack.Screen name="company-new" options={{ headerShown: false }} />
         <Stack.Screen name="site-diary" options={{ headerShown: true, title: 'Site diary' }} />
         <Stack.Screen name="site-audit" options={{ headerShown: true, title: 'Site audit' }} />
         <Stack.Screen name="course/new" options={{ headerShown: true, title: 'New course' }} />
