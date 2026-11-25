@@ -11,10 +11,12 @@ const ROWS: Array<[string, string, string, string]> = [
   ['🪪', 'Set up worker passports', "Build a worker's tickets before they have the app, then send them a claim code.", '/provision'],
   ['🧾', 'Crew expenses', 'See company expenses your crew submitted.', '/crew-expenses'],
   ['📋', 'Job sheet', 'Fill in a job sheet for the day and export it as a PDF.', '/job-sheet'],
+  ['📔', 'Site diary', 'Daily log of work, crew on site, deliveries, delays and visitors.', '/site-diary'],
+  ['✅', 'Site audit', 'Audit a site with your own points. Pass, fail or N/A, with the defects written up.', '/site-audit'],
   ['🆘', 'Support', 'Free, confidential helplines, including one built for construction. Any hour.', '/support'],
 ];
 
-// Employer profile. Site diary, site audit, companies-you've-set-up and certifier access follow.
+// Employer profile. Companies-you've-set-up and certifier access follow.
 export default function CompanyProfile() {
   const router = useRouter();
   const { session, update, reset } = useSession();

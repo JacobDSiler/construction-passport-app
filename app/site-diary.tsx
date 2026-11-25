@@ -1,45 +1,49 @@
 import { useEffect, useState } from 'react';
-import { Alert, ScrollView, StyleSheet, Text } from 'react-native';
-import { Button, Card, Field, SectionLabel, Select } from '../src/components/ui';
+import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Button, Card, Field, SectionLabel } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
+import { useSession } from '../src/lib/session';
 import { useStore } from '../src/lib/store';
 import { SiteDiaryEntry, loadSiteDiary, newRecordId, saveSiteDiary } from '../src/lib/records';
 
-const WEATHER = ['Dry', 'Showers', 'Rain', 'Wind', 'Frost', 'Snow', 'Hot'];
-
+// Layout and copy follow docs/reference/web-employer-08-site-diary.jpg. Device-only for now.
 export default function SiteDiary() {
+  const { session } = useSession();
   const { worker } = useStore();
   const [entries, setEntries] = useState<SiteDiaryEntry[]>([]);
   const [site, setSite] = useState('');
-  const [weather, setWeather] = useState<string | undefined>(undefined);
-  const [workers, setWorkers] = useState('');
+  const [weather, setWeather] = useState('');
+  const [crew, setCrew] = useState('');
   const [workDone, setWorkDone] = useState('');
+  const [deliveries, setDeliveries] = useState('');
+  const [delays, setDelays] = useState('');
   const [visitors, setVisitors] = useState('');
-  const [incidents, setIncidents] = useState('');
   const [notes, setNotes] = useState('');
 
   useEffect(() => {
     loadSiteDiary().then(setEntries);
   }, []);
 
+  const today = new Date().toLocaleDateString('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+
   async function save() {
-    const n = Number(workers);
     const e: SiteDiaryEntry = {
       id: newRecordId('diary'),
       date: new Date().toISOString(),
       site: site.trim(),
-      weather: weather ?? '',
-      workersOnSite: Number.isFinite(n) && n >= 0 ? Math.floor(n) : 0,
+      weather: weather.trim(),
+      crewOnSite: crew.trim(),
       workDone: workDone.trim(),
+      deliveries: deliveries.trim(),
+      delays: delays.trim(),
       visitors: visitors.trim(),
-      incidents: incidents.trim(),
       notes: notes.trim(),
       author: worker.name,
     };
     const next = [e, ...entries];
     setEntries(next);
     await saveSiteDiary(next);
-    setSite(''); setWeather(undefined); setWorkers(''); setWorkDone(''); setVisitors(''); setIncidents(''); setNotes('');
+    setSite(''); setWeather(''); setCrew(''); setWorkDone(''); setDeliveries(''); setDelays(''); setVisitors(''); setNotes('');
     Alert.alert('Diary saved', 'It is kept on this phone only.');
   }
 
@@ -51,26 +55,31 @@ export default function SiteDiary() {
 
   return (
     <ScrollView contentContainerStyle={styles.body} keyboardShouldPersistTaps="handled">
-      <Text style={styles.muted}>Today&apos;s diary. Saved on this phone only; it does not sync to the company yet.</Text>
+      <View style={styles.banner}>
+        <Text style={styles.bannerName}>{session.orgName ?? 'Your company'}</Text>
+        <Text style={styles.bannerSub}>Site Diary</Text>
+        <Text style={styles.bannerDate}>{today}</Text>
+      </View>
       <Card>
-        <Field label="Site" value={site} onChangeText={setSite} placeholder="Site name or address" />
-        <Select placeholder="Weather" value={weather} options={WEATHER} onChange={setWeather} />
-        <Field label="Workers on site" value={workers} onChangeText={setWorkers} placeholder="0" keyboardType="number-pad" />
-        <Field label="Work done today" value={workDone} onChangeText={setWorkDone} placeholder="What was done" multiline />
-        <Field label="Visitors" value={visitors} onChangeText={setVisitors} placeholder="Who came on site" multiline />
-        <Field label="Incidents or near misses" value={incidents} onChangeText={setIncidents} placeholder="None if nothing happened" multiline />
-        <Field label="Other notes" value={notes} onChangeText={setNotes} placeholder="Deliveries, instructions, delays" multiline />
+        <Field label="Site / location" value={site} onChangeText={setSite} placeholder="e.g. Bridge 78, south compound" />
+        <Field label="Weather" value={weather} onChangeText={setWeather} placeholder="e.g. Dry, cold, foggy start" />
+        <Field label="Crew on site" value={crew} onChangeText={setCrew} placeholder="e.g. Alfie, Oisin, Sam" />
+        <Field label="Work carried out" value={workDone} onChangeText={setWorkDone} placeholder="What was done today" multiline />
+        <Field label="Deliveries" value={deliveries} onChangeText={setDeliveries} placeholder="Materials / plant delivered" multiline />
+        <Field label="Delays / issues" value={delays} onChangeText={setDelays} placeholder="Anything that held the job up" multiline />
+        <Field label="Visitors" value={visitors} onChangeText={setVisitors} placeholder="Site visitors / inspections" multiline />
+        <Field label="Notes" value={notes} onChangeText={setNotes} placeholder="Anything else for the record" multiline />
         <Button label="Save diary entry" onPress={save} disabled={!site.trim() || !workDone.trim()} />
       </Card>
 
-      <SectionLabel>{`PAST ENTRIES (${entries.length})`}</SectionLabel>
+      <SectionLabel>{`RECENT ENTRIES (${entries.length})`}</SectionLabel>
       {entries.length === 0 ? <Text style={styles.muted}>No entries yet.</Text> : null}
       {entries.map((e) => (
-        <Card key={e.id}>
+        <Card key={e.id} style={{ gap: 4 }}>
           <Text style={styles.h}>{e.site}</Text>
-          <Text style={styles.muted}>{new Date(e.date).toLocaleDateString('en-IE')} · {[e.weather, `${e.workersOnSite} on site`].filter(Boolean).join(' · ')}</Text>
+          <Text style={styles.muted}>{new Date(e.date).toLocaleDateString('en-IE')}{e.weather ? ` · ${e.weather}` : ''}{e.crewOnSite ? ` · ${e.crewOnSite}` : ''}</Text>
           <Text style={styles.body2}>{e.workDone}</Text>
-          {e.incidents ? <Text style={[styles.body2, { color: colors.danger }]}>Incidents: {e.incidents}</Text> : null}
+          {e.delays ? <Text style={[styles.body2, { color: colors.danger }]}>Delays: {e.delays}</Text> : null}
           <Text style={styles.del} onPress={() => remove(e.id)}>Delete</Text>
         </Card>
       ))}
@@ -80,6 +89,10 @@ export default function SiteDiary() {
 
 const styles = StyleSheet.create({
   body: { padding: spacing.md, gap: spacing.md, paddingBottom: 60 },
+  banner: { backgroundColor: colors.navy, borderRadius: 16, padding: spacing.md, gap: 2 },
+  bannerName: { color: colors.white, fontSize: 22, fontWeight: '900' },
+  bannerSub: { color: colors.white, fontSize: 17, fontWeight: '700' },
+  bannerDate: { color: '#C9D8E8', fontSize: 16 },
   h: { fontSize: 18, fontWeight: '800', color: colors.text },
   body2: { fontSize: 16, color: colors.text, lineHeight: 22 },
   muted: { color: colors.muted, fontSize: 15, lineHeight: 21 },

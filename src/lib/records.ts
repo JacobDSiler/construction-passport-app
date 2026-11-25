@@ -133,58 +133,48 @@ export const CHECKIN_KEY = 'cp.checkin.v1';
 export const loadCheckIns = () => loadJson<CheckIn[]>(CHECKIN_KEY, []);
 export const saveCheckIns = (c: CheckIn[]) => saveJson(CHECKIN_KEY, c);
 
-// ---- Site diary (local to this device; no backend RPC in BACKEND_CONTRACT.md yet) ---------------
+// ---- Site diary (device-only: no diary RPC in BACKEND_CONTRACT.md yet) -----------------------
 export interface SiteDiaryEntry {
   id: string;
-  date: string; // ISO day
+  date: string; // ISO timestamp
   site: string;
   weather: string;
-  workersOnSite: number;
+  crewOnSite: string;
   workDone: string;
+  deliveries: string;
+  delays: string;
   visitors: string;
-  incidents: string;
   notes: string;
   author: string;
 }
-export const SITE_DIARY_KEY = 'cp.sitediary.v1';
+export const SITE_DIARY_KEY = 'cp.sitediary.v2';
 export const loadSiteDiary = () => loadJson<SiteDiaryEntry[]>(SITE_DIARY_KEY, []);
 export const saveSiteDiary = (d: SiteDiaryEntry[]) => saveJson(SITE_DIARY_KEY, d);
 
-// ---- Site audit (local to this device; no backend RPC in BACKEND_CONTRACT.md yet) --------------
-// A general starting checklist. It is not a statutory checklist; the user can read it before relying on it.
-export const AUDIT_CHECKS: { section: string; label: string }[] = [
-  { section: 'Housekeeping', label: 'Walkways and work areas clear of waste and trip hazards' },
-  { section: 'Housekeeping', label: 'Materials stored stable and away from edges' },
-  { section: 'PPE', label: 'Everyone on site wearing the PPE the task needs' },
-  { section: 'Access', label: 'Ladders and scaffolds inspected and in good order' },
-  { section: 'Access', label: 'Edges, openings and voids guarded or covered' },
-  { section: 'Access', label: 'Safe routes in and out, and emergency exits clear' },
-  { section: 'Plant and electrics', label: 'Plant and tools in good condition with guards in place' },
-  { section: 'Plant and electrics', label: 'Electrical leads, cables and RCDs in good condition' },
-  { section: 'Fire and emergency', label: 'Extinguishers and fire points accessible and in date' },
-  { section: 'Fire and emergency', label: 'First aid kit stocked and person named' },
-  { section: 'Welfare', label: 'Welfare facilities clean and available' },
-  { section: 'Signage', label: 'Site rules, emergency contacts and signage displayed' },
-];
-export interface AuditItem {
-  section: string;
-  label: string;
-  result: 'pass' | 'fail' | 'na';
-  note: string;
+// ---- Site audit (device-only: no audit RPC in BACKEND_CONTRACT.md yet) -------------------------
+// The live app builds an audit from points the user adds. Each point is pass, fail or N/A; a fail needs a defect description.
+export type AuditResult = 'pass' | 'fail' | 'na';
+export interface AuditPoint {
+  id: string;
+  observation: string;
+  result: AuditResult;
+  defect: string;
 }
 export interface SiteAudit {
   id: string;
-  at: string;
+  name: string;
   site: string;
-  inspector: string;
-  items: AuditItem[];
-  score: number; // percent of applicable items passed
+  location: string;
+  weather: string;
+  date: string; // ISO timestamp
+  points: AuditPoint[];
+  score: number; // percent of applicable points that passed
 }
-export const SITE_AUDIT_KEY = 'cp.siteaudit.v1';
+export const SITE_AUDIT_KEY = 'cp.siteaudit.v2';
 export const loadSiteAudits = () => loadJson<SiteAudit[]>(SITE_AUDIT_KEY, []);
 export const saveSiteAudits = (a: SiteAudit[]) => saveJson(SITE_AUDIT_KEY, a);
-export function auditScore(items: AuditItem[]): number {
-  const applicable = items.filter((i) => i.result !== 'na');
+export function auditScore(points: AuditPoint[]): number {
+  const applicable = points.filter((p) => p.result !== 'na');
   if (!applicable.length) return 0;
-  return Math.round((applicable.filter((i) => i.result === 'pass').length / applicable.length) * 100);
+  return Math.round((applicable.filter((p) => p.result === 'pass').length / applicable.length) * 100);
 }
