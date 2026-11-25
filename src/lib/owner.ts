@@ -7,15 +7,25 @@ function toHex(bytes: Uint8Array): string {
   return Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join('');
 }
 
-/**
- * The device's owner token. The legacy backend identifies a passport by this token and also
- * offers adopt_rotated_token / claim_passport to move it. TODO(verify): confirm the exact format the
- * live database expects by comparing with a token from the old app before shipping.
- */
-export async function getOwnerToken(): Promise<string> {
-  const existing = await getItem(KEY);
-  if (existing) return existing;
-  const token = toHex(await Crypto.getRandomBytesAsync(24));
-  await setItem(KEY, token);
-  return token;
+let pending: Promise<string> | null = null;
+
+/** The device's owner token: 32 random bytes as hex (same format as the original app). */
+export function getOwnerToken(): Promise<string> {
+  if (!pending) {
+    pending = (async () => {
+      const existing = await getItem(KEY);
+      if (existing) return existing;
+      const token = toHex(await Crypto.getRandomBytesAsync(32));
+      await setItem(KEY, token);
+      return token;
+    })().finally(() => {
+      pending = null;
+    });
+  }
+  return pending;
+}
+
+/** Folder used for this device's photos in the public "certs" bucket (matches the original app). */
+export async function getOwnerFolder(): Promise<string> {
+  return (await getOwnerToken()).replace(/[^a-zA-Z0-9]/g, '').slice(0, 24) || 'cp';
 }

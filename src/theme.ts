@@ -3,6 +3,7 @@ export const colors = {
   navy: '#1E4D7B',
   navyDark: '#173B5E',
   white: '#FFFFFF',
+  bg: '#EDF1F6',
   text: '#13283B',
   muted: '#5F7385',
   border: '#D6DEE6',

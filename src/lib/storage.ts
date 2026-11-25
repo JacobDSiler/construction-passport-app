@@ -30,3 +30,22 @@ export async function removeItem(key: string): Promise<void> {
     /* ignore */
   }
 }
+
+// Larger, non-secret app data (passport, timesheet) lives in AsyncStorage on every platform
+// (SecureStore has a ~2 KB value limit).
+export async function loadJson<T>(key: string, fallback: T): Promise<T> {
+  try {
+    const raw = await AsyncStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+export async function saveJson(key: string, value: unknown): Promise<void> {
+  try {
+    await AsyncStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    /* ignore */
+  }
+}

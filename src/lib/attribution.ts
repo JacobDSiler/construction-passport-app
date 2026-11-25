@@ -1,7 +1,7 @@
 // Required on every shared or exported passport and timesheet, on every plan (see docs/MONETIZATION.md).
 export const ATTRIBUTION_LINE = 'Provided by Construction Passport (Prime Management 18)';
 export const CTA_LINE = 'Get the Construction Passport app';
-export const WEB_URL = 'https://construction-passport-web.netlify.app';
+export const WEB_URL = 'https://construction-passport.netlify.app';
 // TODO: replace with the live store listing URLs once the apps are published.
 export const PLAY_STORE_URL = '';
 export const APP_STORE_URL = '';

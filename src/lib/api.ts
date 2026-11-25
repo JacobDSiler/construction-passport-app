@@ -15,6 +15,9 @@ const up = (s: string) => s.trim().toUpperCase();
 export async function publishPassport(data: unknown) {
   return rpc('publish_passport', { p_owner_token: await getOwnerToken(), p_data: data });
 }
+export async function deleteTimesheetEvent(id: string | number) {
+  return rpc('delete_timesheet_event', { p_owner_token: await getOwnerToken(), p_id: id });
+}
 export const getPassport = (code: string) => rpc('get_passport', { p_code: code });
 export async function claimPassport() {
   return rpc('claim_passport', { p_owner_token: await getOwnerToken() });
@@ -51,3 +54,7 @@ export const listCrew = (orgCode: string) => rpc('list_crew', { p_org_code: up(o
 export const listSites = (orgCode: string) => rpc('list_sites', { p_org_code: up(orgCode) });
 export const requestJoin = (orgCode: string, shortCode: string, name?: string | null) =>
   rpc('request_join', { p_org_code: up(orgCode), p_short_code: up(shortCode), p_name: name ?? null, p_type: null, p_assignment: null });
+
+export async function setUploadConsent(allow: boolean) {
+  return rpc('set_employer_upload_consent', { p_owner_token: await getOwnerToken(), p_allow: allow });
+}
