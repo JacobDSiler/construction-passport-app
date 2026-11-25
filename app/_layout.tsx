@@ -18,8 +18,12 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: colors.bg },
         }}
       >
-        <Stack.Screen name="company" options={{ headerShown: true, title: 'Company' }} />
         <Stack.Screen name="trainer" options={{ headerShown: true, title: 'Training provider' }} />
+        <Stack.Screen name="crew-add" options={{ headerShown: true, title: 'Add Worker' }} />
+        <Stack.Screen name="crew-member" options={{ headerShown: true, title: 'Crew member' }} />
+        <Stack.Screen name="sites" options={{ headerShown: true, title: 'Manage Sites' }} />
+        <Stack.Screen name="crew-expenses" options={{ headerShown: true, title: 'Crew Expenses' }} />
+        <Stack.Screen name="provision" options={{ headerShown: true, title: 'Set up worker passports' }} />
         <Stack.Screen name="qualification/[id]" options={{ headerShown: true, title: 'Qualification' }} />
         <Stack.Screen name="add-qualification" options={{ headerShown: true, title: 'Add qualification' }} />
         <Stack.Screen name="day-off" options={{ headerShown: true, title: 'Record a day off' }} />

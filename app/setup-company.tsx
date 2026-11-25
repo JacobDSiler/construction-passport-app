@@ -38,7 +38,7 @@ export default function SetupCompany() {
         const r = await createCompany(await getSetupToken(), name);
         update({ role: 'company', email: email.trim() || null, orgName: name.trim(), orgCode: extractOrgCode(r) });
       }
-      router.replace('/company');
+      router.replace('/(company)');
     } catch (e) {
       setErr((e as Error).message);
     } finally {

@@ -1,6 +1,6 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
-import * as Crypto from 'expo-crypto';
-import { getItem, loadJson, removeItem, saveJson, setItem } from './storage';
+import { getOwnerToken } from './owner';
+import { loadJson, removeItem, saveJson } from './storage';
 
 export type Role = 'worker' | 'company' | 'trainer';
 
@@ -12,17 +12,12 @@ export interface Session {
 }
 
 const KEY = 'cp.session.v1';
-const SETUP_KEY = 'cp.setupToken.v1';
+const SETUP_KEY = 'cp.setupToken.v1'; // legacy key from an earlier build; cleared on reset
 const EMPTY: Session = { role: null, email: null, orgName: null, orgCode: null };
 
-/** Companies authenticate with a separate setup token (32 random bytes as hex), as in the original backend. */
+/** The live web app keeps no separate setup token: the device owner token is used for company calls too. */
 export async function getSetupToken(): Promise<string> {
-  const existing = await getItem(SETUP_KEY);
-  if (existing) return existing;
-  const bytes = await Crypto.getRandomBytesAsync(32);
-  const token = Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join('');
-  await setItem(SETUP_KEY, token);
-  return token;
+  return getOwnerToken();
 }
 
 interface Ctx {
@@ -69,7 +64,7 @@ export function useSession(): Ctx {
 }
 
 export function homeFor(role: Role | null): string {
-  if (role === 'company') return '/company';
+  if (role === 'company') return '/(company)';
   if (role === 'trainer') return '/trainer';
   if (role === 'worker') return '/(tabs)';
   return '/role';

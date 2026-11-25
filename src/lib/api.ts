@@ -97,3 +97,65 @@ export function extractName(r: unknown): string | null {
   }
   return null;
 }
+
+// ---- Company: crew, sites, hazards, expenses, provisioning ------------------------------------
+/** Return shapes are not documented, so read lists and fields defensively. */
+export function rows(x: unknown): Record<string, unknown>[] {
+  if (Array.isArray(x)) return x as Record<string, unknown>[];
+  if (x && typeof x === 'object') {
+    const arr = Object.values(x as object).find((v) => Array.isArray(v));
+    if (arr) return arr as Record<string, unknown>[];
+  }
+  return [];
+}
+export function str(o: Record<string, unknown> | null | undefined, ...keys: string[]): string {
+  if (!o) return '';
+  for (const k of keys) if (o[k] != null && o[k] !== '') return String(o[k]);
+  return '';
+}
+
+export type CrewType = 'employee' | 'subcontractor';
+export type CrewAssignment = 'crew' | 'none';
+
+export async function addCrewMember(orgCode: string, shortCode: string, type: CrewType, assignment: CrewAssignment) {
+  return rpc('add_crew_member', { p_owner_token: await getOwnerToken(), p_org_code: up(orgCode), p_short_code: up(shortCode), p_type: type, p_assignment: assignment });
+}
+export async function acceptCrew(orgCode: string, shortCode: string) {
+  return rpc('accept_crew', { p_owner_token: await getOwnerToken(), p_org_code: up(orgCode), p_short_code: up(shortCode) });
+}
+export async function removeCrewMember(orgCode: string, shortCode: string) {
+  return rpc('remove_crew_member', { p_owner_token: await getOwnerToken(), p_org_code: up(orgCode), p_short_code: up(shortCode) });
+}
+export const greenlight = (shortCode: string, verifiedBy: string, contact: string) =>
+  rpc('add_verification', { p_short_code: up(shortCode), p_verified_by: verifiedBy, p_contact: contact });
+
+export async function createSite(orgCode: string, s: { name: string; location?: string | null }) {
+  return rpc('create_site', { p_owner_token: await getOwnerToken(), p_org_code: orgCode, p_name: s.name, p_location: s.location ?? null, p_lat: null, p_lng: null });
+}
+export async function deleteSite(id: string | number) {
+  return rpc('delete_site', { p_owner_token: await getOwnerToken(), p_id: id });
+}
+export const listHazards = (orgCode: string) => rpc('list_hazards', { p_org_code: up(orgCode) });
+export const resolveHazard = (orgCode: string, id: string | number, by?: string | null) =>
+  rpc('resolve_hazard', { p_org_code: up(orgCode), p_id: id, p_resolved_by: by ?? null });
+export const listExpenses = (orgCode: string) => rpc('list_expenses', { p_org_code: up(orgCode) });
+export const setExpenseStatus = (id: string | number, status: string) => rpc('set_expense_status', { p_id: id, p_status: status });
+
+export async function provisionWorker(w: { orgCode: string; name: string; trade?: string; certs: unknown[]; type: CrewType; assignment: CrewAssignment }) {
+  return rpc('provision_worker', {
+    p_owner_token: await getOwnerToken(),
+    p_org_code: up(w.orgCode),
+    p_claim_code: null,
+    p_name: w.name,
+    p_trade: w.trade ?? null,
+    p_certs: w.certs,
+    p_type: w.type,
+    p_assignment: w.assignment,
+  });
+}
+export async function listProvisioned() {
+  return rpc('list_provisioned', { p_owner_token: await getOwnerToken() });
+}
+export async function deleteProvisioned(id: string | number) {
+  return rpc('delete_provisioned', { p_owner_token: await getOwnerToken(), p_id: id });
+}

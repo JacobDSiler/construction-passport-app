@@ -45,8 +45,8 @@ export default function SetupWorker() {
         patch = { name: name.trim() || r.name || '', trade: trade.trim() || r.trade || '', qualifications: [...worker.qualifications, ...incoming] };
       }
       updateWorker(patch);
-      update({ role: 'worker', email: email.trim() || null });
-      router.replace('/(tabs)');
+      update({ email: email.trim() || null });
+      router.push('/setup-photo');
     } catch (e) {
       setErr((e as Error).message);
     } finally {
