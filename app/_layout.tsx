@@ -32,6 +32,7 @@ export default function RootLayout() {
         <Stack.Screen name="support" options={{ headerShown: true, title: 'Support' }} />
         <Stack.Screen name="checkin" options={{ headerShown: true, title: 'Check-in' }} />
         <Stack.Screen name="claim" options={{ headerShown: true, title: 'Claim code' }} />
+        <Stack.Screen name="course/[id]" options={{ headerShown: true, title: 'Course' }} />
       </Stack>
     </StoreProvider>
     </SessionProvider>

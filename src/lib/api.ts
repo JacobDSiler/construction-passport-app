@@ -159,3 +159,17 @@ export async function listProvisioned() {
 export async function deleteProvisioned(id: string | number) {
   return rpc('delete_provisioned', { p_owner_token: await getOwnerToken(), p_id: id });
 }
+
+// ---- Trainer: courses and enrolments --------------------------------------------------------
+/** Contract: delete_course(p_owner_token, p_id). There is no create_course RPC in BACKEND_CONTRACT.md yet. */
+export async function deleteCourse(id: string | number) {
+  return rpc('delete_course', { p_owner_token: await getOwnerToken(), p_id: id });
+}
+/** Contract: list_enrollments(p_owner_token, p_course_code). Row shape is not documented, so read it defensively. */
+export async function listEnrollments(courseCode: string) {
+  return rpc('list_enrollments', { p_owner_token: await getOwnerToken(), p_course_code: up(courseCode) });
+}
+/** Contract: remove_enrollment(p_owner_token, p_id). */
+export async function removeEnrollment(id: string | number) {
+  return rpc('remove_enrollment', { p_owner_token: await getOwnerToken(), p_id: id });
+}
