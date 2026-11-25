@@ -173,3 +173,63 @@ export async function listEnrollments(courseCode: string) {
 export async function removeEnrollment(id: string | number) {
   return rpc('remove_enrollment', { p_owner_token: await getOwnerToken(), p_id: id });
 }
+
+// ---- Trainer: course create and edit (contract: create_course, update_course, get_course) ----
+export type QuestionType = 'text' | 'yesno' | 'choice';
+export interface CourseQuestion {
+  label: string;
+  type: QuestionType;
+  options?: string[];
+}
+export interface CourseSession {
+  date: string; // YYYY-MM-DD
+  time?: string; // HH:MM
+}
+export interface CourseInput {
+  title: string;
+  provider: string;
+  questionnaire: CourseQuestion[];
+  location: string;
+  signup: string;
+  price: string;
+  certType: string;
+  sessions: CourseSession[];
+  published: boolean;
+}
+function courseArgs(input: CourseInput) {
+  return {
+    p_title: input.title,
+    p_provider: input.provider,
+    p_questionnaire: input.questionnaire,
+    p_location: input.location || null,
+    p_lat: null,
+    p_lng: null,
+    p_signup: input.signup || null,
+    p_price: input.price || null,
+    p_cert_type: input.certType || null,
+    p_sessions: input.sessions,
+    p_published: input.published,
+  };
+}
+/** Returns the new course code. The return shape is not documented, so a bare string or an object with a code field is accepted. */
+export async function createCourse(input: CourseInput): Promise<string | null> {
+  const r = await rpc<unknown>('create_course', { p_owner_token: await getOwnerToken(), ...courseArgs(input) });
+  if (typeof r === 'string' && r) return r;
+  if (r && typeof r === 'object' && !Array.isArray(r)) {
+    const o = r as Record<string, unknown>;
+    const code = o.course_code ?? o.courseCode ?? o.code;
+    if (typeof code === 'string' && code) return code;
+  }
+  if (Array.isArray(r) && r[0]) return extractOrgCode(r[0]);
+  return null;
+}
+export async function updateCourse(courseCode: string, input: CourseInput): Promise<boolean> {
+  const r = await rpc<unknown>('update_course', { p_owner_token: await getOwnerToken(), p_course_code: up(courseCode), ...courseArgs(input) });
+  return r === true;
+}
+/** Contract: get_course(p_course_code) returns an array; the first row is the course. */
+export async function getCourse(courseCode: string): Promise<Record<string, unknown> | null> {
+  const r = await rpc<unknown>('get_course', { p_course_code: up(courseCode) });
+  const first = rows(r)[0];
+  return first ?? null;
+}

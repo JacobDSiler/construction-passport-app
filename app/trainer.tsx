@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect, useRouter } from 'expo-router';
-import { Button, Card, SectionLabel } from '../src/components/ui';
+import { Button, Card } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 import { useSession } from '../src/lib/session';
 import { deleteCourse, listCourses, rows, str } from '../src/lib/api';
@@ -45,11 +45,14 @@ export default function Trainer() {
   return (
     <ScrollView contentContainerStyle={styles.body}>
       <Text style={styles.h1}>{session.orgName ?? 'Your training business'}</Text>
+      <Button label="＋  New course" onPress={() => router.push('/course/new')} />
       {err ? <Text style={{ color: colors.danger }}>{err}</Text> : null}
-      <SectionLabel>{`COURSES (${courses.length})`}</SectionLabel>
       {courses.length === 0 ? (
-        <Card>
-          <Text style={styles.muted}>No courses yet. Creating a course needs a backend function that is not in the contract yet.</Text>
+        <Card style={{ alignItems: 'center', gap: 6 }}>
+          <Text style={styles.empty}>No courses yet</Text>
+          <Text style={styles.muted}>
+            Create a course, set a pre-training questionnaire, and share the join code with your students. They enrol, give their postal address for their cert, and answer your questions. You see it all here.
+          </Text>
         </Card>
       ) : (
         courses.map((c, i) => {
@@ -60,7 +63,10 @@ export default function Trainer() {
                 <Text style={styles.row}>{str(c, 'title', 'name') || 'Course'}</Text>
                 <Text style={styles.muted}>{code}</Text>
               </Pressable>
-              <Text style={styles.del} onPress={() => confirmDelete(c)}>Delete course</Text>
+              <View style={{ flexDirection: 'row', gap: spacing.lg, marginTop: spacing.sm }}>
+                <Text style={styles.edit} onPress={() => router.push({ pathname: '/course/new', params: { code } })}>Edit</Text>
+                <Text style={styles.del} onPress={() => confirmDelete(c)}>Delete course</Text>
+              </View>
             </Card>
           );
         })
@@ -76,5 +82,7 @@ const styles = StyleSheet.create({
   h1: { fontSize: 28, fontWeight: '900', color: colors.text },
   muted: { color: colors.muted, fontSize: 16 },
   row: { fontSize: 18, fontWeight: '700', color: colors.text },
-  del: { color: colors.danger, fontSize: 16, fontWeight: '700', marginTop: spacing.sm },
+  del: { color: colors.danger, fontSize: 16, fontWeight: '700' },
+  edit: { color: colors.navy, fontSize: 16, fontWeight: '700' },
+  empty: { fontSize: 20, fontWeight: '800', color: colors.text, textAlign: 'center' },
 });

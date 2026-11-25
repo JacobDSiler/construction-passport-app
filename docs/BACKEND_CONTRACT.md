@@ -64,3 +64,15 @@ Table seen directly: certs. Everything else goes through the RPC functions below
 - rpc("suggest_course",{p_short_code:e.shortCode.trim().toUpperCase(),p_from_name:e.fromName??null,p_course_code:e.courseCode??null,p_cert_type:e.certType??null,p_title:e.title??null,p_note:e.note??null}
 - rpc("suggestion_consent",{p_short_code:e.trim().toUpperCase()}
 - rpc("update_company",{p_setup_token:n,p_org_code:e,p_name:r.trim(),p_trade:t??null}
+
+## Added from the live web bundle (second pass, Nov 2026)
+Source: the entry bundle served by https://construction-passport-web.netlify.app. These names were called by the live app but missing from the first recovery.
+
+- rpc("create_course", {p_owner_token, p_title, p_provider, p_questionnaire, p_location, p_lat, p_lng, p_signup, p_price, p_cert_type, p_sessions, p_published}). Returns the new course code (the web app navigates to `/course/<code>` with it). Return shape read defensively.
+- rpc("update_course", {p_owner_token, p_course_code, ...same fields as create_course}). Returns boolean.
+- get_course(p_course_code) returns an array; the first row has title, provider, questionnaire, location, signup, price, cert_type, sessions.
+- list_courses rows include course_code, title, provider, location, signup, price, cert_type, published, questionnaire, sessions, enrolled.
+- Questionnaire item: `{label, type: "text" | "yesno" | "choice", options?: string[]}`. Options only for "choice".
+- Session item: `{date: "YYYY-MM-DD", time?: "HH:MM"}`.
+- Names found in the bundle but not yet read for arguments: `new_owner_token`, `restore_passport`, `submit_expense`, `submit_hazard`.
+- The bundle also geocodes the venue before create_course (lat/lng). The app does not do that yet; it sends null.

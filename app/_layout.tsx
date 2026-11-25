@@ -18,7 +18,7 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: colors.bg },
         }}
       >
-        <Stack.Screen name="trainer" options={{ headerShown: true, title: 'Training provider' }} />
+        <Stack.Screen name="trainer" options={{ headerShown: true, title: 'Courses' }} />
         <Stack.Screen name="crew-add" options={{ headerShown: true, title: 'Add Worker' }} />
         <Stack.Screen name="crew-member" options={{ headerShown: true, title: 'Crew member' }} />
         <Stack.Screen name="sites" options={{ headerShown: true, title: 'Manage Sites' }} />
@@ -36,6 +36,7 @@ export default function RootLayout() {
         <Stack.Screen name="setup-certifier" options={{ headerShown: false }} />
         <Stack.Screen name="site-diary" options={{ headerShown: true, title: 'Site diary' }} />
         <Stack.Screen name="site-audit" options={{ headerShown: true, title: 'Site audit' }} />
+        <Stack.Screen name="course/new" options={{ headerShown: true, title: 'New course' }} />
         <Stack.Screen name="course/[id]" options={{ headerShown: true, title: 'Course' }} />
       </Stack>
     </StoreProvider>
