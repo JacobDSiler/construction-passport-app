@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useRouter } from 'expo-router';
 import { Attribution, Button, Card, Field, Pill, SectionLabel, Sheet } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';
 import { useStore } from '../../src/lib/store';
@@ -10,6 +11,7 @@ import { getStamp } from '../../src/lib/photos';
 const FREQ: Frequency[] = ['Daily', 'Weekly', 'Monthly'];
 
 export default function InspectionsTab() {
+  const router = useRouter();
   const { worker } = useStore();
   const [vehicles, setVehicles] = useState<Vehicle[]>([]);
   const [history, setHistory] = useState<Inspection[]>([]);
@@ -80,9 +82,13 @@ export default function InspectionsTab() {
         <Text style={styles.heroTitle}>＋ New inspection</Text>
         <Text style={styles.heroSub}>Small plant · Commercial vehicle ≥3.5T — with defect report PDF</Text>
       </Pressable>
-      <Pressable style={styles.hero2} onPress={() => Alert.alert('Coming next', 'Full site safety audits are next on the list.')}>
+      <Pressable style={styles.hero2} onPress={() => router.push('/site-audit')}>
         <Text style={styles.hero2Title}>＋ New site audit</Text>
-        <Text style={styles.hero2Sub}>Full site safety audit — scored, with findings, photos and PDF report</Text>
+        <Text style={styles.hero2Sub}>Site safety checklist, scored, with the failed points listed</Text>
+      </Pressable>
+      <Pressable style={styles.hero2} onPress={() => router.push('/site-diary')}>
+        <Text style={styles.hero2Title}>＋ Site diary</Text>
+        <Text style={styles.hero2Sub}>Daily log of work, workers on site, visitors and incidents</Text>
       </Pressable>
 
       <Card>

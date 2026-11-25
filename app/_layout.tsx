@@ -32,6 +32,8 @@ export default function RootLayout() {
         <Stack.Screen name="support" options={{ headerShown: true, title: 'Support' }} />
         <Stack.Screen name="checkin" options={{ headerShown: true, title: 'Check-in' }} />
         <Stack.Screen name="claim" options={{ headerShown: true, title: 'Claim code' }} />
+        <Stack.Screen name="site-diary" options={{ headerShown: true, title: 'Site diary' }} />
+        <Stack.Screen name="site-audit" options={{ headerShown: true, title: 'Site audit' }} />
         <Stack.Screen name="course/[id]" options={{ headerShown: true, title: 'Course' }} />
       </Stack>
     </StoreProvider>
