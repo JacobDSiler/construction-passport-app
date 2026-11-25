@@ -4,6 +4,9 @@ Owner: Jacob Siler (SilerTech Ireland), developer and Secretary for Prime Manage
 
 The original Expo source was lost with a locked home PC. This repo is a **rebuild of the front end**, modelled on the live web build and phone screenshots. The Supabase backend is unchanged and live.
 
+## Visual reference (look at these before building any screen)
+`docs/reference/` holds screenshots of the live app: `phone-*` (Jacob's own phone) and `web-*` (live web build at phone size; `web-employer-*` and `web-trainer-*` are the screens still to build). View the matching image before writing or changing a screen and match its layout, spacing, copy and colours (navy header #1E4D7B, light blue-grey background, white rounded cards). Text descriptions are in "Live app map" below. Screens with no image: Hazards form, Timesheet, Inspections, Expenses (worker side; already built from Jacob's earlier screenshots).
+
 ## Working rules
 - GitHub is the source of truth. Work in small commits on `main` and push after each working batch.
 - Before every push: `npx tsc --noEmit` must be clean and `npx expo export --platform android --output-dir /tmp/exp` must succeed.
@@ -23,13 +26,13 @@ Expo SDK 58, React Native 0.88, expo-router, TypeScript strict, Supabase JS, EAS
 - Public share URL: `https://construction-passport.netlify.app/?p=<CODE>`.
 
 ## Screens built (app/)
-Welcome, role picker, login, setup-worker (step 1 of 6 only), setup-company, setup-trainer; worker tabs: Passport, Share, Timesheet, Inspections, Hazards, Profile; add-qualification, qualification/[id], day-off, job-sheet, expenses, support, checkin, claim; company (code, crew, sites) and trainer (course list) homes are basic.
+Welcome, role picker, login, worker setup steps 1 to 6 (setup-worker, setup-photo, setup-ticket x2, setup-tickets, setup-done), setup-company, setup-trainer; worker tabs: Passport, Share, Timesheet, Inspections, Hazards, Profile; add-qualification, qualification/[id], day-off, job-sheet, expenses, support, checkin, claim; company (code, crew, sites) and trainer (course list) homes are basic.
 
 ## To build next (in this order)
 1. **Company side:** crew approvals (`accept_crew`, `add_crew_member`, `remove_crew_member`, `set_crew_member_meta`), sites (`create_site`, `delete_site`), review crew passports and timesheets (`get_timesheet`, `get_passport`), expenses review (`list_expenses`, `set_expense_status`), hazards (`list_hazards`, `resolve_hazard`), provisioned workers (`provision_worker`, `list_provisioned`, `delete_provisioned`), employer cert upload (`employer_upload_cert`).
 2. **Trainer side:** create/delete/list courses, enrolments (`list_enrollments`, `remove_enrollment`), student questionnaires, post certs, `suggest_course`.
 3. **Certifier role** (`certifier_login`, `list_review_passports`, `certify_passport`, `revoke_certification`).
-4. Worker setup steps 2 to 6 (ask Jacob for screenshots), weekly default schedule and "fill today from default", expense submission to employer, timesheet org-code sync, second language, training course search/enrol, site audits.
+4. Weekly default schedule and "fill today from default", expense submission to employer, timesheet org-code sync, second language, training course search/enrol, site audits.
 5. Real Smart Scan (auto-crop) needs a dev/native build; today it is camera plus crop via expo-image-picker.
 6. Monetization (below).
 7. Remove old tab files if present: `app/(tabs)/crew.tsx`, `settings.tsx`, `timesheets.tsx`.
@@ -43,3 +46,19 @@ Welcome, role picker, login, setup-worker (step 1 of 6 only), setup-company, set
 
 ## Outstanding items only Jacob/Sam can do
 Play Console identity verification, Apple organisation enrolment (Sam's Apple Account), Paul the accountant's registration document, company tier prices, store listing, privacy policy and data safety forms, EAS `eas init`, and the secrets listed above.
+
+## Live app map (recorded from https://construction-passport-web.netlify.app in guest mode, Nov 2026)
+The real web app is at construction-passport-web.netlify.app (expo-router, real paths). construction-passport.netlify.app is only the public passport viewer (`?p=<CODE>`; guests with no short code use `?d=<base64 json>` with v, id, name, trade, employer, photo, level, status, quals).
+- Browser storage keys: `cp.profile.v1` ({role: worker|employer|trainer, orgName}), `cp.worker.v1`, `cp.ownerToken.v1`, `cp.orgCode.v1`, `cp.crew.v1`. Role value for companies is "employer".
+- Welcome: language button (Romanian, Russian, Ukrainian, Polish, Lithuanian, Portuguese, French, Italian, Spanish, Irish, Filipino; English always shown alongside the chosen language, "show a second language next to English so the crew can help each other"), Create account, Log in, "Just try it on this device" (guest: no email/password anywhere).
+- Worker tabs: Passport, Share, Timesheet, Inspections, Hazards, Profile. Passport has Show My Passport (QR) and Report a Hazard. Worker Profile: Using as (Switch), Check-in, Support, Language, profile form with Change photo, crews, Have a claim code, Join a training course (course code, address for cert, questionnaire answers), Training suggestions, Save my passport (backup), Certifier access (Unlock certifier), Send feedback, Privacy policy.
+- Employer tabs: Crew (code EA9643-style 6-char crew/org code; Add a worker by scanning QR or entering the worker passport code; Employee or Subcontractor; On the crew or Not on a crew; greenlight tickets), My Passport, Share, Hazards (To action / Resolved counts, reports to resolve), Profile.
+- Employer Profile rows: Manage sites (/sites: crew code, share code, add site name and optional location; weather later), Companies you've set up (/companies: create a company for a client or tester, hand them a claim code), Have a company claim code, Set up worker passports (/provision, /provision-worker: name, trade, type, crew status, tickets Safe Pass, Manual Handling, CSCS Card, First Aid, MEWP (IPAF), Abrasive Wheels, Working at Heights, Confined Space, Add another; "Create passport & get code"), Crew expenses (/crew-expenses: company expenses submitted on the crew code, total in EUR), Job sheet (/job-sheet), Site diary (/site-diary: site, weather, crew on site, work carried out, deliveries, delays, visitors, notes, time-stamped photos, recent entries), Site audit (/site-audit: name, site, location with use my location, weather, then a list of points with photo, reorder, add next point, Save and export PDF), Support, Certifier access, Send feedback, Privacy policy.
+- Trainer tabs: Courses (New course: course, pre-training questionnaire, join code for students; students enrol with postal address and answers), My Passport, Profile.
+- Worker onboarding (done in this repo): 1 name, trade, claim code (email and password on the create-account path); 2 photo; 3 Safe Pass; 4 Manual Handling; 5 any other tickets (CSCS Card, First Aid, MEWP / Cherry Picker, Forklift, Teleporter, Abrasive Wheels, Other); 6 "You're all set".
+- The role/Switch button on Profile did nothing for me in a browser; do not assume how it works.
+- A labelled test company "ZZ TEST COMPANY (Claude demo, delete me)" was created on the live backend, crew code EA9643. Do not rely on it.
+
+- Trainer new course form (/course/new, reached from Courses > New course): Course name; Training provider / instructor (prefilled with business name); "Renews which ticket?" chips (Safe Pass, Manual Handling, CSCS, First Aid, MEWP (IPAF), Abrasive Wheels, Working at Heights, Confined Space, Other) so expiring tickets can be suggested; Where is it held?; Sign-up details (booking link, phone, instructions); Price (optional); Session dates (YYYY-MM-DD plus optional start time, Add date); Pre-training questionnaire (question text; Text answer, Yes / No or Multiple choice; Add question); List in course search toggle (on by default); "Create course & get join code". See web-trainer-02..04.
+- Certifier unlock lives at the bottom of Profile: a "Certifier passcode" field and "Unlock certifier" button (web-employer-05).
+- Web app routes seen: /, /mypassport, /share, /hazards, /profile, /crew/add, /sites, /provision, /provision-worker, /crew-expenses, /site-diary, /site-audit, /job-sheet, /companies, /course/new.
