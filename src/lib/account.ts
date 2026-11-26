@@ -1,7 +1,7 @@
 import { supabase } from './supabase';
 import { getOwnerToken, setOwnerToken } from './owner';
 import { setItem } from './storage';
-import { SHORT_CODE_KEY, WORKER_KEY, blankWorker, type Qualification } from './passport';
+import { SHORT_CODE_KEY, WORKER_KEY, blankWorker, loadWorker, type Qualification } from './passport';
 
 // Matches the original app: Supabase email + password auth. The owner token is linked to the account by the
 // `claim_passport` RPC while signed in, and `restore_passport` (no args) returns it on a new phone.
@@ -38,6 +38,12 @@ export async function logIn(email: string, password: string): Promise<{ restored
   if (rerr) console.warn('[restore]', rerr.message);
   const row: any = Array.isArray(data) ? data[0] : data;
   if (!row || !row.owner_token) return { restored: false };
+  // Safety: never replace a passport that has content on this phone with an empty backup.
+  const d0 = row.data;
+  const backupHasContent = !!d0 && (!!d0.name || (Array.isArray(d0.quals) && d0.quals.length > 0));
+  const local = await loadWorker();
+  const localHasContent = !!local.name || local.qualifications.length > 0;
+  if (!backupHasContent && localHasContent) return { restored: false };
   await setOwnerToken(row.owner_token);
   if (row.short_code) await setItem(SHORT_CODE_KEY, row.short_code);
   const d = row.data;

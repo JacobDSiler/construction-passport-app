@@ -9,6 +9,7 @@ import { INDIVIDUAL_PRICE_EUR } from '../../src/lib/entitlements';
 import { Crew, loadCrews, saveCrews } from '../../src/lib/records';
 import { requestJoin, setSuggestionConsent } from '../../src/lib/api';
 import { loadJson, saveJson } from '../../src/lib/storage';
+import { createAccount, currentAccountEmail, linkToAccount, signInOnly } from '../../src/lib/account';
 
 const SUGGEST_KEY = 'cp.suggestConsent.v1';
 
@@ -24,6 +25,90 @@ function LinkCard({ icon, title, body, onPress }: { icon: string; title: string;
         <Text style={{ fontSize: 30, color: '#5F7385' }}>›</Text>
       </Card>
     </Pressable>
+  );
+}
+
+function BackupCard() {
+  const { publish } = useStore();
+  const [acct, setAcct] = useState<string | null>(null);
+  const [email, setEmail] = useState('');
+  const [pw, setPw] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [msg, setMsg] = useState<string | null>(null);
+  useEffect(() => {
+    currentAccountEmail().then(setAcct).catch(() => {});
+  }, []);
+
+  async function backUp() {
+    setBusy(true);
+    setMsg(null);
+    try {
+      // Publish first so the saved copy is this phone's current passport, then link it to the account.
+      await publish();
+      await linkToAccount();
+      setMsg('Backed up. Your passport as it is right now is saved to your account.');
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function signUp() {
+    setBusy(true);
+    setMsg(null);
+    try {
+      if (pw.length < 6) throw new Error('Password must be at least 6 characters.');
+      await createAccount(email, pw);
+      const who = await currentAccountEmail();
+      setAcct(who);
+      if (!who) {
+        setMsg('Account created. Confirm the email we sent, then log in and tap Back up now.');
+      } else {
+        await publish();
+        await linkToAccount();
+        setMsg('Account created and your passport is backed up.');
+      }
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function signIn() {
+    setBusy(true);
+    setMsg(null);
+    try {
+      // Signs in only. Never restores here, so nothing on this phone is replaced.
+      await signInOnly(email, pw);
+      setAcct(await currentAccountEmail());
+      setMsg('Signed in. Tap Back up now to save this passport.');
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  }
+  return (
+    <Card>
+      <Text style={styles.h}>Back up your passport</Text>
+      <Text style={styles.p}>
+        Saves what is on this phone right now to your account, so you can get it back if you change phone. Back up after you add tickets.
+      </Text>
+      {acct ? (
+        <>
+          <Text style={styles.p}>Signed in as {acct}</Text>
+          <Button label={busy ? 'Backing up…' : 'Back up now'} onPress={backUp} disabled={busy} />
+        </>
+      ) : (
+        <>
+          <Field label="Email" value={email} onChangeText={setEmail} keyboardType="email-address" autoCapitalize="none" />
+          <Field label="Password" value={pw} onChangeText={setPw} secureTextEntry />
+          <Button label="Create account and back up" onPress={signUp} disabled={busy || !email || !pw} />
+          <Button label="I already have an account" variant="light" onPress={signIn} disabled={busy || !email || !pw} />
+        </>
+      )}
+      {msg ? <Text style={styles.p}>{msg}</Text> : null}
+    </Card>
   );
 }
 
@@ -135,9 +220,11 @@ export default function ProfileTab() {
         </Text>
       </Card>
 
+      <BackupCard />
+
       <Card>
         <Text style={styles.h}>Coming next</Text>
-        <Text style={styles.p}>Second language, training courses, email backup of your passport, and certifier access.</Text>
+        <Text style={styles.p}>Second language, training courses and certifier access.</Text>
         <Text style={styles.p}>Version {Constants.expoConfig?.version ?? '1.0.0'}</Text>
       </Card>
       <Attribution />
