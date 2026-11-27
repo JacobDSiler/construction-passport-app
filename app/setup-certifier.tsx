@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Text } from 'react-native';
+import { Text } from '../src/components/Text';
 import { useRouter } from 'expo-router';
 import { Button, Field } from '../src/components/ui';
 import { SetupScreen } from '../src/components/SetupScreen';

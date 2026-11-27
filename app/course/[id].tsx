@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
-import { Alert, ScrollView, StyleSheet, Text } from 'react-native';
+import { Alert, ScrollView, StyleSheet } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { Card, SectionLabel } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';

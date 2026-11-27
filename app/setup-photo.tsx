@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { useRouter } from 'expo-router';
 import { Button } from '../src/components/ui';
 import { Step } from '../src/components/Step';

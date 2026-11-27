@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { useRouter } from 'expo-router';
 import { Button, Field } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';

@@ -1,0 +1,652 @@
+0|Ekipa
+1|Moja ekipa
+2|Mój paszport
+3|Udostępnij
+4|Udostępnij paszport
+5|Zagrożenia
+6|Profil
+7|Nie udało się rozwiązać
+8|Zgłoszenie zagrożenia
+9|Oznacz jako rozwiązane
+10|Rozwiązane
+11|Do rozwiązania
+12|ZGŁOSZENIA DO ROZWIĄZANIA
+13|Na razie nic do rozwiązania. Pociągnij w dół, aby odświeżyć.
+14|ROZWIĄZANE
+15|Brak rozwiązanych zgłoszeń.
+16|Zauważ · Powiedz · Działaj · Zmień coś
+17|Twoja firma
+18|＋ Dodaj pracownika
+19|Nie masz jeszcze ekipy
+20|Poproś pracownika, aby w swojej aplikacji otworzył Udostępnij i podał Ci kod paszportu (6 znaków). Naciśnij „Dodaj pracownika”, wpisz go, a zobaczysz tutaj jego kwalifikacje i możesz je zatwierdzić.
+21|Zarządzaj budowami
+22|Utwórz swoje budowy i udostępnij kod ekipy, aby karty czasu pracy pokazywały prawdziwe budowy.
+23|Twórz paszporty pracowników
+24|Przygotuj kwalifikacje pracownika, zanim będzie miał aplikację, a potem wyślij mu kod odbioru.
+25|Wydatki ekipy
+26|Zobacz wydatki firmowe przesłane przez Twoją ekipę.
+27|Karta pracy
+28|Wypełnij dzienną kartę pracy i wyeksportuj ją do PDF.
+29|Dziennik budowy
+30|Dziennik dzienny: prace, ekipa na budowie, dostawy, opóźnienia i goście.
+31|Audyt budowy
+32|Przeprowadź audyt budowy według własnych punktów. Zgodne, niezgodne lub nie dotyczy, z opisem usterek.
+33|Firmy, które utworzyłeś
+34|Utwórz firmę dla klienta lub testera, a potem wyślij mu kod odbioru.
+35|Wsparcie
+36|Bezpłatne, poufne infolinie, w tym jedna stworzona dla budownictwa. O każdej porze.
+37|UŻYWASZ JAKO
+38|Pracodawca / Wykonawca
+39|Przełącz na pracownika
+40|Nazwa firmy / organizacji
+41|Ta nazwa jest zapisywana, gdy zatwierdzasz pracownika.
+42|Zapisz
+43|Wyloguj
+44|Paszport
+45|Construction Passport
+46|Karta czasu
+47|Kontrole
+48|Bezpieczne działanie
+49|Niebezpieczny stan
+50|Niebezpieczne działanie
+51|Współpracownik
+52|Kierownik
+53|Inne
+54|WYBIERZ KATEGORIĘ
+55|Zapisano
+56|Eksportuj PDF
+57|Obserwacja zagrożenia
+58|Kategoria *
+59|💡 Sugestia
+60|🪖 Oznacz na spotkanie BHP
+61|Oznacz zgłoszenie, aby Twój pracodawca omówił je na następnym spotkaniu BHP. O tym, kiedy i jak, decyduje pracodawca.
+62|Zdjęcie
+63|📷 Zrób zdjęcie
+64|Wybierz z galerii
+65|Usuń
+66|Obserwacja *
+67|Co zauważyłeś? Opisz wyraźnie.
+68|Klient
+69|Projekt
+70|Kierownik (koordynator HOC)
+71|Miejsce / budowa
+72|Imię i nazwisko zgłaszającego
+73|Zgłoś anonimowo (imię i nazwisko ukryte w PDF; pozostaje na tym urządzeniu w celach ewidencji)
+74|Dział
+75|np. Ogrodzenia, Fundamenty
+76|Pracę zatrzymał
+77|Podjęte natychmiastowe działanie
+78|np. Teren odgrodzono i zgłoszono kierownikowi
+79|Wymagane dalsze działanie
+80|np. Elektryk ma przenieść kabel wyżej
+81|Wyślij obserwację zagrożenia
+82|Twoje zapisane zgłoszenia
+83|Nie udało się utworzyć PDF
+84|Usuń
+85|Twoje imię i nazwisko
+86|Edytuj
+87|Dodaj swoje imię i nazwisko
+88|Dodaj pracodawcę
+89|Status zgodności
+90|Kwalifikacje
+91|Dodaj
+92|Nie masz jeszcze kwalifikacji. Naciśnij Dodaj, aby zeskanować Safe Pass lub inną kwalifikację do swojego Paszportu.
+93|Pokaż mój paszport (QR)
+94|Zgłoś zagrożenie
+95|Dziennie
+96|Tygodniowo
+97|Miesięcznie
+98|Zapisane usterki
+99|Kontrola zapisana
+100|Nie używaj, dopóki usterki nie zostaną naprawione. Wyeksportować raport usterek?
+101|Nie znaleziono usterek.
+102|Nie skontrolowano
+103|Kontrola do wykonania
+104|Zgłoszone usterki
+105|Najpierw dodaj pojazd
+106|Poniżej dodaj swojego vana, koparkę lub podnośnik, a potem wykonaj kontrolę.
+107|＋ Nowa kontrola
+108|Małe maszyny · Pojazdy użytkowe ≥3,5 t — z raportem usterek w PDF
+109|Wkrótce
+110|Pełne audyty bezpieczeństwa budowy już wkrótce.
+111|＋ Nowy audyt budowy
+112|Pełny audyt bezpieczeństwa budowy — z oceną, ustaleniami, zdjęciami i raportem PDF
+113|Dodaj pojazd lub maszynę
+114|np. Van Transit, koparka 3 t, podnośnik MEWP
+115|Numer rejestracyjny / maszyny (opcjonalnie)
+116|Skontroluj
+117|Dodanie nie oznacza, że jest bezpieczny — zaczyna jako „nieskontrolowany”, dopóki nie wykonasz kontroli.
+118|Nie masz jeszcze pojazdów ani maszyn. Dodaj powyżej swojego vana, koparkę lub podnośnik, aby wykonywać kontrole.
+119|Twoje pojazdy i maszyny
+120|Skontroluj teraz
+121|Poprzednie kontrole
+122|Brak usterek
+123|Która?
+124|Usterka
+125|Opisz usterkę
+126|Zakończ kontrolę
+127|Zapisano. Twój paszport w obecnej postaci jest zapisany na Twoim koncie.
+128|Hasło musi mieć co najmniej 6 znaków.
+129|Konto utworzone. Potwierdź e-mail, który wysłaliśmy, potem zaloguj się i naciśnij Zapisz teraz.
+130|Konto utworzone, a Twój paszport jest zapisany.
+131|Zalogowano. Naciśnij Zapisz teraz, aby zapisać ten paszport.
+132|Zapisz swój paszport
+133|Zapisz na swoim koncie to, co jest teraz na tym telefonie, aby odzyskać to po zmianie telefonu. Zapisz po dodaniu kwalifikacji.
+134|Zalogowano jako
+135|Zapisywanie…
+136|Zapisz teraz
+137|E-mail
+138|Hasło
+139|Utwórz konto i zapisz
+140|Mam już konto
+141|Najpierw udostępnij paszport
+142|Otwórz raz kartę Udostępnij, aby pracodawca mógł Cię znaleźć, a potem ponownie dodaj kod ekipy.
+143|Nie udało się dodać ekipy
+144|Pracownik
+145|Role pracodawcy i trenera są odbudowywane po stronie pracownika.
+146|Przełącz
+147|Kontrola samopoczucia
+148|Szybkie, prywatne sprawdzenie, jak się czujesz. Zostaje na Twoim telefonie — nikt inny tego nie widzi.
+149|Bezpłatne, poufne infolinie — w tym jedna stworzona dla budownictwa. O każdej porze.
+150|Imię i nazwisko
+151|Zawód
+152|Telefon
+153|Pracodawca
+154|Zapisz profil
+155|Twój profil został zapisany, a udostępniony paszport zostanie zaktualizowany.
+156|Twoje ekipy (opcjonalnie)
+157|Dodaj każdą ekipę, dla której pracujesz. Ta oznaczona „Aktywna” otrzymuje nowe karty czasu i wydatki — naciśnij inną, aby przełączyć.
+158|Wysłano prośbę
+159|Dołączono
+160|· Aktywna
+161|Dodaj kod ekipy
+162|Masz kod odbioru?
+163|Jeśli pracodawca utworzył Twój paszport, wpisz jego kod, aby go automatycznie uzupełnić.
+164|Propozycje szkoleń
+165|Pozwól pracodawcy proponować kursy (np. gdy kwalifikacja wygasa). Zawsze rezerwujesz je sam — Twoje dane nigdy nie są udostępniane bez Twojej zgody.
+166|Twój plan
+167|Subskrypcja aktywna.
+168|Drugi język, kursy szkoleniowe i dostęp certyfikatora.
+169|Wersja
+170|Kod QR pojawi się po udostępnieniu Twojego paszportu.
+171|Pokaż go wykonawcy. Zeskanuje go aparatem w dowolnym telefonie — bez aplikacji — aby zobaczyć Twój paszport, zdjęcia certyfikatów i Cię potwierdzić.
+172|Nie udało się jeszcze udostępnić paszportu:
+173|Spróbuj ponownie
+174|Udostępniony paszport jest aktualny ✓
+175|Każda zmiana — dodanie, edycja lub usunięcie kwalifikacji — aktualizuje się automatycznie. Mogą go zobaczyć tylko osoby, którym go pokażesz.
+176|Pozwól pracodawcy dodawać certyfikaty
+177|Pozwól pracodawcy dodawać certyfikaty do Twojego paszportu. Zachowujesz kontrolę — możesz to wyłączyć w każdej chwili i usunąć wszystko, co doda.
+178|👁 Zobacz jako publiczny
+179|🔗 Kopiuj
+180|Skopiowano
+181|Link do Twojego paszportu jest w schowku.
+182|📤 Udostępnij przez…
+183|📄 Zapisz jako PDF
+184|Link otwierany przez QR — naciśnij, aby zobaczyć, co widzi pracodawca
+185|Dzień
+186|Tydzień
+187|Miesiąc
+188|Twój 90-dniowy okres bezpłatny dobiegł końca
+189|Karta czasu i narzędzia pracy kosztują
+190|EUR miesięcznie lub są bezpłatne, jeśli Twój pracodawca ma subskrypcję. Paszport i udostępnianie pozostają bezpłatne na zawsze.
+191|W pracy
+192|Na przerwie
+193|Nie zarejestrowano w pracy
+194|Naciśnij Rozpocznij zmianę, gdy zaczynasz pracę.
+195|Rozpocznij zmianę
+196|Wróć
+197|Przerwa
+198|Zakończ zmianę
+199|Dziś:
+200|＋ Dodaj lub uzupełnij wpis wstecz
+201|Dziś
+202|Ten tydzień
+203|W tym tygodniu nie masz jeszcze godzin. Naciśnij Rozpocznij zmianę, aby zacząć.
+204|Naciśnij Znajdź kartę czasu, aby zobaczyć każdy dzień.
+205|Znajdź kartę czasu
+206|Wyszukaj dzień, tydzień lub miesiąc — zobacz godziny i wyeksportuj je.
+207|Zapisz dzień wolny
+208|Urlop, choroba, święto, brak pracy — zapisane na karcie czasu i u pracodawcy.
+209|Wydatki
+210|Sfotografuj paragon — wyślij go pracodawcy lub zachowaj prywatnie z osobnym eksportem.
+211|Wypełnij dzienną kartę pracy i wyeksportuj ją do PDF.
+212|📥 Eksportuj dzisiejszy dzień…
+213|📄 Eksportuj ten tydzień (PDF)
+214|Twoje godziny trafiają do pracodawcy automatycznie po udostępnieniu mu paszportu.
+215|Rozpocznij zmianę — dodaj notatkę (opcjonalnie)
+216|Notatka
+217|np. Na budowie, start w mgle — Most 78
+218|Anuluj
+219|Eksportuj
+220|PDF (zapisz, wyślij e-mailem lub udostępnij)
+221|Arkusz kalkulacyjny (CSV)
+222|Eksport nie powiódł się
+223|Brak wpisów w tym okresie.
+224|Początek
+225|Koniec
+226|Przerwy
+227|Przepracowano łącznie
+228|📥 Eksportuj ten okres…
+229|📍 zapisano lokalizację
+230|Dodaj wpis
+231|Godzina (24h)
+232|Co się stało?
+233|np. Przyjazd na budowę — Most 78-06.00
+234|Dodaj wpis
+235|Kursy
+236|Dodaj pracownika
+237|Członek ekipy
+238|Zarządzaj budowami
+239|Wydatki ekipy
+240|Kwalifikacja
+241|Dodaj kwalifikację
+242|Karta pracy
+243|Kod odbioru
+244|Certyfikator
+245|Firmy
+246|Nowy kurs
+247|Kurs
+248|Ręczny transport ładunków
+249|Praca na wysokości
+250|Pierwsza pomoc
+251|Tarcze ścierne
+252|Przestrzenie zamknięte
+253|Sygnalista / Kierowanie ruchem
+254|Świadomość azbestowa
+255|Bezpieczeństwo przeciwpożarowe
+256|Wózek widłowy
+257|Jaką kwalifikację dodajesz?
+258|Coś innego
+259|np. Certyfikat hydraulika
+260|Brak kodu paszportu
+261|Nie udało się certyfikować
+262|Nie udało się cofnąć
+263|Nic nie czeka na weryfikację.
+264|Certyfikuj
+265|Cofnij certyfikację
+266|Dobrze
+267|Ciężko
+268|Jak się czujesz?
+269|Szybkie, prywatne sprawdzenie. Zostaje na Twoim telefonie — nikt inny tego nie widzi.
+270|Coś Ci leży na sercu? (opcjonalnie)
+271|Zapisz sprawdzenie
+272|Twoje ostatnie sprawdzenia
+273|Nie znaleziono kodu. Sprawdź go i spróbuj ponownie.
+274|Kwalifikacja
+275|Sprawdzanie…
+276|Odbierz paszport
+277|Brak kodu firmy
+278|Usunąć firmę?
+279|Ta firma
+280|Nie udało się usunąć
+281|Utwórz firmę raz, a potem wyślij jej kod odbioru. Otwierają Construction Passport, wybierają Pracodawca, wpisują kod, a ich firma i ekipa już tam są. Dobre dla testerów, którzy wolą nie bawić się w konfigurację.
+282|＋ Utwórz nową firmę
+283|Nie utworzyłeś jeszcze żadnej firmy. Naciśnij „Utwórz nową firmę”, aby zacząć.
+284|Firma
+285|Kod ekipy
+286|Kopiuj kod odbioru
+287|Usuń firmę
+288|Wpisz nazwę firmy.
+289|Utwórz nową firmę
+290|Otrzymasz kod odbioru do wysłania.
+291|Nazwa firmy
+292|np. Prime Peak Limited
+293|Zawód (opcjonalnie)
+294|np. Fundamenty
+295|Zapisywanie…
+296|Utwórz firmę
+297|Usunąć kursanta?
+298|Ten kursant
+299|Nie udało się usunąć
+300|Kod kursu
+301|Nikt jeszcze się nie zapisał. Kursanci zapisują się za pomocą kodu kursu.
+302|Kursant
+303|Odpowiedź tekstowa
+304|Tak / Nie
+305|Wybór wielokrotny
+306|Nie udało się wczytać kursu
+307|Sprawdź datę
+308|Wpisz datę jako RRRR-MM-DD, np. 2026-10-05.
+309|Nazwa kursu
+310|Nadaj kursowi nazwę, np. Safe Pass.
+311|Kurs nie został zapisany.
+312|Kurs został utworzony, ale nie otrzymano kodu zapisu. Sprawdź listę kursów.
+313|Kurs utworzony
+314|Nie udało się zapisać
+315|np. Safe Pass
+316|Firma szkoleniowa / instruktor
+317|np. SilerTech Training
+318|Jaką kwalifikację odnawia?
+319|(abyśmy mogli go proponować pracownikom, których kwalifikacja wygasa)
+320|Gdzie się odbywa?
+321|Miejsce / adres, miasto, hrabstwo
+322|Informacje o zapisach (link do rezerwacji, telefon lub instrukcje)
+323|np. https://… lub zadzwoń 01 234 5678
+324|Cena (opcjonalnie)
+325|Terminy zajęć
+326|Dodaj terminy, w których prowadzisz ten kurs. Pracownicy je zobaczą i wybiorą termin.
+327|Data, RRRR-MM-DD (np. 2026-10-05)
+328|Godzina rozpoczęcia (opcjonalnie), np. 09:00
+329|＋ Dodaj termin
+330|Ankieta przed kursem
+331|Pytania, na które kursanci odpowiadają przy zapisie. Opcjonalne.
+332|Nowe pytanie
+333|Opcje, oddzielone przecinkami
+334|＋ Dodaj pytanie
+335|Pokaż w wyszukiwarce kursów
+336|Gdy włączone, pracownicy i pracodawcy mogą znaleźć ten kurs według odległości i daty.
+337|Zapisz kurs
+338|Utwórz kurs i otrzymaj kod zapisu
+339|Twoja firma nie ma jeszcze kodu. Skonfiguruj ją ponownie w Profilu.
+340|Kod paszportu pracownika
+341|6 znaków
+342|Pracownik znajdzie go na karcie Udostępnij w swojej aplikacji. To krótki kod na końcu linku do paszportu, po „?p=”.
+343|Jest
+344|Pracownik etatowy
+345|Podwykonawca
+346|Obecnie
+347|W ekipie
+348|Poza ekipą
+349|„Poza ekipą” zachowuje go w firmie bez przypisania do ekipy na dziś, przydatne dla podwykonawcy między zleceniami lub kogoś odwiedzającego budowy.
+350|Dodawanie…
+351|Dodaj do ekipy
+352|Nie udało się zaktualizować
+353|Wydatki firmowe
+354|Nie przesłano jeszcze wydatków firmowych. Gdy pracownik z Twojej ekipy doda wydatek firmowy, pojawi się tutaj.
+355|Wydatek
+356|Zatwierdź
+357|Odrzuć
+358|Nie udało się zatwierdzić
+359|Usunąć z ekipy?
+360|Zostaje w aplikacji; znika tylko z listy Twojej ekipy.
+361|KWALIFIKACJE
+362|W tym paszporcie nie ma jeszcze kwalifikacji.
+363|Nie zapisano daty ważności
+364|✓ Zatwierdzono
+365|Zatwierdź tego pracownika
+366|Usuń z ekipy
+367|Urlop
+368|Choroba
+369|Święto
+370|Brak pracy
+371|Rodzaj
+372|Notatka (opcjonalnie)
+373|Zapisz dzień wolny
+374|Paliwo
+375|Dodaj wydatek
+376|🧾 Sfotografuj paragon
+377|Sprzedawca
+378|Kwota (€)
+379|Zapisz wydatek
+380|Brak wydatków.
+381|📄 Eksportuj wydatki (PDF)
+382|Wszystkie zapisane wydatki
+383|Wysyłanie wydatków do pracodawcy — wkrótce.
+384|Twoje kwalifikacje, zawsze przy Tobie. Utwórz konto, aby Twój paszport był zapisany i nigdy nie przepadł.
+385|Zaczynamy
+386|Mam już konto · Zaloguj się
+387|Nowa karta pracy
+388|Data
+389|Zlecenie / nr ref.
+390|np. Prime Management
+391|Budowa / miejsce
+392|np. Most 78, N4
+393|Pracownicy
+394|Imię i nazwisko na zleceniu
+395|＋ Dodaj pracownika
+396|Maszyny / sprzęt
+397|np. Van TM, znakowanie, ŚOI
+398|＋ Dodaj maszynę / sprzęt
+399|Opis prac
+400|Co zostało wykonane
+401|Materiały
+402|Użyte materiały
+403|Zdjęcia
+404|📷 Zrób zdjęcie
+405|🖼️ Dodaj z galerii
+406|Przepracowany czas
+407|Uwagi
+408|Cokolwiek jeszcze (opóźnienia, problemy)
+409|Podpisał
+410|📄 Zapisz i eksportuj PDF
+411|Zapisane karty pracy
+412|To pierwsza wersja — wyślij mi swoją zwykłą kartę, a zrobię identyczną.
+413|Zalogowano, ale to konto nie ma jeszcze zapisanego paszportu. Wybierz, kim jesteś, aby kontynuować.
+414|Witaj ponownie
+415|Zaloguj się, aby przenieść swój paszport na ten telefon.
+416|ty@przyklad.com
+417|Twoje hasło
+418|Logowanie…
+419|Zaloguj się
+420|Utwórz paszport pracownika, zanim będzie miał aplikację. Dodaj jego imię, zawód i kwalifikacje, a potem wyślij mu kod odbioru. Gdy zainstaluje aplikację i go wpisze, wszystko się pojawi.
+421|Kod odbioru dla pracownika
+422|Kopiuj kod
+423|NOWY PRACOWNIK
+424|Imię i nazwisko pracownika
+425|Utwórz paszport i otrzymaj kod
+426|UTWORZONE DOTYCHCZAS
+427|Nie utworzyłeś jeszcze żadnych paszportów.
+428|Nie znaleziono kwalifikacji.
+429|Wymagane uprawnienie
+430|Zezwól na dostęp do zdjęć, aby wybrać zdjęcie swojej kwalifikacji.
+431|Zezwól na dostęp do aparatu, aby sfotografować swoją kwalifikację.
+432|Nie udało się dodać zdjęcia
+433|Usunąć tę kwalifikację?
+434|Certyfikat — przód
+435|Certyfikat — tył (opcjonalnie)
+436|Naciśnij, aby powiększyć
+437|🖼️ Wybierz z galerii
+438|Nazwa kwalifikacji
+439|⚠ Nie zapisano daty ważności
+440|Ważne do (miesiąc i rok)
+441|Rok
+442|Data wydania (miesiąc i rok)
+443|Status
+444|Zweryfikowano
+445|Oczekuje
+446|Zadeklarowano przez Ciebie
+447|Smart Scan prosto kadruje kwalifikację. Zrób zdjęcie używa zwykłego aparatu. Każda zmiana tutaj automatycznie aktualizuje udostępniony paszport.
+448|Usuń tę kwalifikację
+449|Jestem pracownikiem
+450|Trzymaj mój Safe Pass, kwalifikacje i szkolenia w jednym miejscu.
+451|Prowadzę ekipę lub firmę
+452|Zobacz kwalifikacje mojej ekipy i zarządzaj dokumentami budowy.
+453|Jestem dostawcą szkoleń
+454|Organizuj kursy, zbieraj dane kursantów i ankiety oraz wysyłaj certyfikaty.
+455|‹ Wstecz
+456|Najpierw — kim jesteś?
+457|Możesz to zmienić później.
+458|Masz już konto? Zaloguj się
+459|Jestem certyfikatorem · Mam kod
+460|To nie Ty? Wyloguj
+461|Logowanie certyfikatora
+462|Wpisz otrzymany kod certyfikatora. Pozwala on weryfikować i certyfikować paszporty.
+463|Kod certyfikatora
+464|Twój kod
+465|Zaloguj
+466|Wpisz otrzymany kod odbioru.
+467|Nie znaleziono kodu odbioru.
+468|Moja firma
+469|Wpisz nazwę swojej firmy.
+470|Jak nazywa się Twoja firma?
+471|Wpisz kod odbioru firmy
+472|Ta nazwa jest wyświetlana, gdy potwierdzasz pracownika.
+473|Ktoś już utworzył Twoją firmę, więc wpisz kod, który Ci dał.
+474|Kod odbioru firmy
+475|np. ABC123
+476|E-mail (aby Twój paszport był zapisany)
+477|Co najmniej 6 znaków
+478|Trwa praca…
+479|Dalej
+480|Ktoś już utworzył naszą firmę? Wpisz kod odbioru →
+481|← Zamiast tego utwórz nową firmę
+482|Twój paszport jest gotowy. W każdej chwili możesz dodać szczegóły, udostępnić go lub dodać więcej kwalifikacji.
+483|Zobacz mój paszport
+484|Dodaj swoje zdjęcie
+485|Wyraźne zdjęcie twarzy pojawia się na pierwszej stronie paszportu, aby każdy, kto go otrzyma, od razu widział, że to naprawdę Ty.
+486|📷 Zrób sobie zdjęcie
+487|Zrób zdjęcie
+488|Później
+489|Na razie pomiń
+490|Prawie każdy pracownik potrzebuje ważnego Safe Pass, aby wejść na budowę w Irlandii. Zeskanuj przód karty, tył i dodaj datę ważności.
+491|Drugi dokument, którego wymaga niemal każda budowa. Zeskanuj obie strony certyfikatu ręcznego transportu ładunków i dodaj datę ważności.
+492|Przód karty
+493|Tył (jeśli jest)
+494|Ważne do (miesiąc i rok, opcjonalnie)
+495|Data wydania (miesiąc i rok, opcjonalnie)
+496|Zeskanuj kartę
+497|Nie mam tego / na razie pomiń
+498|Inna kwalifikacja
+499|Inne kwalifikacje?
+500|Naciśnij jedną, aby ją dodać. Dodaj ile chcesz — albo pomiń i dodaj później.
+501|Wpisz nazwę swojej firmy szkoleniowej.
+502|Jak nazywa się Twoja firma szkoleniowa?
+503|Wyświetlana kursantom, gdy dołączają do Twoich kursów.
+504|Wpisz swoje imię i nazwisko.
+505|Nie znaleziono kodu odbioru. Sprawdź go lub wyczyść pole, aby kontynuować bez kodu.
+506|KROK 1 Z 6
+507|Utwórz swój paszport
+508|Twoje imię i nazwisko pojawia się na górze. Jeśli pracodawca utworzył już Twój paszport, wpisz jego kod odbioru, a my go uzupełnimy.
+509|np. Jan Kowalski
+510|Twój zawód
+511|np. Elektryk
+512|Kod odbioru (opcjonalnie)
+513|Od pracodawcy, jeśli go masz
+514|Przygotowywanie…
+515|Zgodne
+516|Niezgodne
+517|Dodaj punkt
+518|Opisz co najmniej jedną zaobserwowaną rzecz.
+519|Każdy punkt oznaczony Niezgodne wymaga opisu usterki.
+520|Audyt zapisany
+521|Nazwa budowy
+522|Budowa / strefa
+523|Miejsce
+524|Adres lub miasto
+525|Pogoda
+526|np. Sucho, wietrznie
+527|PUNKTY
+528|Punkt
+529|Opisz znalezione usterki (wymagane, jeśli zaznaczono usterkę)
+530|Przesuń w górę
+531|Przesuń w dół
+532|＋ Dodaj następny punkt
+533|Dotychczasowy wynik:
+534|Zapisz audyt
+535|＋ Nowy audyt
+536|Poprzednie audyty
+537|Brak audytów.
+538|Audyt
+539|· Wynik
+540|Dziennik zapisany
+541|Zostaje tylko na tym telefonie.
+542|Dziennik budowy
+543|np. Most 78, budowa południowa
+544|np. Sucho, zimno, start w mgle
+545|Ekipa na budowie
+546|np. Alfie, Oisin, Sam
+547|Wykonane prace
+548|Co zrobiono dzisiaj
+549|Dostawy
+550|Dostarczone materiały / sprzęt
+551|Opóźnienia / problemy
+552|Wszystko, co wstrzymało pracę
+553|Goście
+554|Goście / inspekcje na budowie
+555|Cokolwiek jeszcze do zapisania
+556|Zapisz wpis w dzienniku
+557|Brak wpisów.
+558|Opóźnienia:
+559|KOD TWOJEJ EKIPY
+560|Przekaż go pracownikom. Gdy go wpiszą, ich karta czasu pokaże Twoje budowy.
+561|TWOJE BUDOWY
+562|Nie masz jeszcze budów. Dodaj pierwszą poniżej.
+563|DODAJ BUDOWĘ
+564|Lokalizacja (adres lub kod pocztowy, opcjonalnie)
+565|Dodaj budowę
+566|Podanie lokalizacji włącza wkrótce funkcję pogody dla budowy.
+567|Nie jesteś sam.
+568|Wszystko jest bezpłatne, poufne i dostępne o każdej porze. Nic, co tu naciśniesz, nie jest śledzone ani nikomu udostępniane.
+569|Stworzona dla budownictwa — także w sprawach pieniędzy. Bezpłatnie, 24/7, dla każdego na budowie.
+570|Zadzwoń 1800 939 122
+571|Wyślij SMS HARDHAT na 50808
+572|Cokolwiek Cię trapi, o każdej porze. Bezpłatnie, 24/7.
+573|Zadzwoń 116 123
+574|Jeśli myślisz o zrobieniu sobie krzywdy lub martwisz się o kogoś. Bezpłatnie, 24/7.
+575|Zadzwoń 1800 247 247
+576|Wyślij SMS HELP na 51444
+577|Wolisz wiadomość niż rozmowę? Odpowiada przeszkolony wolontariusz. Bezpłatnie, 24/7.
+578|Wyślij SMS HELLO na 50808
+579|To wskazówka, gdzie szukać pomocy, a nie usługa medyczna — jeśli życie jest zagrożone, zadzwoń na 112 lub 999.
+580|Na co dzień Wysa to bezpłatna aplikacja samopomocowa (CBT/DBT) — pomocna między trudnymi chwilami, ale nie w nagłych wypadkach.
+581|Jesteś w niebezpieczeństwie? Zadzwoń 112 lub 999
+582|Naciśnij, aby zadzwonić pod 112
+583|Usunąć kurs?
+584|Ten kurs
+585|Twoja firma szkoleniowa
+586|＋ Nowy kurs
+587|Brak kursów
+588|Utwórz kurs, ustaw ankietę wstępną i udostępnij kursantom kod zapisu. Zapisują się, podają adres pocztowy do certyfikatu i odpowiadają na Twoje pytania. Wszystko zobaczysz tutaj.
+589|Usuń kurs
+590|Użyj jako pracownik
+591|Język
+592|Pokaż drugi język obok angielskiego
+593|Tylko angielski
+594|Angielski zawsze pozostaje na ekranie, aby Twoja ekipa i szefowie mogli czytać razem z Tobą.
+595|Zamknij ✕
+615|Najpierw zaloguj się lub utwórz konto.
+618|Kod certyfikatora nie został rozpoznany.
+619|Brak daty ważności
+620|Wymagane działanie
+621|Wkrótce wygasa
+622|W pełni zgodne
+623|Zezwól na dostęp do zdjęć, aby wybrać zdjęcie.
+624|Zezwól na dostęp do aparatu, aby zrobić zdjęcie.
+625|Sugestia
+626|Narzędzia
+627|Jedzenie
+628|Podróż
+629|Zakwaterowanie
+630|Opony i koła
+631|Światła i sygnalizacja
+632|Hamulce
+633|Olej i płyny
+634|Lusterka i szyby
+635|Klakson i urządzenia ostrzegawcze
+636|Pasy bezpieczeństwa / zabezpieczenia
+637|Gaśnica / apteczka
+638|Kontrola uszkodzeń
+639|Ładunek zabezpieczony / bezpieczny do użycia
+640|Początek zmiany
+641|Koniec zmiany
+642|Dzień wolny
+643|🔴 {0} wygasł  
+644|🟠 {0} wygasa  
+645|Skontroluj: {0}
+646|Okres bezpłatny: pozostało {0} dni, wszystko w zestawie. Potem Paszport pozostaje bezpłatny; karta czasu i narzędzia pracy kosztują {1} EUR miesięcznie (lub są bezpłatne, jeśli Twój pracodawca ma subskrypcję).
+647|Twój okres bezpłatny dobiegł końca. Paszport i udostępnianie są bezpłatne; karta czasu i narzędzia pracy kosztują {0} EUR miesięcznie.
+648|Tydzień od {0}
+649|PASZPORTY DO WERYFIKACJI ({0})
+650|Gotowe. Twój paszport został uzupełniony{0}.
+651|KURSANCI ({0})
+652|Kod zapisu: {0}\nPrzekaż go swoim kursantom.
+653|Opcje · {0}
+654|Wysłane przez Twoją ekipę · kod ekipy {0}. Pociągnij w dół, aby odświeżyć.
+655|Wygasa {0}
+656|Twoje wydatki · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Zrób zdjęcie ({0})
+659|Gotowe, {0}!
+660|📸  Zeskanuj {0}
+661|Dodaj {0} i zakończ
+662|Wynik {0}%. Zostaje tylko na tym telefonie.
+663|OSTATNIE WPISY ({0})
+664|KROK {0} Z 6
+665|Wygasł {0}
+666|Ważne do {0}
+667|{0} zapisano na tym urządzeniu.
+668|Usterki: {0}
+669|{0} i jego ekipa zostaną usunięci.
+670|{0} zostanie usunięty z kursu.
+671|{0} zostanie usunięty z Twojego Paszportu.
+672|{0} i jego zapisy zostaną usunięte.

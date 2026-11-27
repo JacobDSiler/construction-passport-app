@@ -1,4 +1,5 @@
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useRouter } from 'expo-router';
 import { Attribution, Button, Card, Pill, SectionLabel } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';

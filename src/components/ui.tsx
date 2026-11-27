@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, TextInputProps, View, ViewStyle } from 'react-native';
+import { Modal, Pressable, ScrollView, StyleSheet, TextInput, TextInputProps, View, ViewStyle } from 'react-native';
+import { Text } from './Text';
 import { colors, spacing } from '../theme';
 import { ATTRIBUTION_LINE, CTA_LINE } from '../lib/attribution';
+import { useI18n } from '../lib/i18n';
 
 export function Button({
   label,
@@ -73,10 +75,11 @@ export function Pill({ text, tone }: { text: string; tone: 'ok' | 'warn' | 'bad'
 }
 
 export function Field({ label, ...props }: { label: string } & TextInputProps) {
+  const { bi } = useI18n();
   return (
     <View style={{ gap: 6 }}>
       <Text style={styles.fieldLabel}>{label}</Text>
-      <TextInput placeholderTextColor="#9AA9B8" {...props} style={[styles.input, props.multiline && { minHeight: 90, textAlignVertical: 'top' }, props.style]} />
+      <TextInput placeholderTextColor="#9AA9B8" {...props} placeholder={props.placeholder ? bi(props.placeholder, ' / ') : props.placeholder} style={[styles.input, props.multiline && { minHeight: 90, textAlignVertical: 'top' }, props.style]} />
     </View>
   );
 }

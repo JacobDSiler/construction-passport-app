@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Alert, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Image, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { Attribution, Button, Card, Field, SectionLabel } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 import { useStore } from '../src/lib/store';

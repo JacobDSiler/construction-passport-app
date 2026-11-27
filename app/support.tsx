@@ -1,4 +1,5 @@
-import { Linking, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Linking, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { Button, Card } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 

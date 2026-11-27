@@ -1,0 +1,652 @@
+0|Cuadrilla
+1|Mi cuadrilla
+2|Mi pasaporte
+3|Compartir
+4|Compartir pasaporte
+5|Peligros
+6|Perfil
+7|No se pudo resolver
+8|Informe de peligro
+9|Marcar como resuelto
+10|Resuelto
+11|Por resolver
+12|INFORMES POR RESOLVER
+13|Nada por resolver ahora. Desliza hacia abajo para actualizar.
+14|RESUELTOS
+15|Aún no hay informes resueltos.
+16|Observa · Habla · Actúa · Marca la diferencia
+17|Tu empresa
+18|＋ Añadir un trabajador
+19|Aún no tienes cuadrilla
+20|Pide a un trabajador que abra Compartir en su aplicación y te diga el código de su pasaporte (6 caracteres). Pulsa «Añadir un trabajador», introdúcelo y verás aquí sus cualificaciones, que puedes aprobar.
+21|Gestionar obras
+22|Crea tus obras y comparte el código de cuadrilla para que las hojas de horas muestren las obras reales.
+23|Crear pasaportes de trabajadores
+24|Prepara las cualificaciones de un trabajador antes de que tenga la aplicación y luego envíale un código de canje.
+25|Gastos de la cuadrilla
+26|Ve los gastos de empresa enviados por tu cuadrilla.
+27|Hoja de trabajo
+28|Rellena la hoja de trabajo del día y expórtala a PDF.
+29|Diario de obra
+30|Registro diario: trabajos, cuadrilla en obra, entregas, retrasos y visitantes.
+31|Auditoría de obra
+32|Audita una obra con tus propios puntos. Conforme, no conforme o N/A, con los defectos anotados.
+33|Empresas que has creado
+34|Crea una empresa para un cliente o un probador y luego envíale un código de canje.
+35|Ayuda
+36|Líneas de ayuda gratuitas y confidenciales, incluida una creada para la construcción. A cualquier hora.
+37|ESTÁS USANDO COMO
+38|Empleador / Contratista
+39|Cambiar a trabajador
+40|Nombre de la empresa / organización
+41|Este nombre se registra cuando apruebas a un trabajador.
+42|Guardar
+43|Cerrar sesión
+44|Pasaporte
+45|Construction Passport
+46|Hoja de horas
+47|Inspecciones
+48|Acto seguro
+49|Condición insegura
+50|Acto inseguro
+51|Compañero de trabajo
+52|Supervisor
+53|Otro
+54|ELIGE UNA CATEGORÍA
+55|Guardado
+56|Exportar PDF
+57|Observación de peligro
+58|Categoría *
+59|💡 Sugerencia
+60|🪖 Marcar para la reunión de seguridad
+61|Marca el informe para que tu empleador lo trate en la próxima reunión de seguridad. El empleador decide cuándo y cómo.
+62|Foto
+63|📷 Hacer una foto
+64|Elegir de la galería
+65|Quitar
+66|Observación *
+67|¿Qué has notado? Describe con claridad.
+68|Cliente
+69|Proyecto
+70|Supervisor (coordinador HOC)
+71|Lugar / obra
+72|Nombre de quien informa
+73|Informar de forma anónima (nombre oculto en el PDF; permanece en este dispositivo para el registro)
+74|Departamento
+75|p. ej., Vallas, Trabajos de cimentación
+76|Trabajo detenido por
+77|Acción inmediata tomada
+78|p. ej., Zona acordonada e informado al supervisor
+79|Acción adicional necesaria
+80|p. ej., El electricista debe subir el cable
+81|Enviar observación de peligro
+82|Tus informes guardados
+83|Falló el PDF
+84|Eliminar
+85|Tu nombre
+86|Editar
+87|Añade tu nombre
+88|Añadir empleador
+89|Estado de cumplimiento
+90|Cualificaciones
+91|Añadir
+92|Aún no tienes cualificaciones. Pulsa Añadir para escanear el Safe Pass u otra cualificación en tu Pasaporte.
+93|Mostrar mi pasaporte (QR)
+94|Informar de un peligro
+95|Diario
+96|Semanal
+97|Mensual
+98|Defectos registrados
+99|Inspección guardada
+100|No lo uses hasta que se corrijan los defectos. ¿Exportar el informe de defectos?
+101|No se encontraron defectos.
+102|Sin inspeccionar
+103|Inspección pendiente
+104|Defectos informados
+105|Añade primero un vehículo
+106|Añade abajo tu furgoneta, excavadora o plataforma y luego haz una inspección.
+107|＋ Nueva inspección
+108|Maquinaria pequeña · Vehículo comercial ≥3,5 t — con informe de defectos en PDF
+109|Próximamente
+110|Las auditorías completas de seguridad de obra llegarán pronto.
+111|＋ Nueva auditoría de obra
+112|Auditoría completa de seguridad de obra — con puntuación, hallazgos, fotos e informe PDF
+113|Añadir un vehículo o máquina
+114|p. ej., Furgoneta Transit, excavadora de 3 t, plataforma MEWP
+115|Matrícula / n.º de máquina (opcional)
+116|Inspeccionarlo
+117|Añadirlo no lo marca como seguro — empieza como «sin inspeccionar» hasta que hagas una inspección.
+118|Aún no tienes vehículos ni máquinas. Añade arriba tu furgoneta, excavadora o plataforma para hacer inspecciones.
+119|Tus vehículos y máquinas
+120|Inspeccionar ahora
+121|Inspecciones anteriores
+122|Sin defectos
+123|¿Cuál?
+124|Defecto
+125|Describe el defecto
+126|Terminar inspección
+127|Guardado. Tu pasaporte, tal como está ahora, está guardado en tu cuenta.
+128|La contraseña debe tener al menos 6 caracteres.
+129|Cuenta creada. Confirma el correo que enviamos, luego inicia sesión y pulsa Guardar ahora.
+130|Cuenta creada y tu pasaporte está guardado.
+131|Sesión iniciada. Pulsa Guardar ahora para guardar este pasaporte.
+132|Guarda tu pasaporte
+133|Guarda en tu cuenta lo que hay ahora en este teléfono, para recuperarlo si cambias de teléfono. Guarda después de añadir cualificaciones.
+134|Sesión iniciada como
+135|Guardando…
+136|Guardar ahora
+137|Correo electrónico
+138|Contraseña
+139|Crear cuenta y guardar
+140|Ya tengo una cuenta
+141|Comparte primero el pasaporte
+142|Abre una vez la pestaña Compartir para que el empleador pueda encontrarte y luego vuelve a añadir el código de cuadrilla.
+143|No se pudo añadir la cuadrilla
+144|Trabajador
+145|Los roles de empleador y formador se reconstruyen después de la parte del trabajador.
+146|Cambiar
+147|Control de bienestar
+148|Una comprobación rápida y privada de cómo te sientes. Se queda en tu teléfono — nadie más la ve.
+149|Líneas de ayuda gratuitas y confidenciales — incluida una creada para la construcción. A cualquier hora.
+150|Nombre
+151|Oficio
+152|Teléfono
+153|Empleador
+154|Guardar perfil
+155|Tu perfil está guardado y el pasaporte compartido se actualizará.
+156|Tus cuadrillas (opcional)
+157|Añade cada cuadrilla para la que trabajas. La marcada «Activa» recibe las nuevas hojas de horas y gastos — pulsa otra para cambiar.
+158|Solicitado
+159|Unido
+160|· Activa
+161|Añadir un código de cuadrilla
+162|¿Tienes un código de canje?
+163|Si tu empleador creó tu pasaporte, introduce su código para rellenarlo automáticamente.
+164|Sugerencias de formación
+165|Permite que un empleador te sugiera cursos (por ejemplo, cuando una cualificación caduca). Siempre reservas tú — tus datos nunca se comparten sin tu consentimiento.
+166|Tu plan
+167|Suscrito.
+168|Segundo idioma, cursos de formación y acceso de certificador.
+169|Versión
+170|El código QR aparece cuando se comparte tu pasaporte.
+171|Muéstraselo a un contratista. Lo escanea con la cámara de cualquier teléfono — sin aplicación — para ver tu pasaporte, las fotos de tus certificados y confirmarte.
+172|Aún no se pudo compartir el pasaporte:
+173|Reintentar
+174|El pasaporte compartido está al día ✓
+175|Cualquier cambio — añadir, editar o eliminar una cualificación — se actualiza automáticamente. Solo lo ven las personas a las que se lo muestras.
+176|Dejar que el empleador añada certificados
+177|Permite que el empleador añada certificados a tu pasaporte. Tú mantienes el control — puedes desactivarlo en cualquier momento y eliminar todo lo que añada.
+178|👁 Ver como público
+179|🔗 Copiar
+180|Copiado
+181|El enlace de tu pasaporte está en el portapapeles.
+182|📤 Compartir mediante…
+183|📄 Guardar como PDF
+184|El enlace que abre el QR — pulsa para ver lo que ve un empleador
+185|Día
+186|Semana
+187|Mes
+188|Tu período gratuito de 90 días ha terminado
+189|La hoja de horas y las herramientas de trabajo cuestan
+190|EUR al mes o son gratis si tu empleador tiene suscripción. El Pasaporte y compartir siguen siendo gratis, siempre.
+191|En el trabajo
+192|En descanso
+193|Sin fichar
+194|Pulsa Iniciar turno cuando empieces a trabajar.
+195|Iniciar turno
+196|Volver
+197|Descanso
+198|Terminar turno
+199|Hoy:
+200|＋ Añadir o rellenar una entrada con fecha anterior
+201|Hoy
+202|Esta semana
+203|Aún no tienes horas esta semana. Pulsa Iniciar turno para empezar.
+204|Pulsa Buscar hoja de horas para ver cada día.
+205|Buscar hoja de horas
+206|Busca un día, semana o mes — ve las horas y exporta.
+207|Registrar un día libre
+208|Vacaciones, enfermedad, festivo, sin trabajo — registrado en la hoja de horas y con el empleador.
+209|Gastos
+210|Fotografía un recibo — envíalo al empleador o guárdalo en privado con exportación aparte.
+211|Rellena la hoja de trabajo del día y expórtala a PDF.
+212|📥 Exportar hoy…
+213|📄 Exportar esta semana (PDF)
+214|Tus horas llegan automáticamente al empleador una vez que le compartes el pasaporte.
+215|Iniciar turno — añade una nota (opcional)
+216|Nota
+217|p. ej., En obra, inicio con niebla — Puente 78
+218|Cancelar
+219|Exportar
+220|PDF (guardar, enviar por correo o compartir)
+221|Hoja de cálculo (CSV)
+222|Falló la exportación
+223|No hay entradas en este período.
+224|Inicio
+225|Fin
+226|Descansos
+227|Total trabajado
+228|📥 Exportar este período…
+229|📍 ubicación registrada
+230|Añadir una entrada
+231|Hora (24 h)
+232|¿Qué pasó?
+233|p. ej., Llegada a obra — Puente 78-06.00
+234|Añadir entrada
+235|Cursos
+236|Añadir trabajador
+237|Miembro de la cuadrilla
+238|Gestionar obras
+239|Gastos de la cuadrilla
+240|Cualificación
+241|Añadir cualificación
+242|Hoja de trabajo
+243|Código de canje
+244|Certificador
+245|Empresas
+246|Nuevo curso
+247|Curso
+248|Manipulación manual de cargas
+249|Trabajo en altura
+250|Primeros auxilios
+251|Discos abrasivos
+252|Espacios confinados
+253|Señalista / Guía de tráfico
+254|Concienciación sobre el amianto
+255|Seguridad contra incendios
+256|Carretilla elevadora
+257|¿Qué cualificación añades?
+258|Otra cosa
+259|p. ej., Certificado de fontanero
+260|Falta el código del pasaporte
+261|No se pudo certificar
+262|No se pudo revocar
+263|Nada pendiente de verificación.
+264|Certificar
+265|Revocar certificación
+266|Bien
+267|Difícil
+268|¿Cómo te sientes?
+269|Una comprobación rápida y privada. Se queda en tu teléfono — nadie más la ve.
+270|¿Algo te preocupa? (opcional)
+271|Guardar comprobación
+272|Tus comprobaciones recientes
+273|Código no encontrado. Compruébalo e inténtalo de nuevo.
+274|Cualificación
+275|Comprobando…
+276|Canjear pasaporte
+277|Falta el código de la empresa
+278|¿Eliminar la empresa?
+279|Esta empresa
+280|No se pudo eliminar
+281|Crea una empresa una sola vez y luego envíales un código de canje. Abren Construction Passport, eligen Empleador, introducen el código y su empresa y cuadrilla ya están ahí. Bueno para probadores que prefieren no complicarse con la configuración.
+282|＋ Crear una empresa nueva
+283|Aún no has creado ninguna empresa. Pulsa «Crear una empresa nueva» para empezar.
+284|Empresa
+285|Código de cuadrilla
+286|Copiar código de canje
+287|Eliminar empresa
+288|Introduce el nombre de la empresa.
+289|Crear una empresa nueva
+290|Recibirás un código de canje para enviar.
+291|Nombre de la empresa
+292|p. ej., Prime Peak Limited
+293|Oficio (opcional)
+294|p. ej., Trabajos de cimentación
+295|Guardando…
+296|Crear empresa
+297|¿Quitar al alumno?
+298|Este alumno
+299|No se pudo quitar
+300|Código del curso
+301|Nadie se ha inscrito aún. Los alumnos se inscriben con el código del curso.
+302|Alumno
+303|Respuesta de texto
+304|Sí / No
+305|Opción múltiple
+306|No se pudo cargar el curso
+307|Revisa la fecha
+308|Introduce la fecha como AAAA-MM-DD, p. ej., 2026-10-05.
+309|Nombre del curso
+310|Ponle un nombre al curso, p. ej., Safe Pass.
+311|El curso no se guardó.
+312|El curso se creó pero no volvió ningún código de inscripción. Revisa la lista de cursos.
+313|Curso creado
+314|No se pudo guardar
+315|p. ej., Safe Pass
+316|Proveedor de formación / instructor
+317|p. ej., SilerTech Training
+318|¿Qué cualificación renueva?
+319|(para poder sugerirlo a los trabajadores cuya cualificación caduca)
+320|¿Dónde se imparte?
+321|Lugar / dirección, ciudad, condado
+322|Datos de inscripción (enlace de reserva, teléfono o instrucciones)
+323|p. ej., https://… o llama al 01 234 5678
+324|Precio (opcional)
+325|Fechas de las sesiones
+326|Añade las fechas en que impartes este curso. Los trabajadores las ven y eligen una fecha.
+327|Fecha, AAAA-MM-DD (p. ej., 2026-10-05)
+328|Hora de inicio (opcional), p. ej., 09:00
+329|＋ Añadir una fecha
+330|Cuestionario previo al curso
+331|Preguntas que los alumnos responden al inscribirse. Opcional.
+332|Nueva pregunta
+333|Opciones, separadas por comas
+334|＋ Añadir una pregunta
+335|Mostrar en la búsqueda de cursos
+336|Cuando está activado, trabajadores y empleadores pueden encontrar este curso por distancia y fecha.
+337|Guardar curso
+338|Crear curso y obtener código de inscripción
+339|Tu empresa aún no tiene código. Configúrala de nuevo desde el Perfil.
+340|Código de pasaporte del trabajador
+341|6 caracteres
+342|El trabajador lo encuentra en la pestaña Compartir de su aplicación. Es el código corto al final del enlace del pasaporte, después de «?p=».
+343|Es
+344|Empleado
+345|Subcontratista
+346|Actualmente
+347|En la cuadrilla
+348|Fuera de la cuadrilla
+349|«Fuera de la cuadrilla» lo mantiene en la empresa sin estar en una cuadrilla hoy, útil para un subcontratista entre trabajos o alguien que visita obras.
+350|Añadiendo…
+351|Añadir a la cuadrilla
+352|No se pudo actualizar
+353|Gastos de la empresa
+354|Aún no se han enviado gastos de la empresa. Cuando un trabajador de tu cuadrilla añada un gasto de empresa, aparece aquí.
+355|Gasto
+356|Aprobar
+357|Rechazar
+358|No se pudo aprobar
+359|¿Quitar de la cuadrilla?
+360|Sigue en la aplicación; solo sale de la lista de tu cuadrilla.
+361|CUALIFICACIONES
+362|Aún no hay cualificaciones en este pasaporte.
+363|Sin fecha de caducidad registrada
+364|✓ Aprobado
+365|Aprobar a este trabajador
+366|Quitar de la cuadrilla
+367|Vacaciones
+368|Enfermedad
+369|Festivo
+370|Sin trabajo
+371|Tipo
+372|Nota (opcional)
+373|Registrar día libre
+374|Combustible
+375|Añadir un gasto
+376|🧾 Fotografiar un recibo
+377|Comercio
+378|Importe (€)
+379|Guardar gasto
+380|Aún no hay gastos.
+381|📄 Exportar gastos (PDF)
+382|Todos los gastos guardados
+383|El envío de gastos al empleador llegará pronto.
+384|Tus cualificaciones, siempre contigo. Crea una cuenta para que tu pasaporte quede guardado y nunca se pierda.
+385|Empezar
+386|Ya tengo una cuenta · Iniciar sesión
+387|Nueva hoja de trabajo
+388|Fecha
+389|Trabajo / n.º de ref.
+390|p. ej., Prime Management
+391|Obra / lugar
+392|p. ej., Puente 78, N4
+393|Trabajadores
+394|Nombre en el trabajo
+395|＋ Añadir un trabajador
+396|Maquinaria / equipo
+397|p. ej., Furgoneta TM, señalización, EPI
+398|＋ Añadir maquinaria / equipo
+399|Descripción de los trabajos
+400|Qué se hizo
+401|Materiales
+402|Materiales usados
+403|Fotos
+404|📷 Hacer una foto
+405|🖼️ Añadir desde la galería
+406|Tiempo trabajado
+407|Notas
+408|Cualquier otra cosa (retrasos, problemas)
+409|Firmado por
+410|📄 Guardar y exportar PDF
+411|Hojas de trabajo guardadas
+412|Esta es una primera versión — mándame tu hoja habitual y la hago idéntica.
+413|Sesión iniciada, pero esta cuenta aún no tiene un pasaporte guardado. Elige quién eres para continuar.
+414|Bienvenido de nuevo
+415|Inicia sesión para traer tu pasaporte a este teléfono.
+416|tu@ejemplo.com
+417|Tu contraseña
+418|Iniciando sesión…
+419|Iniciar sesión
+420|Crea el pasaporte de un trabajador antes de que tenga la aplicación. Añade su nombre, oficio y cualificaciones y luego envíale el código de canje. Cuando instale la aplicación y lo introduzca, todo aparece.
+421|Código de canje para el trabajador
+422|Copiar código
+423|NUEVO TRABAJADOR
+424|Nombre del trabajador
+425|Crear pasaporte y obtener código
+426|CREADOS HASTA AHORA
+427|Aún no has creado pasaportes.
+428|Cualificación no encontrada.
+429|Se necesita permiso
+430|Permite el acceso a las fotos para elegir una imagen de tu cualificación.
+431|Permite el acceso a la cámara para fotografiar tu cualificación.
+432|No se pudo añadir la foto
+433|¿Eliminar esta cualificación?
+434|Certificado — anverso
+435|Certificado — reverso (opcional)
+436|Pulsa para ampliar
+437|🖼️ Elegir de la galería
+438|Nombre de la cualificación
+439|⚠ Sin fecha de caducidad registrada
+440|Caduca (mes y año)
+441|Año
+442|Fecha de emisión (mes y año)
+443|Estado
+444|Verificado
+445|Pendiente
+446|Declarado por ti
+447|Smart Scan recorta la cualificación recta. Hacer una foto usa la cámara normal. Cualquier cambio aquí actualiza automáticamente el pasaporte compartido.
+448|Eliminar esta cualificación
+449|Soy trabajador
+450|Guarda mi Safe Pass, cualificaciones y formación en un solo lugar.
+451|Dirijo una cuadrilla o empresa
+452|Ve las cualificaciones de mi cuadrilla y gestiona los documentos de obra.
+453|Soy proveedor de formación
+454|Organiza cursos, recopila los datos y cuestionarios de los alumnos y publica certificados.
+455|‹ Atrás
+456|Primero — ¿quién eres?
+457|Puedes cambiarlo más tarde.
+458|¿Ya tienes cuenta? Iniciar sesión
+459|Soy certificador · Tengo un código
+460|¿No eres tú? Cerrar sesión
+461|Inicio de sesión de certificador
+462|Introduce el código de certificador que recibiste. Te permite verificar y certificar pasaportes.
+463|Código de certificador
+464|Tu código
+465|Iniciar sesión
+466|Introduce el código de canje que recibiste.
+467|Código de canje no encontrado.
+468|Mi empresa
+469|Introduce el nombre de tu empresa.
+470|¿Cómo se llama tu empresa?
+471|Introduce el código de canje de la empresa
+472|Este es el nombre que se muestra cuando confirmas a un trabajador.
+473|Alguien ya creó tu empresa, así que introduce el código que te dieron.
+474|Código de canje de la empresa
+475|p. ej., ABC123
+476|Correo electrónico (para que tu pasaporte quede guardado)
+477|Al menos 6 caracteres
+478|Procesando…
+479|Continuar
+480|¿Alguien ya creó nuestra empresa? Introduce un código de canje →
+481|← Crear en su lugar una empresa nueva
+482|Tu pasaporte está listo. Puedes añadir detalles, compartirlo o añadir más cualificaciones en cualquier momento.
+483|Ver mi pasaporte
+484|Añade tu foto
+485|Una foto clara de tu cara aparece en la primera página del pasaporte, para que cualquiera que lo reciba vea enseguida que eres tú.
+486|📷 Hacerme la foto
+487|Hazme la foto
+488|Más tarde
+489|Omitir por ahora
+490|Casi todo trabajador necesita un Safe Pass válido para entrar en una obra en Irlanda. Escanea el anverso de la tarjeta, el reverso y añade la fecha de caducidad.
+491|El otro que piden casi todas las obras. Escanea ambas caras del certificado de manipulación manual de cargas y añade la fecha de caducidad.
+492|Anverso de la tarjeta
+493|Reverso (si lo tiene)
+494|Caduca (mes y año, opcional)
+495|Fecha de emisión (mes y año, opcional)
+496|Escanear tarjeta
+497|No lo tengo / omitir por ahora
+498|Otra cualificación
+499|¿Otras cualificaciones?
+500|Pulsa una para añadirla. Añade las que quieras — o sáltalo y añade más tarde.
+501|Introduce el nombre de tu empresa de formación.
+502|¿Cómo se llama tu empresa de formación?
+503|Se muestra a los alumnos cuando se unen a tus cursos.
+504|Introduce tu nombre.
+505|Código de canje no encontrado. Compruébalo o vacía el campo para continuar sin código.
+506|PASO 1 DE 6
+507|Crea tu pasaporte
+508|Tu nombre aparece arriba. Si tu empleador ya creó tu pasaporte, introduce su código de canje y lo rellenamos.
+509|p. ej., Juan Pérez
+510|Tu oficio
+511|p. ej., Electricista
+512|Código de canje (opcional)
+513|Del empleador, si tienes uno
+514|Preparando…
+515|Conforme
+516|No conforme
+517|Añadir un punto
+518|Describe al menos una cosa observada.
+519|Cada punto marcado No conforme necesita una descripción del defecto.
+520|Auditoría guardada
+521|Nombre de la obra
+522|Obra / zona
+523|Lugar
+524|Dirección o ciudad
+525|Tiempo
+526|p. ej., Seco, ventoso
+527|PUNTOS
+528|Punto
+529|Describe los defectos encontrados (obligatorio si marcaste un defecto)
+530|Subir
+531|Bajar
+532|＋ Añadir el siguiente punto
+533|Puntuación hasta ahora:
+534|Guardar auditoría
+535|＋ Nueva auditoría
+536|Auditorías anteriores
+537|Aún no hay auditorías.
+538|Auditoría
+539|· Puntuación
+540|Diario guardado
+541|Se queda solo en este teléfono.
+542|Diario de obra
+543|p. ej., Puente 78, obra sur
+544|p. ej., Seco, frío, inicio con niebla
+545|Cuadrilla en obra
+546|p. ej., Alfie, Oisin, Sam
+547|Trabajos realizados
+548|Qué se hizo hoy
+549|Entregas
+550|Materiales / equipo entregados
+551|Retrasos / problemas
+552|Cualquier cosa que detuvo el trabajo
+553|Visitantes
+554|Visitantes / inspecciones en obra
+555|Cualquier otra cosa para el registro
+556|Guardar entrada del diario
+557|Aún no hay entradas.
+558|Retrasos:
+559|EL CÓDIGO DE TU CUADRILLA
+560|Dáselo a tus trabajadores. Cuando lo introducen, su hoja de horas muestra tus obras.
+561|TUS OBRAS
+562|Aún no tienes obras. Añade la primera abajo.
+563|AÑADIR UNA OBRA
+564|Ubicación (dirección o código postal, opcional)
+565|Añadir obra
+566|Una ubicación aquí activará pronto la función del tiempo de la obra.
+567|No estás solo.
+568|Todo es gratuito, confidencial y está disponible a cualquier hora. Nada de lo que pulses aquí se rastrea ni se comparte con nadie.
+569|Creada para la construcción — también para problemas de dinero. Gratis, 24/7, para cualquiera en obra.
+570|Llamar al 1800 939 122
+571|Enviar HARDHAT al 50808
+572|Sea lo que sea que te pese, a cualquier hora. Gratis, 24/7.
+573|Llamar al 116 123
+574|Si piensas en hacerte daño o te preocupa alguien. Gratis, 24/7.
+575|Llamar al 1800 247 247
+576|Enviar HELP al 51444
+577|¿Prefieres un mensaje a una llamada? Responde un voluntario formado. Gratis, 24/7.
+578|Enviar HELLO al 50808
+579|Esto es una indicación de dónde buscar ayuda, no un servicio médico — si hay una vida en peligro, llama al 112 o al 999.
+580|Para el día a día, Wysa es una aplicación gratuita de autoayuda (TCC/TDC) — útil entre momentos difíciles, pero no para emergencias.
+581|¿En peligro ahora mismo? Llama al 112 o al 999
+582|Pulsa para llamar al 112
+583|¿Eliminar el curso?
+584|Este curso
+585|Tu empresa de formación
+586|＋ Nuevo curso
+587|Aún no hay cursos
+588|Crea un curso, fija un cuestionario previo y comparte el código de inscripción con los alumnos. Se inscriben, dan la dirección postal para el certificado y responden a tus preguntas. Lo ves todo aquí.
+589|Eliminar curso
+590|Usar como trabajador
+591|Idioma
+592|Mostrar un segundo idioma junto al inglés
+593|Solo inglés
+594|El inglés siempre permanece en pantalla, para que tu cuadrilla y tus jefes puedan leer contigo.
+595|Cerrar ✕
+615|Inicia sesión o crea primero una cuenta.
+618|Código de certificador no reconocido.
+619|Sin caducidad
+620|Acción necesaria
+621|Caduca pronto
+622|Totalmente conforme
+623|Permite el acceso a las fotos para elegir una imagen.
+624|Permite el acceso a la cámara para hacer una foto.
+625|Sugerencia
+626|Herramientas
+627|Comida
+628|Viaje
+629|Alojamiento
+630|Neumáticos y ruedas
+631|Luces y señalización
+632|Frenos
+633|Aceite y fluidos
+634|Espejos y cristales
+635|Claxon y dispositivos de aviso
+636|Cinturones de seguridad / sistemas de retención
+637|Extintor / botiquín de primeros auxilios
+638|Revisión de daños
+639|Carga asegurada / seguro para usar
+640|Inicio de turno
+641|Fin de turno
+642|Día libre
+643|🔴 {0} caducado  
+644|🟠 {0} caduca  
+645|Inspeccionar: {0}
+646|Período gratuito: quedan {0} días, con todo incluido. Después el Pasaporte sigue siendo gratis; la hoja de horas y las herramientas de trabajo cuestan {1} EUR al mes (o son gratis si tu empleador tiene suscripción).
+647|Tu período gratuito ha terminado. El Pasaporte y compartir son gratis; la hoja de horas y las herramientas de trabajo cuestan {0} EUR al mes.
+648|Semana del {0}
+649|PASAPORTES POR VERIFICAR ({0})
+650|Hecho. Tu pasaporte se ha rellenado{0}.
+651|ALUMNOS ({0})
+652|Código de inscripción: {0}\nDáselo a tus alumnos.
+653|Opciones · {0}
+654|Enviado por tu cuadrilla · código de cuadrilla {0}. Desliza hacia abajo para actualizar.
+655|Caduca {0}
+656|Tus gastos · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Hacer una foto ({0})
+659|¡Listo, {0}!
+660|📸  Escanear {0}
+661|Añadir {0} y terminar
+662|Puntuación {0}%. Se queda solo en este teléfono.
+663|ENTRADAS RECIENTES ({0})
+664|PASO {0} DE 6
+665|Caducó {0}
+666|Válido hasta {0}
+667|{0} está guardado en este dispositivo.
+668|{0} defecto(s)
+669|{0} y su cuadrilla serán eliminados.
+670|{0} será quitado del curso.
+671|{0} será quitado de tu Pasaporte.
+672|{0} y sus inscripciones serán eliminados.

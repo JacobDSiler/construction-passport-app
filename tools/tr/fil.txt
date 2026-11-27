@@ -1,0 +1,652 @@
+0|Pangkat
+1|Aking Pangkat
+2|Aking Pasaporte
+3|Ibahagi
+4|Ibahagi ang pasaporte
+5|Mga Panganib
+6|Profile
+7|Hindi nalutas
+8|Ulat ng panganib
+9|Markahan bilang nalutas
+10|Nalutas
+11|Dapat lutasin
+12|MGA ULAT NA DAPAT LUTASIN
+13|Walang kailangang lutasin ngayon. Hilahin pababa para mag-refresh.
+14|NALUTAS
+15|Wala pang nalutas na ulat.
+16|Pansinin · Magsalita · Kumilos · Magbago
+17|Ang iyong kumpanya
+18|＋ Magdagdag ng manggagawa
+19|Wala ka pang pangkat
+20|Hilingin sa isang manggagawa na buksan ang Ibahagi sa kanyang app at sabihin sa iyo ang code ng pasaporte niya (6 na karakter). I-tap ang “Magdagdag ng manggagawa”, ilagay ito, at makikita mo rito ang mga kwalipikasyon niya na maaari mong aprubahan.
+21|Pamahalaan ang mga site
+22|Gumawa ng iyong mga site at ibahagi ang code ng pangkat para ipakita ng mga timesheet ang tunay na mga site.
+23|Gumawa ng pasaporte para sa mga manggagawa
+24|Ihanda ang mga kwalipikasyon ng manggagawa bago pa siya magkaroon ng app, saka padalhan siya ng claim code.
+25|Mga gastos ng pangkat
+26|Tingnan ang mga gastos ng kumpanya na ipinadala ng iyong pangkat.
+27|Job sheet
+28|Punan ang job sheet ng araw at i-export bilang PDF.
+29|Site diary
+30|Pang-araw-araw na log: trabaho, pangkat sa site, mga delivery, pagkaantala at mga bisita.
+31|Site audit
+32|Mag-audit ng site gamit ang sarili mong mga punto. Pasado, bagsak o N/A, na may nakatalang mga depekto.
+33|Mga kumpanyang ginawa mo
+34|Gumawa ng kumpanya para sa kliyente o tester, saka padalhan sila ng claim code.
+35|Suporta
+36|Libre at kumpidensyal na mga helpline, kasama ang isang ginawa para sa konstruksyon. Anumang oras.
+37|GINAGAMIT MO BILANG
+38|Employer / Kontratista
+39|Lumipat sa manggagawa
+40|Pangalan ng kumpanya / organisasyon
+41|Naitatala ang pangalang ito kapag inaprubahan mo ang isang manggagawa.
+42|I-save
+43|Mag-sign out
+44|Pasaporte
+45|Construction Passport
+46|Timesheet
+47|Mga inspeksyon
+48|Ligtas na kilos
+49|Hindi ligtas na kondisyon
+50|Hindi ligtas na kilos
+51|Katrabaho
+52|Superbisor
+53|Iba pa
+54|PUMILI NG KATEGORYA
+55|Na-save
+56|I-export ang PDF
+57|Obserbasyon sa panganib
+58|Kategorya *
+59|💡 Mungkahi
+60|🪖 Markahan para sa safety meeting
+61|Markahan ang ulat para mapag-usapan ito ng employer mo sa susunod na safety meeting. Ang employer ang magpapasya kung kailan at paano.
+62|Larawan
+63|📷 Kumuha ng larawan
+64|Pumili mula sa gallery
+65|Alisin
+66|Obserbasyon *
+67|Ano ang napansin mo? Ilarawan nang malinaw.
+68|Kliyente
+69|Proyekto
+70|Superbisor (HOC coordinator)
+71|Lugar / site
+72|Pangalan ng nag-uulat
+73|Mag-ulat nang anonymous (nakatago ang pangalan sa PDF; nananatili sa device na ito bilang rekord)
+74|Departamento
+75|hal. Mga bakod, Gawaing pundasyon
+76|Trabahong itinigil ni
+77|Agarang aksyong ginawa
+78|hal. Nilagyan ng harang ang lugar at ipinaalam sa superbisor
+79|Karagdagang aksyong kailangan
+80|hal. Dapat itaas ng electrician ang kable
+81|Ipadala ang obserbasyon sa panganib
+82|Ang mga na-save mong ulat
+83|Nabigo ang PDF
+84|Burahin
+85|Ang pangalan mo
+86|I-edit
+87|Idagdag ang pangalan mo
+88|Magdagdag ng employer
+89|Katayuan ng pagsunod
+90|Mga kwalipikasyon
+91|Idagdag
+92|Wala ka pang mga kwalipikasyon. I-tap ang Idagdag para i-scan ang Safe Pass o iba pang kwalipikasyon sa iyong Pasaporte.
+93|Ipakita ang pasaporte ko (QR)
+94|Mag-ulat ng panganib
+95|Araw-araw
+96|Lingguhan
+97|Buwanan
+98|Mga naitalang depekto
+99|Na-save ang inspeksyon
+100|Huwag gamitin hangga’t hindi naaayos ang mga depekto. I-export ang ulat ng mga depekto?
+101|Walang nakitang depekto.
+102|Hindi pa nainspeksyon
+103|Kailangan nang inspeksyunin
+104|Mga naiulat na depekto
+105|Magdagdag muna ng sasakyan
+106|Idagdag sa ibaba ang iyong van, excavator o platform, saka mag-inspeksyon.
+107|＋ Bagong inspeksyon
+108|Maliit na makinarya · Komersyal na sasakyan ≥3.5 t — may ulat ng depekto sa PDF
+109|Malapit na
+110|Malapit nang dumating ang buong site safety audit.
+111|＋ Bagong site audit
+112|Buong site safety audit — may puntos, mga natuklasan, mga larawan at PDF na ulat
+113|Magdagdag ng sasakyan o makina
+114|hal. Transit van, 3 t na excavator, MEWP platform
+115|Plaka / numero ng makina (opsyonal)
+116|Inspeksyunin
+117|Hindi nangangahulugang ligtas ito dahil naidagdag — nagsisimula itong “hindi pa nainspeksyon” hanggang makapag-inspeksyon ka.
+118|Wala ka pang mga sasakyan o makina. Idagdag sa itaas ang iyong van, excavator o platform para makapag-inspeksyon.
+119|Mga sasakyan at makina mo
+120|Inspeksyunin ngayon
+121|Mga nakaraang inspeksyon
+122|Walang depekto
+123|Alin?
+124|Depekto
+125|Ilarawan ang depekto
+126|Tapusin ang inspeksyon
+127|Na-save. Ang pasaporte mo, sa kasalukuyang anyo, ay nakasave sa iyong account.
+128|Dapat hindi bababa sa 6 na karakter ang password.
+129|Nagawa ang account. Kumpirmahin ang email na ipinadala namin, saka mag-sign in at i-tap ang I-save ngayon.
+130|Nagawa ang account at na-save ang pasaporte mo.
+131|Naka-sign in. I-tap ang I-save ngayon para i-save ang pasaporteng ito.
+132|I-save ang pasaporte mo
+133|I-save sa account mo kung ano ang nasa teleponong ito ngayon, para maibalik mo kapag nagpalit ka ng telepono. I-save pagkatapos magdagdag ng mga kwalipikasyon.
+134|Naka-sign in bilang
+135|Sine-save…
+136|I-save ngayon
+137|Email
+138|Password
+139|Gumawa ng account at i-save
+140|May account na ako
+141|Ibahagi muna ang pasaporte
+142|Buksan nang isang beses ang tab na Ibahagi para mahanap ka ng employer, saka idagdag muli ang code ng pangkat.
+143|Hindi maidagdag ang pangkat
+144|Manggagawa
+145|Muling ginagawa ang mga tungkulin ng employer at tagapagsanay pagkatapos ng bahagi ng manggagawa.
+146|Lumipat
+147|Pagsusuri ng kalagayan
+148|Mabilis at pribadong pagsusuri kung ano ang pakiramdam mo. Nananatili ito sa telepono mo — walang ibang nakakakita.
+149|Libre at kumpidensyal na mga helpline — kasama ang isang ginawa para sa konstruksyon. Anumang oras.
+150|Pangalan
+151|Trabaho
+152|Telepono
+153|Employer
+154|I-save ang profile
+155|Na-save ang profile mo at maa-update ang naibahaging pasaporte.
+156|Ang mga pangkat mo (opsyonal)
+157|Idagdag ang bawat pangkat na pinagtatrabahuhan mo. Ang may markang “Aktibo” ang tumatanggap ng bagong timesheet at gastos — i-tap ang iba para lumipat.
+158|Hiniling
+159|Sumali na
+160|· Aktibo
+161|Magdagdag ng code ng pangkat
+162|May claim code ka ba?
+163|Kung ginawa ng employer mo ang pasaporte mo, ilagay ang code niya para awtomatikong mapunan ito.
+164|Mga mungkahi sa pagsasanay
+165|Payagan ang employer na magmungkahi ng mga kurso (halimbawa kapag mag-e-expire ang kwalipikasyon). Ikaw pa rin ang laging nagbu-book — hindi kailanman ibinabahagi ang data mo nang walang pahintulot mo.
+166|Ang plano mo
+167|Naka-subscribe.
+168|Pangalawang wika, mga kurso sa pagsasanay at access ng tagapagpatunay.
+169|Bersyon
+170|Lalabas ang QR code kapag naibahagi na ang pasaporte mo.
+171|Ipakita ito sa kontratista. I-scan nila ito gamit ang camera ng kahit anong telepono — walang app — para makita ang pasaporte mo, mga larawan ng sertipiko at makumpirma ka.
+172|Hindi pa maibahagi ang pasaporte:
+173|Subukan muli
+174|Napapanahon ang naibahaging pasaporte ✓
+175|Anumang pagbabago — pagdaragdag, pag-edit o pagbura ng kwalipikasyon — awtomatikong nag-a-update. Ang mga taong pinapakitaan mo lang ang makakakita nito.
+176|Hayaang magdagdag ng sertipiko ang employer
+177|Payagan ang employer na magdagdag ng mga sertipiko sa pasaporte mo. Ikaw pa rin ang may kontrol — maaari mo itong patayin anumang oras at burahin ang anumang idinagdag niya.
+178|👁 Tingnan bilang publiko
+179|🔗 Kopyahin
+180|Nakopya
+181|Nasa clipboard ang link ng pasaporte mo.
+182|📤 Ibahagi sa pamamagitan ng…
+183|📄 I-save bilang PDF
+184|Ang link na binubuksan ng QR — i-tap para makita ang nakikita ng employer
+185|Araw
+186|Linggo
+187|Buwan
+188|Tapos na ang 90-araw mong libreng panahon
+189|May bayad ang timesheet at mga kasangkapan sa trabaho na
+190|EUR bawat buwan o libre kung may subscription ang employer mo. Mananatiling libre ang Pasaporte at pagbabahagi, palagi.
+191|Nasa trabaho
+192|Nagpapahinga
+193|Hindi naka-clock in
+194|I-tap ang Simulan ang shift kapag nagsimula ka nang magtrabaho.
+195|Simulan ang shift
+196|Bumalik
+197|Pahinga
+198|Tapusin ang shift
+199|Ngayon:
+200|＋ Magdagdag o punan ang entry na nakaraang petsa
+201|Ngayon
+202|Ngayong linggo
+203|Wala ka pang oras ngayong linggo. I-tap ang Simulan ang shift para magsimula.
+204|I-tap ang Hanapin ang timesheet para makita ang bawat araw.
+205|Hanapin ang timesheet
+206|Maghanap ng araw, linggo o buwan — tingnan ang mga oras at i-export.
+207|Itala ang day off
+208|Bakasyon, sakit, pampublikong holiday, walang trabaho — naitala sa timesheet at sa employer.
+209|Mga gastos
+210|Kuhanan ng larawan ang resibo — ipadala sa employer o itago nang pribado na may hiwalay na export.
+211|Punan ang job sheet ng araw at i-export bilang PDF.
+212|📥 I-export ang ngayong araw…
+213|📄 I-export ang linggong ito (PDF)
+214|Awtomatikong nakararating sa employer ang mga oras mo kapag naibahagi mo na sa kanya ang pasaporte.
+215|Simulan ang shift — magdagdag ng tala (opsyonal)
+216|Tala
+217|hal. Nasa site, nagsimula sa hamog — Tulay 78
+218|Kanselahin
+219|I-export
+220|PDF (i-save, i-email o ibahagi)
+221|Spreadsheet (CSV)
+222|Nabigo ang export
+223|Walang entry sa panahong ito.
+224|Simula
+225|Tapos
+226|Mga pahinga
+227|Kabuuang nagtrabaho
+228|📥 I-export ang panahong ito…
+229|📍 naitala ang lokasyon
+230|Magdagdag ng entry
+231|Oras (24h)
+232|Ano ang nangyari?
+233|hal. Dumating sa site — Tulay 78-06.00
+234|Idagdag ang entry
+235|Mga kurso
+236|Magdagdag ng manggagawa
+237|Miyembro ng pangkat
+238|Pamahalaan ang mga site
+239|Mga gastos ng pangkat
+240|Kwalipikasyon
+241|Magdagdag ng kwalipikasyon
+242|Job sheet
+243|Claim code
+244|Tagapagpatunay
+245|Mga kumpanya
+246|Bagong kurso
+247|Kurso
+248|Manu-manong pagbubuhat
+249|Trabaho sa mataas na lugar
+250|Pangunang lunas
+251|Abrasive wheels
+252|Mga saradong espasyo
+253|Signaller / Gabay sa trapiko
+254|Kamalayan sa asbestos
+255|Kaligtasan sa sunog
+256|Forklift
+257|Anong kwalipikasyon ang idinaragdag mo?
+258|Iba pa
+259|hal. Sertipiko ng tubero
+260|Kulang ang code ng pasaporte
+261|Hindi mapatunayan
+262|Hindi mapawalang-bisa
+263|Walang naghihintay na beripikasyon.
+264|Patunayan
+265|Bawiin ang patunay
+266|Maayos
+267|Mahirap
+268|Kumusta ang pakiramdam mo?
+269|Mabilis at pribadong pagsusuri. Nananatili ito sa telepono mo — walang ibang nakakakita.
+270|May bumabagabag ba sa iyo? (opsyonal)
+271|I-save ang pagsusuri
+272|Ang mga kamakailang pagsusuri mo
+273|Hindi nakita ang code. Suriin ito at subukan muli.
+274|Kwalipikasyon
+275|Sinusuri…
+276|Kunin ang pasaporte
+277|Kulang ang code ng kumpanya
+278|Burahin ang kumpanya?
+279|Ang kumpanyang ito
+280|Hindi mabura
+281|Gumawa ng kumpanya nang isang beses, saka padalhan sila ng claim code. Bubuksan nila ang Construction Passport, pipiliin ang Employer, ilalagay ang code, at naroon na ang kumpanya at pangkat nila. Maganda para sa mga tester na ayaw nang mag-abala sa setup.
+282|＋ Gumawa ng bagong kumpanya
+283|Wala ka pang nagawang kumpanya. I-tap ang “Gumawa ng bagong kumpanya” para magsimula.
+284|Kumpanya
+285|Code ng pangkat
+286|Kopyahin ang claim code
+287|Burahin ang kumpanya
+288|Ilagay ang pangalan ng kumpanya.
+289|Gumawa ng bagong kumpanya
+290|Makakakuha ka ng claim code na maipapadala.
+291|Pangalan ng kumpanya
+292|hal. Prime Peak Limited
+293|Trabaho (opsyonal)
+294|hal. Gawaing pundasyon
+295|Sine-save…
+296|Gawin ang kumpanya
+297|Alisin ang nagsasanay?
+298|Ang nagsasanay na ito
+299|Hindi maalis
+300|Code ng kurso
+301|Wala pang nag-enrol. Nag-eenrol ang mga nagsasanay gamit ang code ng kurso.
+302|Nagsasanay
+303|Sagot na teksto
+304|Oo / Hindi
+305|Maramihang pagpipilian
+306|Hindi ma-load ang kurso
+307|Suriin ang petsa
+308|Ilagay ang petsa bilang TTTT-BB-AA, hal. 2026-10-05.
+309|Pangalan ng kurso
+310|Bigyan ng pangalan ang kurso, hal. Safe Pass.
+311|Hindi na-save ang kurso.
+312|Nagawa ang kurso pero walang bumalik na enrolment code. Tingnan ang listahan ng mga kurso.
+313|Nagawa ang kurso
+314|Hindi ma-save
+315|hal. Safe Pass
+316|Tagapagbigay ng pagsasanay / instruktor
+317|hal. SilerTech Training
+318|Anong kwalipikasyon ang nire-renew nito?
+319|(para maimungkahi namin ito sa mga manggagawang mag-e-expire na ang kwalipikasyon)
+320|Saan ito ginaganap?
+321|Lugar / address, lungsod, county
+322|Detalye ng pag-enrol (link ng booking, telepono o panuto)
+323|hal. https://… o tumawag sa 01 234 5678
+324|Presyo (opsyonal)
+325|Mga petsa ng sesyon
+326|Idagdag ang mga petsang idinaraos mo ang kursong ito. Makikita ito ng mga manggagawa at pipili ng petsa.
+327|Petsa, TTTT-BB-AA (hal. 2026-10-05)
+328|Oras ng simula (opsyonal), hal. 09:00
+329|＋ Magdagdag ng petsa
+330|Talatanungan bago ang kurso
+331|Mga tanong na sinasagot ng mga nagsasanay kapag nag-enrol. Opsyonal.
+332|Bagong tanong
+333|Mga pagpipilian, pinaghihiwalay ng kuwit
+334|＋ Magdagdag ng tanong
+335|Ilista sa paghahanap ng kurso
+336|Kapag naka-on, mahahanap ng mga manggagawa at employer ang kursong ito ayon sa layo at petsa.
+337|I-save ang kurso
+338|Gawin ang kurso at kunin ang enrolment code
+339|Wala pang code ang kumpanya mo. I-set up itong muli mula sa Profile.
+340|Code ng pasaporte ng manggagawa
+341|6 na karakter
+342|Makikita ito ng manggagawa sa tab na Ibahagi ng kanyang app. Ito ang maikling code sa dulo ng link ng pasaporte, pagkatapos ng “?p=”.
+343|Ay
+344|Empleyado
+345|Subcontractor
+346|Sa kasalukuyan
+347|Nasa pangkat
+348|Wala sa pangkat
+349|Pinananatili siya ng “Wala sa pangkat” sa kumpanya nang hindi nasa pangkat ngayon, kapaki-pakinabang para sa subcontractor sa pagitan ng mga trabaho o bumibisita sa mga site.
+350|Idinaragdag…
+351|Idagdag sa pangkat
+352|Hindi ma-update
+353|Mga gastos ng kumpanya
+354|Wala pang naipadalang gastos ng kumpanya. Kapag nagdagdag ang manggagawa sa pangkat mo ng gastos ng kumpanya, lalabas ito rito.
+355|Gastos
+356|Aprubahan
+357|Tanggihan
+358|Hindi maaprubahan
+359|Alisin sa pangkat?
+360|Nananatili siya sa app; aalis lang sa listahan ng pangkat mo.
+361|MGA KWALIPIKASYON
+362|Wala pang mga kwalipikasyon sa pasaporteng ito.
+363|Walang naitalang petsa ng pag-expire
+364|✓ Naaprubahan
+365|Aprubahan ang manggagawang ito
+366|Alisin sa pangkat
+367|Bakasyon
+368|Sakit
+369|Pampublikong holiday
+370|Walang trabaho
+371|Uri
+372|Tala (opsyonal)
+373|Itala ang day off
+374|Gasolina
+375|Magdagdag ng gastos
+376|🧾 Kuhanan ng larawan ang resibo
+377|Nagbebenta
+378|Halaga (€)
+379|I-save ang gastos
+380|Wala pang gastos.
+381|📄 I-export ang mga gastos (PDF)
+382|Lahat ng na-save na gastos
+383|Malapit nang dumating ang pagpapadala ng mga gastos sa employer.
+384|Ang mga kwalipikasyon mo, laging nasa iyo. Gumawa ng account para ma-save ang pasaporte mo at hindi na mawala.
+385|Magsimula
+386|May account na ako · Mag-sign in
+387|Bagong job sheet
+388|Petsa
+389|Trabaho / ref. blg.
+390|hal. Prime Management
+391|Site / lugar
+392|hal. Tulay 78, N4
+393|Mga manggagawa
+394|Pangalan sa trabaho
+395|＋ Magdagdag ng manggagawa
+396|Makinarya / kagamitan
+397|hal. TM van, signage, PPE
+398|＋ Magdagdag ng makinarya / kagamitan
+399|Paglalarawan ng trabaho
+400|Ano ang natapos
+401|Mga materyales
+402|Mga materyales na ginamit
+403|Mga larawan
+404|📷 Kumuha ng larawan
+405|🖼️ Idagdag mula sa gallery
+406|Oras na nagtrabaho
+407|Mga tala
+408|Anupamang iba pa (mga pagkaantala, problema)
+409|Nilagdaan ni
+410|📄 I-save at i-export ang PDF
+411|Mga na-save na job sheet
+412|Unang bersyon ito — ipadala sa akin ang karaniwan mong sheet at gagawin kong kapareho.
+413|Naka-sign in, pero wala pang na-save na pasaporte ang account na ito. Piliin kung sino ka para magpatuloy.
+414|Maligayang pagbabalik
+415|Mag-sign in para dalhin ang pasaporte mo sa teleponong ito.
+416|ikaw@halimbawa.com
+417|Ang password mo
+418|Nagsa-sign in…
+419|Mag-sign in
+420|Gumawa ng pasaporte ng manggagawa bago pa siya magkaroon ng app. Idagdag ang pangalan, trabaho at mga kwalipikasyon niya, saka ipadala ang claim code. Kapag in-install niya ang app at inilagay ito, lalabas ang lahat.
+421|Claim code para sa manggagawa
+422|Kopyahin ang code
+423|BAGONG MANGGAGAWA
+424|Pangalan ng manggagawa
+425|Gawin ang pasaporte at kunin ang code
+426|MGA NAGAWA NA
+427|Wala ka pang nagawang pasaporte.
+428|Hindi nakita ang kwalipikasyon.
+429|Kailangan ng pahintulot
+430|Payagan ang access sa mga larawan para pumili ng larawan ng kwalipikasyon mo.
+431|Payagan ang access sa camera para kuhanan ng larawan ang kwalipikasyon mo.
+432|Hindi maidagdag ang larawan
+433|Burahin ang kwalipikasyong ito?
+434|Sertipiko — harap
+435|Sertipiko — likod (opsyonal)
+436|I-tap para palakihin
+437|🖼️ Pumili mula sa gallery
+438|Pangalan ng kwalipikasyon
+439|⚠ Walang naitalang petsa ng pag-expire
+440|Mag-e-expire (buwan at taon)
+441|Taon
+442|Petsa ng pag-isyu (buwan at taon)
+443|Katayuan
+444|Napatunayan
+445|Nakabinbin
+446|Idineklara mo
+447|Diretsong ginugupit ng Smart Scan ang kwalipikasyon. Ang Kumuha ng larawan ay gumagamit ng karaniwang camera. Anumang pagbabago rito ay awtomatikong nag-a-update sa naibahaging pasaporte.
+448|Burahin ang kwalipikasyong ito
+449|Manggagawa ako
+450|Itago ang Safe Pass, mga kwalipikasyon at pagsasanay ko sa iisang lugar.
+451|Namamahala ako ng pangkat o kumpanya
+452|Tingnan ang mga kwalipikasyon ng pangkat ko at pamahalaan ang mga dokumento ng site.
+453|Tagapagbigay ako ng pagsasanay
+454|Magdaos ng mga kurso, mangolekta ng data at talatanungan ng mga nagsasanay at mag-post ng mga sertipiko.
+455|‹ Bumalik
+456|Una — sino ka?
+457|Maaari mo itong baguhin mamaya.
+458|May account ka na ba? Mag-sign in
+459|Tagapagpatunay ako · May code ako
+460|Hindi ikaw? Mag-sign out
+461|Pag-sign in ng tagapagpatunay
+462|Ilagay ang code ng tagapagpatunay na natanggap mo. Pinapayagan ka nitong beripikahin at patunayan ang mga pasaporte.
+463|Code ng tagapagpatunay
+464|Ang code mo
+465|Mag-sign in
+466|Ilagay ang claim code na natanggap mo.
+467|Hindi nakita ang claim code.
+468|Aking kumpanya
+469|Ilagay ang pangalan ng kumpanya mo.
+470|Ano ang pangalan ng kumpanya mo?
+471|Ilagay ang claim code ng kumpanya
+472|Ito ang pangalang ipinapakita kapag kinumpirma mo ang isang manggagawa.
+473|May gumawa na ng kumpanya mo, kaya ilagay ang code na ibinigay nila sa iyo.
+474|Claim code ng kumpanya
+475|hal. ABC123
+476|Email (para ma-save ang pasaporte mo)
+477|Hindi bababa sa 6 na karakter
+478|Pinoproseso…
+479|Magpatuloy
+480|May gumawa na ba ng kumpanya namin? Maglagay ng claim code →
+481|← Gumawa na lang ng bagong kumpanya
+482|Handa na ang pasaporte mo. Maaari kang magdagdag ng detalye, ibahagi ito o magdagdag ng higit pang kwalipikasyon anumang oras.
+483|Tingnan ang pasaporte ko
+484|Idagdag ang larawan mo
+485|Lalabas ang malinaw na larawan ng mukha mo sa unang pahina ng pasaporte, para agad makita ng sinumang makatanggap nito na ikaw talaga ito.
+486|📷 Kunan ang sarili ko
+487|Kunan ako ng larawan
+488|Mamaya na
+489|Laktawan muna
+490|Halos bawat manggagawa ay nangangailangan ng balidong Safe Pass para makapasok sa site sa Ireland. I-scan ang harap ng card, ang likod at idagdag ang petsa ng pag-expire.
+491|Ang isa pang hinihingi ng halos lahat ng site. I-scan ang magkabilang panig ng sertipiko ng manu-manong pagbubuhat at idagdag ang petsa ng pag-expire.
+492|Harap ng card
+493|Likod (kung mayroon)
+494|Mag-e-expire (buwan at taon, opsyonal)
+495|Petsa ng pag-isyu (buwan at taon, opsyonal)
+496|I-scan ang card
+497|Wala ako nito / laktawan muna
+498|Iba pang kwalipikasyon
+499|Iba pang mga kwalipikasyon?
+500|I-tap ang isa para idagdag. Magdagdag ng kahit ilan — o laktawan at magdagdag mamaya.
+501|Ilagay ang pangalan ng kumpanya mo sa pagsasanay.
+502|Ano ang pangalan ng kumpanya mo sa pagsasanay?
+503|Ipinapakita sa mga nagsasanay kapag sumali sila sa mga kurso mo.
+504|Ilagay ang pangalan mo.
+505|Hindi nakita ang claim code. Suriin ito o linisin ang field para magpatuloy nang walang code.
+506|HAKBANG 1 SA 6
+507|Gawin ang pasaporte mo
+508|Lalabas ang pangalan mo sa itaas. Kung ginawa na ng employer mo ang pasaporte mo, ilagay ang claim code niya at pupunan namin ito.
+509|hal. Juan dela Cruz
+510|Ang trabaho mo
+511|hal. Electrician
+512|Claim code (opsyonal)
+513|Mula sa employer, kung mayroon
+514|Inihahanda…
+515|Pasado
+516|Bagsak
+517|Magdagdag ng punto
+518|Ilarawan ang kahit isang bagay na napansin.
+519|Bawat punto na may markang Bagsak ay nangangailangan ng paglalarawan ng depekto.
+520|Na-save ang audit
+521|Pangalan ng site
+522|Site / sona
+523|Lugar
+524|Address o lungsod
+525|Panahon
+526|hal. Tuyo, mahangin
+527|MGA PUNTO
+528|Punto
+529|Ilarawan ang mga depektong nakita (kailangan kung may minarkahang depekto)
+530|Ilipat pataas
+531|Ilipat pababa
+532|＋ Idagdag ang susunod na punto
+533|Puntos hanggang ngayon:
+534|I-save ang audit
+535|＋ Bagong audit
+536|Mga nakaraang audit
+537|Wala pang audit.
+538|Audit
+539|· Puntos
+540|Na-save ang log
+541|Nananatili sa teleponong ito lang.
+542|Site diary
+543|hal. Tulay 78, timog na site
+544|hal. Tuyo, malamig, nagsimula sa hamog
+545|Pangkat sa site
+546|hal. Alfie, Oisin, Sam
+547|Mga natapos na trabaho
+548|Ano ang nagawa ngayong araw
+549|Mga delivery
+550|Mga materyales / kagamitang naihatid
+551|Mga pagkaantala / problema
+552|Anumang nagpahinto sa trabaho
+553|Mga bisita
+554|Mga bisita / inspeksyon sa site
+555|Anupamang iba pa para sa rekord
+556|I-save ang entry sa log
+557|Wala pang entry.
+558|Mga pagkaantala:
+559|ANG CODE NG PANGKAT MO
+560|Ibigay ito sa mga manggagawa mo. Kapag inilagay nila ito, ipinapakita ng timesheet nila ang mga site mo.
+561|ANG MGA SITE MO
+562|Wala ka pang site. Idagdag ang una sa ibaba.
+563|MAGDAGDAG NG SITE
+564|Lokasyon (address o postcode, opsyonal)
+565|Idagdag ang site
+566|Ang lokasyon dito ay malapit nang mag-activate ng feature ng panahon sa site.
+567|Hindi ka nag-iisa.
+568|Lahat ay libre, kumpidensyal at available anumang oras. Walang tina-track o ibinabahagi kaninuman sa anumang tina-tap mo rito.
+569|Ginawa para sa konstruksyon — kasama ang mga problema sa pera. Libre, 24/7, para sa lahat sa site.
+570|Tumawag sa 1800 939 122
+571|Mag-text ng HARDHAT sa 50808
+572|Anuman ang bumabagabag sa iyo, anumang oras. Libre, 24/7.
+573|Tumawag sa 116 123
+574|Kung iniisip mong saktan ang sarili mo o nag-aalala ka para sa isang tao. Libre, 24/7.
+575|Tumawag sa 1800 247 247
+576|Mag-text ng HELP sa 51444
+577|Mas gusto mo ang mensahe kaysa tawag? Sumasagot ang sinanay na boluntaryo. Libre, 24/7.
+578|Mag-text ng HELLO sa 50808
+579|Ito ay gabay kung saan hihingi ng tulong, hindi serbisyong medikal — kung nasa panganib ang buhay, tumawag sa 112 o 999.
+580|Para sa araw-araw, ang Wysa ay libreng self-help app (CBT/DBT) — kapaki-pakinabang sa pagitan ng mahihirap na sandali, pero hindi para sa emergency.
+581|Nasa panganib ngayon? Tumawag sa 112 o 999
+582|I-tap para tumawag sa 112
+583|Burahin ang kurso?
+584|Ang kursong ito
+585|Ang kumpanya mo sa pagsasanay
+586|＋ Bagong kurso
+587|Wala pang kurso
+588|Gumawa ng kurso, magtakda ng talatanungan nang una at ibahagi ang enrolment code sa mga nagsasanay. Nag-eenrol sila, ibinibigay ang postal address para sa sertipiko at sinasagot ang mga tanong mo. Makikita mo ang lahat dito.
+589|Burahin ang kurso
+590|Gamitin bilang manggagawa
+591|Wika
+592|Magpakita ng pangalawang wika sa tabi ng Ingles
+593|Ingles lang
+594|Laging nananatili sa screen ang Ingles, para mabasa ito kasama mo ng pangkat at mga amo mo.
+595|Isara ✕
+615|Mag-sign in o gumawa muna ng account.
+618|Hindi nakilala ang code ng tagapagpatunay.
+619|Walang expiry
+620|Kailangan ng aksyon
+621|Malapit nang mag-expire
+622|Ganap na sumusunod
+623|Payagan ang access sa mga larawan para pumili ng larawan.
+624|Payagan ang access sa camera para kumuha ng larawan.
+625|Mungkahi
+626|Mga kasangkapan
+627|Pagkain
+628|Biyahe
+629|Tuluyan
+630|Mga gulong
+631|Mga ilaw at signal
+632|Mga preno
+633|Langis at likido
+634|Mga salamin at bintana
+635|Busina at mga aparatong babala
+636|Mga seat belt / restraint system
+637|Fire extinguisher / first aid kit
+638|Pagsusuri ng pinsala
+639|Nakatali ang karga / ligtas gamitin
+640|Simula ng shift
+641|Katapusan ng shift
+642|Day off
+643|🔴 {0} nag-expire  
+644|🟠 {0} mag-e-expire  
+645|Inspeksyunin: {0}
+646|Libreng panahon: {0} araw na lang, kasama ang lahat. Pagkatapos nito ay mananatiling libre ang Pasaporte; ang timesheet at mga kasangkapan sa trabaho ay {1} EUR bawat buwan (o libre kung may subscription ang employer mo).
+647|Tapos na ang libreng panahon mo. Libre ang Pasaporte at pagbabahagi; ang timesheet at mga kasangkapan sa trabaho ay {0} EUR bawat buwan.
+648|Linggo ng {0}
+649|MGA PASAPORTENG BERIPIKAHIN ({0})
+650|Tapos na. Napunan ang pasaporte mo{0}.
+651|MGA NAGSASANAY ({0})
+652|Enrolment code: {0}\nIbigay ito sa mga nagsasanay mo.
+653|Mga pagpipilian · {0}
+654|Ipinadala ng pangkat mo · code ng pangkat {0}. Hilahin pababa para mag-refresh.
+655|Mag-e-expire {0}
+656|Ang mga gastos mo · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Kumuha ng larawan ({0})
+659|Handa na, {0}!
+660|📸  I-scan ang {0}
+661|Idagdag ang {0} at tapusin
+662|Puntos {0}%. Nananatili sa teleponong ito lang.
+663|MGA KAMAKAILANG ENTRY ({0})
+664|HAKBANG {0} SA 6
+665|Nag-expire {0}
+666|Balido hanggang {0}
+667|Naka-save ang {0} sa device na ito.
+668|{0} depekto
+669|Aalisin si {0} at ang pangkat niya.
+670|Aalisin si {0} sa kurso.
+671|Aalisin ang {0} sa Pasaporte mo.
+672|Aalisin si {0} at ang mga enrolment niya.

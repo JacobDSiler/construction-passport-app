@@ -1,10 +1,12 @@
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useRouter } from 'expo-router';
 import { Button, Card, Field } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';
 import { useSession } from '../../src/lib/session';
 import { logOut } from '../../src/lib/account';
+import { LanguageButton } from '../../src/components/LanguageButton';
 
 const ROWS: Array<[string, string, string, string]> = [
   ['📍', 'Manage sites', 'Create your sites and share the crew code so timesheets show real sites.', '/sites'],
@@ -25,6 +27,7 @@ export default function CompanyProfile() {
 
   return (
     <ScrollView contentContainerStyle={styles.body} keyboardShouldPersistTaps="handled">
+      <LanguageButton />
       <Card>
         <Text style={styles.small}>USING AS</Text>
         <Text style={styles.h}>Employer / Contractor</Text>

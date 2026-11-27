@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 import { homeFor, useSession } from '../src/lib/session';
+import { LanguageButton } from '../src/components/LanguageButton';
 
 // Welcome screen. Anyone who already picked a role goes straight to their home.
 export default function Welcome() {
@@ -19,6 +21,9 @@ export default function Welcome() {
 
   return (
     <SafeAreaView style={styles.screen}>
+      <View style={{ alignItems: 'flex-end' }}>
+        <LanguageButton light />
+      </View>
       <View style={styles.top}>
         <Text style={styles.emoji}>🦺</Text>
         <Text style={styles.title}>Construction Passport</Text>

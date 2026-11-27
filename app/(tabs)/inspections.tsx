@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { Attribution, Button, Card, Field, Pill, SectionLabel, Sheet } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';
 import { useStore } from '../../src/lib/store';

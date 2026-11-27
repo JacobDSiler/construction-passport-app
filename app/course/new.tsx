@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Switch, TextInput, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Button, Field, SectionLabel } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';

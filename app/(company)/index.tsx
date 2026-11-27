@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
-import { Pressable, RefreshControl, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, RefreshControl, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Button, Card, Pill } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';

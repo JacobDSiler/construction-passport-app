@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
-import { Alert, RefreshControl, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, RefreshControl, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useFocusEffect } from 'expo-router';
 import { Button, Card, SectionLabel } from '../../src/components/ui';
 import { colors, spacing } from '../../src/theme';

@@ -1,0 +1,4831 @@
+{
+ "static": [
+  {
+   "s": "Crew",
+   "files": [
+    "app/(company)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "My Crew",
+   "files": [
+    "app/(company)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "My Passport",
+   "files": [
+    "app/(company)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Share",
+   "files": [
+    "app/(company)/_layout.tsx",
+    "app/(tabs)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Share Passport",
+   "files": [
+    "app/(company)/_layout.tsx",
+    "app/(tabs)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Hazards",
+   "files": [
+    "app/(company)/_layout.tsx",
+    "app/(tabs)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Profile",
+   "files": [
+    "app/(company)/_layout.tsx",
+    "app/(tabs)/_layout.tsx",
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Could not resolve",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Hazard report",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Mark resolved",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Resolved",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "To action",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "REPORTS TO RESOLVE",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Nothing to action right now. Pull down to refresh.",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "RESOLVED",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "No resolved reports yet.",
+   "files": [
+    "app/(company)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Observe · Speak Up · Take Action · Make a Difference",
+   "files": [
+    "app/(company)/hazards.tsx",
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Your company",
+   "files": [
+    "app/(company)/index.tsx",
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add a worker",
+   "files": [
+    "app/(company)/index.tsx"
+   ]
+  },
+  {
+   "s": "No crew yet",
+   "files": [
+    "app/(company)/index.tsx"
+   ]
+  },
+  {
+   "s": "Ask a worker to open Share in their app and read you their passport code (6 characters). Tap \"Add a worker\" and enter it, and you'll see their tickets here and can greenlight them.",
+   "files": [
+    "app/(company)/index.tsx"
+   ]
+  },
+  {
+   "s": "Manage sites",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Create your sites and share the crew code so timesheets show real sites.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Set up worker passports",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Build a worker's tickets before they have the app, then send them a claim code.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Crew expenses",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "See company expenses your crew submitted.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Job sheet",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/(tabs)/timesheet.tsx",
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Fill in a job sheet for the day and export it as a PDF.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Site diary",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Daily log of work, crew on site, deliveries, delays and visitors.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Site audit",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Audit a site with your own points. Pass, fail or N/A, with the defects written up.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Companies you've set up",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Set up a company for a client or tester, then send them a claim code.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Support",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/(tabs)/profile.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Free, confidential helplines, including one built for construction. Any hour.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "USING AS",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Employer / Contractor",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Switch to worker",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Company / organisation name",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "This is the name recorded when you greenlight a worker.",
+   "files": [
+    "app/(company)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Save",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Log out",
+   "files": [
+    "app/(company)/profile.tsx",
+    "app/certifier.tsx",
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Passport",
+   "files": [
+    "app/(tabs)/_layout.tsx",
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Construction Passport",
+   "files": [
+    "app/(tabs)/_layout.tsx",
+    "app/index.tsx",
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Timesheet",
+   "files": [
+    "app/(tabs)/_layout.tsx",
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Inspections",
+   "files": [
+    "app/(tabs)/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Safe Act",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Unsafe Condition",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Unsafe Act",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Co-worker",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Supervisor",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Other",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/course/new.tsx",
+    "app/setup-tickets.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "SELECT A CATEGORY",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Saved",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Export PDF",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Hazard observation",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "CP-HOR-",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Category *",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "💡 Suggestion",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "🪖 Flag for Toolbox",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "This flags the report so your employer knows to raise it at the next toolbox talk. Your employer decides when and how.",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Photo",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "📷 Take Photo",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Choose from Library",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Remove",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/(tabs)/inspections.tsx",
+    "app/course/[id].tsx",
+    "app/course/new.tsx",
+    "app/crew-member.tsx",
+    "app/qualification/[id].tsx",
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Observation *",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "What did you observe? Describe clearly.",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Client",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Project",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Supervisor (HOC coordinator)",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Location / site",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Observer's name",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Report anonymously (name hidden on the PDF; kept on this device for the record)",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Department",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Fencing, Groundworks",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Task stopped by",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Immediate action taken",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Coned off the area and reported to supervisor",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Further action required",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Electrician to reroute cable overhead",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Submit Hazard Observation",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "Your saved reports",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "PDF failed",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/(tabs)/share.tsx",
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Delete",
+   "files": [
+    "app/(tabs)/hazards.tsx",
+    "app/companies.tsx",
+    "app/provision.tsx",
+    "app/site-audit.tsx",
+    "app/site-diary.tsx",
+    "app/sites.tsx",
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Your name",
+   "files": [
+    "app/(tabs)/index.tsx",
+    "app/(tabs)/share.tsx",
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Edit",
+   "files": [
+    "app/(tabs)/index.tsx",
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Add your name",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Add your employer",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Compliance status",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Qualifications",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Add",
+   "files": [
+    "app/(tabs)/index.tsx",
+    "app/(tabs)/inspections.tsx",
+    "app/(tabs)/profile.tsx",
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "No tickets yet. Tap Add to scan your Safe Pass or any other ticket into your Passport.",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Show My Passport (QR)",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Report a Hazard",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "Daily",
+   "files": [
+    "app/(tabs)/inspections.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Weekly",
+   "files": [
+    "app/(tabs)/inspections.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Monthly",
+   "files": [
+    "app/(tabs)/inspections.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Defects recorded",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Inspection saved",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Do not use it until the defects are resolved. Export the defect report?",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "No defects found.",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Not inspected",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Inspection due",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Defects reported",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Add a vehicle first",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Add your van, digger or MEWP below, then run an inspection.",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "＋ New inspection",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Small plant · Commercial vehicle ≥3.5T — with defect report PDF",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Coming next",
+   "files": [
+    "app/(tabs)/inspections.tsx",
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Full site safety audits are next on the list.",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "＋ New site audit",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Full site safety audit — scored, with findings, photos and PDF report",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Add a vehicle or machine",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Transit van, 3-tonne digger, MEWP",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Reg / plant no. (optional)",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Inspect it",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Adding it doesn't mark it safe — it starts as \"not inspected\" until you run an inspection.",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "No vehicles or machines yet. Add your van, digger or MEWP above to run inspections.",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Your vehicles and machines",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Inspect now",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Past inspections",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "en-IE",
+   "files": [
+    "app/(tabs)/inspections.tsx",
+    "app/(tabs)/timesheet.tsx",
+    "app/checkin.tsx",
+    "app/crew-member.tsx",
+    "app/qualification/[id].tsx",
+    "app/site-audit.tsx",
+    "app/site-diary.tsx",
+    "src/lib/exports.ts",
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "No defects",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Which one?",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Defect",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Describe the defect",
+   "files": [
+    "app/(tabs)/inspections.tsx",
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Finish inspection",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Backed up. Your passport as it is right now is saved to your account.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Password must be at least 6 characters.",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "src/lib/account.ts"
+   ]
+  },
+  {
+   "s": "Account created. Confirm the email we sent, then log in and tap Back up now.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Account created and your passport is backed up.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Signed in. Tap Back up now to save this passport.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Back up your passport",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Saves what is on this phone right now to your account, so you can get it back if you change phone. Back up after you add tickets.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Signed in as",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Backing up…",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Back up now",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Email",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "Password",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/login.tsx",
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx",
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Create account and back up",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "I already have an account",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Share your passport first",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Open the Share tab once so your employer can find you, then add the crew code again.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Could not add the crew",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Worker",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "The employer and trainer roles are rebuilt after the worker side.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Switch",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Check-in",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "A quick, private check on how you're doing. Stays on your phone — nobody else sees it.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Free, confidential helplines — including one built for construction. Any hour.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Name",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Trade",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Phone",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Employer",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "Save Profile",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Your profile is saved and your shared passport will update.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Your crews (optional)",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Add every crew you work for. The one marked \"Active\" is where new timesheets and expenses go — tap another to switch.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Requested",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Joined",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "· Active",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Add a crew code",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Have a claim code?",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/claim.tsx"
+   ]
+  },
+  {
+   "s": "If your employer set up your passport, enter their code to fill it in automatically.",
+   "files": [
+    "app/(tabs)/profile.tsx",
+    "app/claim.tsx"
+   ]
+  },
+  {
+   "s": "Training suggestions",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Let an employer suggest courses to you (for example when a ticket's expiring). You always book them yourself — your details are never shared without you.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Your plan",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Subscribed.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Second language, training courses and certifier access.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Version",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "QR appears once your passport is shared.",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Show this to a contractor. They scan it with any phone camera — no app needed — to see your passport, your cert photos, and confirm you.",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Could not share your passport yet:",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Try again",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Shared passport up to date ✓",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Any change you make — add, edit or remove a ticket — updates automatically. Only people you show it to can see it.",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Let my employer add certs",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Allow your employer to add certificates to your passport. You stay in control — turn it off anytime, and you can remove anything they add.",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "👁 View as public",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "🔗 Copy",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Copied",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Your passport link is on the clipboard.",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "📤 Share via…",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "📄 Save as PDF",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "The link your QR opens — tap to preview what an employer sees",
+   "files": [
+    "app/(tabs)/share.tsx"
+   ]
+  },
+  {
+   "s": "Day",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Week",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Month",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/qualification/[id].tsx",
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Your 90-day free period has ended",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Timesheets and the working tools are",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "EUR a month, or free if your employer subscribes. Your Passport and sharing stay free, always.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "On the clock",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "On break",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "src/lib/timesheet.ts"
+   ]
+  },
+  {
+   "s": "Not clocked in",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Tap Clock In when you start work.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Clock In",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Back on",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "src/lib/timesheet.ts"
+   ]
+  },
+  {
+   "s": "Break",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Clock Out",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Today:",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add or back-date an entry",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Today",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "This week",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "No hours yet this week. Tap Clock In to start.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Tap Find a timesheet to see each day.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Find a timesheet",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Look up a day, week or month — see the hours, and export it.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Record a day off",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Holiday, sick, bank holiday, no work — logged to your timesheet and your employer.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Expenses",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Snap a receipt — submit to your employer, or keep it personal with its own export.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Fill in the day's job sheet and export it as a PDF.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "📥 Export today…",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "📄 Export this week (PDF)",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Your hours flow to your employer automatically once your passport is shared with them.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Clock in — add a note (optional)",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Note",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/expenses.tsx",
+    "src/lib/timesheet.ts"
+   ]
+  },
+  {
+   "s": "e.g. On site, foggy start — Bridge 78",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Cancel",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/companies.tsx",
+    "app/course/[id].tsx",
+    "app/crew-member.tsx",
+    "app/qualification/[id].tsx",
+    "app/site-audit.tsx",
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Export",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "PDF (save, email or send)",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Spreadsheet (CSV)",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Export failed",
+   "files": [
+    "app/(tabs)/timesheet.tsx",
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "No entries for this period.",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Start",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Finish",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Breaks",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Net worked",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "📥 Export this period…",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "📍 location stamped",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Add an entry",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Time (24h)",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "numbers-and-punctuation",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "What happened?",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Arrive on site — Bridge 78-06.00",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Add entry",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "Courses",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "crew-add",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Add Worker",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "crew-member",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Crew member",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Manage Sites",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "crew-expenses",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Crew Expenses",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Qualification",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "add-qualification",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Add qualification",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "day-off",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "job-sheet",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Job Sheet",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Claim code",
+   "files": [
+    "app/_layout.tsx",
+    "app/claim.tsx",
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Certifier",
+   "files": [
+    "app/_layout.tsx",
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "setup-certifier",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Companies",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "company-new",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "site-diary",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "site-audit",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "New course",
+   "files": [
+    "app/_layout.tsx"
+   ]
+  },
+  {
+   "s": "Course",
+   "files": [
+    "app/_layout.tsx",
+    "app/course/[id].tsx",
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Safe Pass",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/course/new.tsx",
+    "app/provision.tsx",
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "SOLAS",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "Manual Handling",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/course/new.tsx",
+    "app/provision.tsx",
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Working at Heights",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/course/new.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "MEWP (Cherry Picker)",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "IPAF",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "First Aid",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/course/new.tsx",
+    "app/provision.tsx",
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "PHECC",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "CSCS Card",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/provision.tsx",
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Abrasive Wheels",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/course/new.tsx",
+    "app/provision.tsx",
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Confined Space",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/course/new.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Banksman / Signaller",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "Asbestos Awareness",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "Fire Safety",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "Forklift",
+   "files": [
+    "app/add-qualification.tsx",
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "What ticket are you adding?",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "Something else",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Pipe Fitting Cert",
+   "files": [
+    "app/add-qualification.tsx"
+   ]
+  },
+  {
+   "s": "Missing passport code",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Could not certify",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Could not revoke",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Nothing waiting for review.",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Certify",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Revoke certification",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "Okay",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "Rough",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "How are you doing?",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "A quick, private check. It stays on your phone — nobody else sees it.",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "Anything on your mind? (optional)",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "Save check-in",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "Your recent check-ins",
+   "files": [
+    "app/checkin.tsx"
+   ]
+  },
+  {
+   "s": "That code was not found. Check it and try again.",
+   "files": [
+    "app/claim.tsx"
+   ]
+  },
+  {
+   "s": "Ticket",
+   "files": [
+    "app/claim.tsx",
+    "app/setup-worker.tsx",
+    "src/lib/account.ts"
+   ]
+  },
+  {
+   "s": "Checking…",
+   "files": [
+    "app/claim.tsx",
+    "app/setup-certifier.tsx"
+   ]
+  },
+  {
+   "s": "Claim passport",
+   "files": [
+    "app/claim.tsx"
+   ]
+  },
+  {
+   "s": "Missing company code",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Delete company?",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "This company",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Could not delete",
+   "files": [
+    "app/companies.tsx",
+    "app/provision.tsx",
+    "app/sites.tsx",
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Set up a company once, then send them a claim code. They open Construction Passport, choose Employer, enter the code, and their company and crew are already there. Good for testers who would rather not fiddle with setup.",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "＋ Set up a new company",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "No companies set up yet. Tap “Set up a new company” to begin.",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Company",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Crew code",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Copy claim code",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Delete company",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "Please enter the company name.",
+   "files": [
+    "app/company-new.tsx"
+   ]
+  },
+  {
+   "s": "Set up a new company",
+   "files": [
+    "app/company-new.tsx"
+   ]
+  },
+  {
+   "s": "You will get a claim code to send to them.",
+   "files": [
+    "app/company-new.tsx"
+   ]
+  },
+  {
+   "s": "Company name",
+   "files": [
+    "app/company-new.tsx",
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Prime Peak Limited",
+   "files": [
+    "app/company-new.tsx"
+   ]
+  },
+  {
+   "s": "Trade (optional)",
+   "files": [
+    "app/company-new.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Groundworks",
+   "files": [
+    "app/company-new.tsx"
+   ]
+  },
+  {
+   "s": "Saving…",
+   "files": [
+    "app/company-new.tsx",
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Create company",
+   "files": [
+    "app/company-new.tsx"
+   ]
+  },
+  {
+   "s": "Remove student?",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "This student",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "Could not remove",
+   "files": [
+    "app/course/[id].tsx",
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "Course code",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "No one has enrolled yet. Students enrol with the course code.",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "Student",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "CSCS",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "MEWP (IPAF)",
+   "files": [
+    "app/course/new.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Text answer",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Yes / No",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Multiple choice",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Could not load course",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Check the date",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Enter the date as YYYY-MM-DD, e.g. 2026-10-05.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Course name",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Give the course a name, e.g. Safe Pass.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "The course was not saved.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "The course was created but no join code came back. Check the Courses list.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Course created",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Couldn't save",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Safe Pass",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Training provider / instructor",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "e.g. SilerTech Training",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Renews which ticket?",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "(so we can suggest it to workers whose ticket is expiring)",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Where is it held?",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Venue / address, town, county",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Sign-up details (booking link, phone, or instructions)",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "e.g. https://… or call 01 234 5678",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Price (optional)",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Session dates",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Add the dates you're running this course. Workers can see and pick a date.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Date, YYYY-MM-DD (e.g. 2026-10-05)",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Start time (optional), e.g. 09:00",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add date",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Pre-training questionnaire",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Questions students answer when they enrol. Optional.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "New question",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Options, separated by commas",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add question",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "List in course search",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "When on, workers and employers can find this course by distance and date.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Save course",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Create course & get join code",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Your company has no code yet. Set it up again from Profile.",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "Worker passport code",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "6 characters",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "The worker finds this on the Share tab of their app. It's the short code at the end of their passport link, after \"?p=\".",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "They are",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "Employee",
+   "files": [
+    "app/crew-add.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Subcontractor",
+   "files": [
+    "app/crew-add.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Right now",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "On the crew",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "Not on a crew",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "\"Not on a crew\" keeps them with the company without being on a crew today, handy for a subcontractor between jobs or someone out scouting sites.",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "Adding…",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "Add to crew",
+   "files": [
+    "app/crew-add.tsx"
+   ]
+  },
+  {
+   "s": "Could not update",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "Company expenses",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "No company expenses submitted yet. When a worker on your crew code adds a company expense, it appears here.",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "Expense",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "Approve",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "Reject",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "Could not greenlight",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "Remove from crew?",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "They stay in the app; they just leave your crew list.",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "TICKETS",
+   "files": [
+    "app/crew-member.tsx",
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "No tickets on this passport yet.",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "No expiry on record",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "✓ Greenlit",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "Greenlight this worker",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "Remove from crew",
+   "files": [
+    "app/crew-member.tsx"
+   ]
+  },
+  {
+   "s": "Holiday",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Sick",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Bank holiday",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "No work",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Type",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Note (optional)",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Record day off",
+   "files": [
+    "app/day-off.tsx"
+   ]
+  },
+  {
+   "s": "Fuel",
+   "files": [
+    "app/expenses.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Add an expense",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "🧾 Snap a receipt",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "Merchant",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "Amount (€)",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "decimal-pad",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "Save expense",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "No expenses yet.",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "📄 Export expenses (PDF)",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "All saved expenses",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "Sending expenses to your employer is coming next.",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "Your tickets, always in your pocket. Create an account so your passport is saved and never lost.",
+   "files": [
+    "app/index.tsx"
+   ]
+  },
+  {
+   "s": "Get started",
+   "files": [
+    "app/index.tsx"
+   ]
+  },
+  {
+   "s": "I already have an account · Log in",
+   "files": [
+    "app/index.tsx"
+   ]
+  },
+  {
+   "s": "New job sheet",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Date",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Job / ref no.",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Prime Management",
+   "files": [
+    "app/job-sheet.tsx",
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "Site / location",
+   "files": [
+    "app/job-sheet.tsx",
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Bridge 78, N4",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Operatives",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Name on the job",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add operative",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Plant / equipment",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "e.g. TM van, signage, IPV",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add plant / equipment",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Description of works",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "What was carried out",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Materials",
+   "files": [
+    "app/job-sheet.tsx",
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Materials used",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Photos",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "📷 Take photo",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "🖼️ Add from library",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Time taken",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "number-pad",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Notes",
+   "files": [
+    "app/job-sheet.tsx",
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Anything else (delays, issues)",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Signed by",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "📄 Save & export PDF",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Saved job sheets",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "This is a first version — send me your usual job sheet and I'll match it exactly.",
+   "files": [
+    "app/job-sheet.tsx"
+   ]
+  },
+  {
+   "s": "Logged in, but this account has no saved passport yet. Pick who you are to continue.",
+   "files": [
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "Welcome back",
+   "files": [
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "Log in to bring your passport back onto this phone.",
+   "files": [
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "you@example.com",
+   "files": [
+    "app/login.tsx",
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx",
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Your password",
+   "files": [
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "Logging in…",
+   "files": [
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "Log in",
+   "files": [
+    "app/login.tsx"
+   ]
+  },
+  {
+   "s": "Set up a worker's passport before they have the app. Add their name, trade and tickets, then send them the claim code. When they install the app and enter it, everything appears.",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Claim code for the worker",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Copy code",
+   "files": [
+    "app/provision.tsx",
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "NEW WORKER",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Worker's name",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Create passport & get code",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "SET UP SO FAR",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "No passports set up yet.",
+   "files": [
+    "app/provision.tsx"
+   ]
+  },
+  {
+   "s": "Ticket not found.",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Permission needed",
+   "files": [
+    "app/qualification/[id].tsx",
+    "src/lib/pick.ts"
+   ]
+  },
+  {
+   "s": "Allow photo access to choose a picture of your ticket.",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Allow camera access to photograph your ticket.",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Could not add the photo",
+   "files": [
+    "app/qualification/[id].tsx",
+    "src/lib/pick.ts"
+   ]
+  },
+  {
+   "s": "Remove this ticket?",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Certificate — front",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Certificate — back (optional)",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Tap to enlarge",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "🖼️ Choose from Library",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Ticket name",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "⚠ No expiry date on record",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Expiry (month & year)",
+   "files": [
+    "app/qualification/[id].tsx",
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Year",
+   "files": [
+    "app/qualification/[id].tsx",
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Issue date (month & year)",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Status",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Verified",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Pending",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Self-listed",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Smart Scan crops the ticket flat. Take Photo uses your plain camera. Any change here updates your shared passport automatically.",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "Remove this ticket",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "2-digit",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "I'm a worker",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "Keep my Safe Pass, tickets and inductions in one place.",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "I run a crew or company",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "See my crew's tickets and manage site paperwork.",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "I'm a training provider",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "Run courses, collect student details & questionnaires, and post certs.",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "‹ Back",
+   "files": [
+    "app/role.tsx",
+    "src/components/SetupScreen.tsx",
+    "src/components/Step.tsx"
+   ]
+  },
+  {
+   "s": "First up — which are you?",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "You can change this later.",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "Already have an account? Log in",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "I'm a certifier · I have a code",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "Not you? Log out",
+   "files": [
+    "app/role.tsx"
+   ]
+  },
+  {
+   "s": "Certifier sign-in",
+   "files": [
+    "app/setup-certifier.tsx"
+   ]
+  },
+  {
+   "s": "Enter the certifier code you were given. It lets you review and certify passports.",
+   "files": [
+    "app/setup-certifier.tsx"
+   ]
+  },
+  {
+   "s": "Certifier code",
+   "files": [
+    "app/setup-certifier.tsx"
+   ]
+  },
+  {
+   "s": "Your code",
+   "files": [
+    "app/setup-certifier.tsx"
+   ]
+  },
+  {
+   "s": "Sign in",
+   "files": [
+    "app/setup-certifier.tsx"
+   ]
+  },
+  {
+   "s": "Enter the claim code you were given.",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "That claim code was not found.",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "My company",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "Please enter your company name.",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "What's your company called?",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "Enter your company claim code",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "This is the name shown when you confirm a worker.",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "Someone set your company up already, so enter the code they gave you.",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "Company claim code",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "e.g. ABC123",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "Email (so your passport is saved)",
+   "files": [
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx",
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "At least 6 characters",
+   "files": [
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx",
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Working…",
+   "files": [
+    "app/setup-company.tsx",
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "Continue",
+   "files": [
+    "app/setup-company.tsx",
+    "app/setup-photo.tsx",
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "Someone already set us up? Enter a company claim code →",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "← Set up a new company instead",
+   "files": [
+    "app/setup-company.tsx"
+   ]
+  },
+  {
+   "s": "Your passport is ready. You can add dates, share it, or add more tickets any time.",
+   "files": [
+    "app/setup-done.tsx"
+   ]
+  },
+  {
+   "s": "See my passport",
+   "files": [
+    "app/setup-done.tsx"
+   ]
+  },
+  {
+   "s": "Add your photo",
+   "files": [
+    "app/setup-photo.tsx"
+   ]
+  },
+  {
+   "s": "A clear headshot goes on the front of your passport, so whoever you share it with sees straight away it's really you.",
+   "files": [
+    "app/setup-photo.tsx"
+   ]
+  },
+  {
+   "s": "📷 Take your photo",
+   "files": [
+    "app/setup-photo.tsx"
+   ]
+  },
+  {
+   "s": "Take my photo",
+   "files": [
+    "app/setup-photo.tsx"
+   ]
+  },
+  {
+   "s": "Retake later",
+   "files": [
+    "app/setup-photo.tsx"
+   ]
+  },
+  {
+   "s": "Skip for now",
+   "files": [
+    "app/setup-photo.tsx",
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Nearly every worker needs a valid Safe Pass to be on an Irish site. Scan the front of the card, the back, and add its expiry.",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "The other one almost every site asks for. Scan both sides of your Manual Handling cert and add its expiry.",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Front of card",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Back of card (if it has one)",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Expiry (month & year, optional)",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Issue date (month & year, optional)",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "Scan the card",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "I don't have this / skip for now",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "MEWP / Cherry Picker",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Teleporter",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Other ticket",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Any other tickets?",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Tap one to add it. Add as many as you like — or skip and add them later.",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Please enter your training business name.",
+   "files": [
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "What's your training business called?",
+   "files": [
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "Shown to students when they join your courses.",
+   "files": [
+    "app/setup-trainer.tsx"
+   ]
+  },
+  {
+   "s": "Please enter your name.",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "That claim code was not found. Check it, or clear the box to continue without one.",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "STEP 1 OF 6",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Set up your passport",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Your name goes on top. If your employer set your passport up already, enter their claim code and we'll fill it in.",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "e.g. John Murphy",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Your trade",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Electrician",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Claim code (optional)",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "From your employer, if any",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Setting up…",
+   "files": [
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Pass",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Fail",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Add a point",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Describe at least one thing you observed.",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Every point marked Fail needs a defect description.",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Audit saved",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Site name",
+   "files": [
+    "app/site-audit.tsx",
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "Site / area",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Location",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Address or town",
+   "files": [
+    "app/site-audit.tsx",
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "Weather",
+   "files": [
+    "app/site-audit.tsx",
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Dry, windy",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "POINTS",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Point",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Describe any defects found (required if you marked a defect)",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Move up",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Move down",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "＋ Add next point",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Score so far:",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Save audit",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "＋ New audit",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Previous audits",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "No audits yet.",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Audit",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "· Score",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "Diary saved",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "It is kept on this phone only.",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Site Diary",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Bridge 78, south compound",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Dry, cold, foggy start",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Crew on site",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "e.g. Alfie, Oisin, Sam",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Work carried out",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "What was done today",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Deliveries",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Materials / plant delivered",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Delays / issues",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Anything that held the job up",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Visitors",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Site visitors / inspections",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Anything else for the record",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Save diary entry",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "No entries yet.",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "Delays:",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "YOUR CREW CODE",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "Give this to your workers. When they enter it, their timesheet shows your sites.",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "YOUR SITES",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "No sites yet. Add your first one below.",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "ADD A SITE",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "Location (address or Eircode, optional)",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "Add site",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "A location here powers the site weather feature coming next.",
+   "files": [
+    "app/sites.tsx"
+   ]
+  },
+  {
+   "s": "You're not on your own.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "All free, confidential, and open any hour. Nothing you tap here is tracked or shared with anyone.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Lighthouse Construction Charity",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Built for construction — money worries too. Free, 24/7, for everyone on site.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Call 1800 939 122",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Text HARDHAT to 50808",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "HARDHAT",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Samaritans",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Whatever's on your mind, any hour. Free, 24/7.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Call 116 123",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Pieta",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "If you're thinking of harming yourself, or worried about someone. Free, 24/7.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Call 1800 247 247",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Text HELP to 51444",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "HELP",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Text About It",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Rather text than talk? A trained volunteer replies. Free, 24/7.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Text HELLO to 50808",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "HELLO",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "This is a signpost to help, not a medical service — if life is in danger, call 112 or 999.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "For the day-to-day, Wysa is a free self-help app (CBT/DBT) — helpful between the tough moments, but not for emergencies.",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Open Wysa",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "In danger right now? Call 112 or 999",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Tap to call 112",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "Delete course?",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "This course",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Your training business",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "＋ New course",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "No courses yet",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Create a course, set a pre-training questionnaire, and share the join code with your students. They enrol, give their postal address for their cert, and answer your questions. You see it all here.",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Delete course",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Use as a worker instead",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "Language",
+   "files": [
+    "src/components/LanguageButton.tsx"
+   ]
+  },
+  {
+   "s": "Show a second language next to English",
+   "files": [
+    "src/components/LanguageButton.tsx"
+   ]
+  },
+  {
+   "s": "English only",
+   "files": [
+    "src/components/LanguageButton.tsx"
+   ]
+  },
+  {
+   "s": "English always stays on screen, so your crew and bosses can read along with you.",
+   "files": [
+    "src/components/LanguageButton.tsx"
+   ]
+  },
+  {
+   "s": "Close ✕",
+   "files": [
+    "src/components/ui.tsx"
+   ]
+  },
+  {
+   "s": "Română",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Romanian",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Polski",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Polish",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Lietuvių",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Lithuanian",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Ukrainian",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Russian",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Português",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Portuguese",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Français",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "French",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Italiano",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Italian",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Español",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Spanish",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Gaeilge",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Irish",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Filipino",
+   "files": [
+    "src/i18n/languages.ts"
+   ]
+  },
+  {
+   "s": "Backend not configured (missing EXPO_PUBLIC_SUPABASE_* values).",
+   "files": [
+    "src/lib/account.ts"
+   ]
+  },
+  {
+   "s": "[claim]",
+   "files": [
+    "src/lib/account.ts"
+   ]
+  },
+  {
+   "s": "Log in or create an account first.",
+   "files": [
+    "src/lib/account.ts"
+   ]
+  },
+  {
+   "s": "[restore]",
+   "files": [
+    "src/lib/account.ts"
+   ]
+  },
+  {
+   "s": "Provided by Construction Passport (Prime Management 18)",
+   "files": [
+    "src/lib/attribution.ts"
+   ]
+  },
+  {
+   "s": "Get the Construction Passport app",
+   "files": [
+    "src/lib/attribution.ts"
+   ]
+  },
+  {
+   "s": "&middot;",
+   "files": [
+    "src/lib/attribution.ts"
+   ]
+  },
+  {
+   "s": "That certifier code was not recognised.",
+   "files": [
+    "src/lib/certifier.ts"
+   ]
+  },
+  {
+   "s": "Jan",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Feb",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Mar",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Apr",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "May",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Jun",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Jul",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Aug",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Sep",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Oct",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Nov",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Dec",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Sun",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Mon",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Tue",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Wed",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Thu",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Fri",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "Sat",
+   "files": [
+    "src/lib/dates.ts"
+   ]
+  },
+  {
+   "s": "My",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Share passport PDF",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<tr><td colspan=\"6\">No entries</td></tr>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Share timesheet PDF",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Date,Time,Event,Note,Latitude,Longitude",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "· Flagged for toolbox talk",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Anonymous",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Share hazard report",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Share job sheet",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<tr><td colspan=\"5\">No expenses</td></tr>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Share expenses",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<b style=\"color:#C62828\">DEFECT</b>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Defect Report",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Inspection Report",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "No defects found",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Share inspection",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "No expiry",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Action needed",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Expiring soon",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Fully Compliant",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Allow photo access to choose a picture.",
+   "files": [
+    "src/lib/pick.ts"
+   ]
+  },
+  {
+   "s": "Allow camera access to take a photo.",
+   "files": [
+    "src/lib/pick.ts"
+   ]
+  },
+  {
+   "s": "Suggestion",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Tools",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Food",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Travel",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Accommodation",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Tyres and wheels",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Lights and indicators",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Brakes",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Oil and fluids",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Mirrors and windows",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Horn and warning devices",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Seat belts / restraints",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Fire extinguisher / first aid",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Damage check",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "Load secure / safe to use",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "useSession outside SessionProvider",
+   "files": [
+    "src/lib/session.tsx"
+   ]
+  },
+  {
+   "s": "useStore must be used inside StoreProvider",
+   "files": [
+    "src/lib/store.tsx"
+   ]
+  },
+  {
+   "s": "Clock in",
+   "files": [
+    "src/lib/timesheet.ts"
+   ]
+  },
+  {
+   "s": "Clock out",
+   "files": [
+    "src/lib/timesheet.ts"
+   ]
+  },
+  {
+   "s": "Day off",
+   "files": [
+    "src/lib/timesheet.ts"
+   ]
+  }
+ ],
+ "dynamic": [
+  {
+   "s": "{0} is saved on this device.",
+   "files": [
+    "app/(tabs)/hazards.tsx"
+   ]
+  },
+  {
+   "s": "🔴 {0} expired  ",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "🟠 {0} expiring  ",
+   "files": [
+    "app/(tabs)/index.tsx"
+   ]
+  },
+  {
+   "s": "{0} defect(s)",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Inspect: {0}",
+   "files": [
+    "app/(tabs)/inspections.tsx"
+   ]
+  },
+  {
+   "s": "Free trial: {0} days left with everything included. After that your Passport stays free; timesheets and working tools are {1} EUR a month (or free if your employer subscribes).",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Your free trial has ended. Passport and sharing are free; timesheets and working tools are {0} EUR a month.",
+   "files": [
+    "app/(tabs)/profile.tsx"
+   ]
+  },
+  {
+   "s": "Week of {0}",
+   "files": [
+    "app/(tabs)/timesheet.tsx"
+   ]
+  },
+  {
+   "s": "PASSPORTS FOR REVIEW ({0})",
+   "files": [
+    "app/certifier.tsx"
+   ]
+  },
+  {
+   "s": "q-claim-{0}-{1}",
+   "files": [
+    "app/claim.tsx",
+    "app/setup-worker.tsx"
+   ]
+  },
+  {
+   "s": "Done. Your passport has been filled in{0}.",
+   "files": [
+    "app/claim.tsx"
+   ]
+  },
+  {
+   "s": " with {0} ticket{1}",
+   "files": [
+    "app/claim.tsx"
+   ]
+  },
+  {
+   "s": "{0} and its crew will be removed.",
+   "files": [
+    "app/companies.tsx"
+   ]
+  },
+  {
+   "s": "{0} will be removed from the course.",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "STUDENTS ({0})",
+   "files": [
+    "app/course/[id].tsx"
+   ]
+  },
+  {
+   "s": "Join code: {0}\nShare it with your students.",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Choice · {0}",
+   "files": [
+    "app/course/new.tsx"
+   ]
+  },
+  {
+   "s": "Submitted by your crew · crew code {0}. Pull down to refresh.",
+   "files": [
+    "app/crew-expenses.tsx"
+   ]
+  },
+  {
+   "s": "Expires {0}",
+   "files": [
+    "app/crew-member.tsx",
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Your expenses · €{0}",
+   "files": [
+    "app/expenses.tsx"
+   ]
+  },
+  {
+   "s": "{0} will be taken off your Passport.",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "📐 Smart Scan ({0})",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "📷 Take Photo ({0})",
+   "files": [
+    "app/qualification/[id].tsx"
+   ]
+  },
+  {
+   "s": "You're all set, {0}!",
+   "files": [
+    "app/setup-done.tsx"
+   ]
+  },
+  {
+   "s": "📸  Scan the {0}",
+   "files": [
+    "app/setup-ticket.tsx"
+   ]
+  },
+  {
+   "s": "q-extra-{0}-{1}",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Add {0} and finish",
+   "files": [
+    "app/setup-tickets.tsx"
+   ]
+  },
+  {
+   "s": "Score {0}%. Kept on this phone only.",
+   "files": [
+    "app/site-audit.tsx"
+   ]
+  },
+  {
+   "s": "RECENT ENTRIES ({0})",
+   "files": [
+    "app/site-diary.tsx"
+   ]
+  },
+  {
+   "s": "tel:{0}",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "sms:{0}?body={1}",
+   "files": [
+    "app/support.tsx"
+   ]
+  },
+  {
+   "s": "{0} and its enrolments will be removed.",
+   "files": [
+    "app/trainer.tsx"
+   ]
+  },
+  {
+   "s": "STEP {0} OF 6",
+   "files": [
+    "src/components/Step.tsx"
+   ]
+  },
+  {
+   "s": "<a href=\"{0}\">{1}</a>",
+   "files": [
+    "src/lib/attribution.ts"
+   ]
+  },
+  {
+   "s": "<div style=\"margin-top:24px;padding-top:8px;border-top:1px solid #ccc;font-size:11px;color:#555\">\n<strong>{0}</strong><br/>{1}: {2}</div>",
+   "files": [
+    "src/lib/attribution.ts"
+   ]
+  },
+  {
+   "s": "{0} Construction Passport\n{1}\n\n{2}",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<tr><td>{0}</td><td>{1}</td><td>{2}</td></tr>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<html><head><meta charset=\"utf-8\"><style>{0}</style></head><body>\n<h1>{1}</h1>\n<div class=\"muted\">{2} {3} · {4}</div>\n<h2>{5}</h2>\n<table><tr><th>Qualification</th><th>Issuer</th><th>Status</th></tr>{6}</table>\n{7}\n{8}</body></html>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<p class=\"muted\">Live passport: {0}</p>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td><b>{4}</b></td><td>{5}</td></tr>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Construction Passport timesheet,{0},{1}",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "Period,{0}",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": " &middot; GPS {0}, {1}",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<tr><th>Date / GPS stamp</th><td>{0}</td></tr>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<p><img src=\"{0}\" style=\"max-width:100%;max-height:420px\"/></p>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<img src=\"{0}\" style=\"max-width:48%;margin:4px\"/>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td style=\"text-align:right\">&euro;{4}</td></tr>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<html><head><meta charset=\"utf-8\"><style>{0}</style></head><body>\n<h1>Expenses — {1}</h1>\n<div class=\"muted\">{2} · {3} · {4}</div>\n<h2>Total: &euro;{5}</h2>\n<table><tr><th>Date</th><th>Merchant</th><th>Category</th><th>Note</th><th>Amount</th></tr>{6}</table>\n{7}</body></html>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<html><head><meta charset=\"utf-8\"><style>{0}</style></head><body>\n<h1>{1}</h1>\n<div class=\"muted\">{2}{3} · {4}</div>\n<h2>{5}</h2>\n<table><tr><th>Check</th><th>Result</th><th>Note</th></tr>{6}</table>\n<p>Inspector: {7}</p>\n{8}\n{9}</body></html>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "{0} defect{1} found — do not use until resolved",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "<p class=\"muted\">Date / GPS stamp: {0}</p>",
+   "files": [
+    "src/lib/exports.ts"
+   ]
+  },
+  {
+   "s": "CP-{0}",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Expired {0}",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "Valid to {0}",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "{0}-front",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "{0}-back",
+   "files": [
+    "src/lib/passport.ts"
+   ]
+  },
+  {
+   "s": "CP-HOR-{0}-",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "CP-HOR-{0}-{1}",
+   "files": [
+    "src/lib/records.ts"
+   ]
+  },
+  {
+   "s": "ev-{0}-{1}",
+   "files": [
+    "src/lib/timesheet.ts"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+0|Equipa
+1|A minha equipa
+2|O meu passaporte
+3|Partilhar
+4|Partilhar passaporte
+5|Perigos
+6|Perfil
+7|Não foi possível resolver
+8|Relatório de perigo
+9|Marcar como resolvido
+10|Resolvido
+11|Por resolver
+12|RELATÓRIOS POR RESOLVER
+13|Nada por resolver neste momento. Puxe para baixo para atualizar.
+14|RESOLVIDOS
+15|Ainda não há relatórios resolvidos.
+16|Repare · Fale · Aja · Faça a diferença
+17|A sua empresa
+18|＋ Adicionar um trabalhador
+19|Ainda não tem equipa
+20|Peça a um trabalhador que abra Partilhar na aplicação dele e lhe diga o código do passaporte (6 caracteres). Toque em «Adicionar um trabalhador», introduza-o e verá aqui as qualificações dele, que pode aprovar.
+21|Gerir obras
+22|Crie as suas obras e partilhe o código da equipa para que as folhas de horas mostrem as obras reais.
+23|Criar passaportes de trabalhadores
+24|Prepare as qualificações de um trabalhador antes de ele ter a aplicação e depois envie-lhe um código de resgate.
+25|Despesas da equipa
+26|Veja as despesas da empresa enviadas pela sua equipa.
+27|Folha de trabalho
+28|Preencha a folha de trabalho do dia e exporte-a em PDF.
+29|Diário de obra
+30|Registo diário: trabalhos, equipa na obra, entregas, atrasos e visitantes.
+31|Auditoria de obra
+32|Audite uma obra com os seus próprios pontos. Conforme, não conforme ou N/A, com os defeitos registados.
+33|Empresas que criou
+34|Crie uma empresa para um cliente ou testador e depois envie-lhe um código de resgate.
+35|Apoio
+36|Linhas de ajuda gratuitas e confidenciais, incluindo uma criada para a construção. A qualquer hora.
+37|ESTÁ A USAR COMO
+38|Empregador / Empreiteiro
+39|Mudar para trabalhador
+40|Nome da empresa / organização
+41|Este nome fica registado quando aprova um trabalhador.
+42|Guardar
+43|Terminar sessão
+44|Passaporte
+45|Construction Passport
+46|Folha de horas
+47|Inspeções
+48|Ato seguro
+49|Condição insegura
+50|Ato inseguro
+51|Colega de trabalho
+52|Supervisor
+53|Outro
+54|ESCOLHA UMA CATEGORIA
+55|Guardado
+56|Exportar PDF
+57|Observação de perigo
+58|Categoria *
+59|💡 Sugestão
+60|🪖 Assinalar para a reunião de segurança
+61|Assinale o relatório para o seu empregador o discutir na próxima reunião de segurança. O empregador decide quando e como.
+62|Fotografia
+63|📷 Tirar fotografia
+64|Escolher da galeria
+65|Remover
+66|Observação *
+67|O que reparou? Descreva com clareza.
+68|Cliente
+69|Projeto
+70|Supervisor (coordenador HOC)
+71|Local / obra
+72|Nome de quem reporta
+73|Reportar anonimamente (nome oculto no PDF; fica neste dispositivo para registo)
+74|Departamento
+75|p. ex., Vedações, Trabalhos de fundações
+76|Trabalho parado por
+77|Ação imediata tomada
+78|p. ex., Zona isolada e comunicada ao supervisor
+79|Ação adicional necessária
+80|p. ex., O eletricista deve subir o cabo
+81|Enviar observação de perigo
+82|Os seus relatórios guardados
+83|Falha no PDF
+84|Eliminar
+85|O seu nome
+86|Editar
+87|Adicione o seu nome
+88|Adicionar empregador
+89|Estado de conformidade
+90|Qualificações
+91|Adicionar
+92|Ainda não tem qualificações. Toque em Adicionar para digitalizar o Safe Pass ou outra qualificação para o seu Passaporte.
+93|Mostrar o meu passaporte (QR)
+94|Reportar um perigo
+95|Diário
+96|Semanal
+97|Mensal
+98|Defeitos registados
+99|Inspeção guardada
+100|Não utilizar até os defeitos serem corrigidos. Exportar o relatório de defeitos?
+101|Nenhum defeito encontrado.
+102|Não inspecionado
+103|Inspeção em atraso
+104|Defeitos reportados
+105|Adicione primeiro um veículo
+106|Adicione abaixo a sua carrinha, escavadora ou plataforma e depois faça uma inspeção.
+107|＋ Nova inspeção
+108|Máquinas pequenas · Veículo comercial ≥3,5 t — com relatório de defeitos em PDF
+109|Em breve
+110|As auditorias completas de segurança de obra chegam em breve.
+111|＋ Nova auditoria de obra
+112|Auditoria completa de segurança de obra — com pontuação, constatações, fotografias e relatório PDF
+113|Adicionar um veículo ou máquina
+114|p. ex., Carrinha Transit, escavadora de 3 t, plataforma MEWP
+115|Matrícula / n.º da máquina (opcional)
+116|Inspecioná-lo
+117|Adicionar não o marca como seguro — começa como «não inspecionado» até fazer uma inspeção.
+118|Ainda não tem veículos nem máquinas. Adicione acima a sua carrinha, escavadora ou plataforma para fazer inspeções.
+119|Os seus veículos e máquinas
+120|Inspecionar agora
+121|Inspeções anteriores
+122|Sem defeitos
+123|Qual?
+124|Defeito
+125|Descreva o defeito
+126|Concluir inspeção
+127|Guardado. O seu passaporte, tal como está agora, está guardado na sua conta.
+128|A palavra-passe deve ter pelo menos 6 caracteres.
+129|Conta criada. Confirme o e-mail que enviámos, depois inicie sessão e toque em Guardar agora.
+130|Conta criada e o seu passaporte está guardado.
+131|Sessão iniciada. Toque em Guardar agora para guardar este passaporte.
+132|Guarde o seu passaporte
+133|Guarde na sua conta o que está agora neste telemóvel, para o poder recuperar se mudar de telemóvel. Guarde depois de adicionar qualificações.
+134|Sessão iniciada como
+135|A guardar…
+136|Guardar agora
+137|E-mail
+138|Palavra-passe
+139|Criar conta e guardar
+140|Já tenho conta
+141|Partilhe primeiro o passaporte
+142|Abra uma vez o separador Partilhar para o empregador o poder encontrar e depois adicione novamente o código da equipa.
+143|Não foi possível adicionar a equipa
+144|Trabalhador
+145|As funções de empregador e formador são reconstruídas depois da parte do trabalhador.
+146|Mudar
+147|Verificação de bem-estar
+148|Uma verificação rápida e privada de como se sente. Fica no seu telemóvel — mais ninguém a vê.
+149|Linhas de ajuda gratuitas e confidenciais — incluindo uma criada para a construção. A qualquer hora.
+150|Nome
+151|Profissão
+152|Telefone
+153|Empregador
+154|Guardar perfil
+155|O seu perfil foi guardado e o passaporte partilhado será atualizado.
+156|As suas equipas (opcional)
+157|Adicione cada equipa para a qual trabalha. A marcada «Ativa» recebe novas folhas de horas e despesas — toque noutra para mudar.
+158|Pedido enviado
+159|Aderiu
+160|· Ativa
+161|Adicionar um código de equipa
+162|Tem um código de resgate?
+163|Se o empregador criou o seu passaporte, introduza o código dele para o preencher automaticamente.
+164|Sugestões de formação
+165|Permita que um empregador lhe sugira cursos (por exemplo, quando uma qualificação expira). Inscreve-se sempre por si — os seus dados nunca são partilhados sem o seu consentimento.
+166|O seu plano
+167|Subscrito.
+168|Segunda língua, cursos de formação e acesso de certificador.
+169|Versão
+170|O código QR aparece depois de partilhar o passaporte.
+171|Mostre-o a um empreiteiro. Ele digitaliza-o com a câmara de qualquer telemóvel — sem aplicação — para ver o seu passaporte, as fotografias dos certificados e o confirmar.
+172|Ainda não foi possível partilhar o passaporte:
+173|Tentar novamente
+174|O passaporte partilhado está atualizado ✓
+175|Qualquer alteração — adicionar, editar ou eliminar uma qualificação — atualiza automaticamente. Só o veem as pessoas a quem o mostra.
+176|Permitir que o empregador adicione certificados
+177|Permita que o empregador adicione certificados ao seu passaporte. Mantém o controlo — pode desligar a qualquer momento e eliminar tudo o que ele adicionar.
+178|👁 Ver como público
+179|🔗 Copiar
+180|Copiado
+181|A ligação do seu passaporte está na área de transferência.
+182|📤 Partilhar através de…
+183|📄 Guardar como PDF
+184|A ligação que o QR abre — toque para ver o que um empregador vê
+185|Dia
+186|Semana
+187|Mês
+188|O seu período gratuito de 90 dias terminou
+189|A folha de horas e as ferramentas de trabalho custam
+190|EUR por mês ou são gratuitas se o seu empregador tiver subscrição. O Passaporte e a partilha continuam gratuitos, sempre.
+191|No trabalho
+192|Em pausa
+193|Sem registo de entrada
+194|Toque em Iniciar turno quando começar a trabalhar.
+195|Iniciar turno
+196|Regressar
+197|Pausa
+198|Terminar turno
+199|Hoje:
+200|＋ Adicionar ou preencher um registo retroativo
+201|Hoje
+202|Esta semana
+203|Ainda não tem horas esta semana. Toque em Iniciar turno para começar.
+204|Toque em Encontrar folha de horas para ver cada dia.
+205|Encontrar folha de horas
+206|Procure um dia, semana ou mês — veja as horas e exporte.
+207|Registar um dia de folga
+208|Férias, doença, feriado, sem trabalho — registado na folha de horas e no empregador.
+209|Despesas
+210|Fotografe um recibo — envie-o ao empregador ou guarde-o em privado com exportação separada.
+211|Preencha a folha de trabalho do dia e exporte-a em PDF.
+212|📥 Exportar o dia de hoje…
+213|📄 Exportar esta semana (PDF)
+214|As suas horas chegam automaticamente ao empregador depois de lhe partilhar o passaporte.
+215|Iniciar turno — adicione uma nota (opcional)
+216|Nota
+217|p. ex., Na obra, início com nevoeiro — Ponte 78
+218|Cancelar
+219|Exportar
+220|PDF (guardar, enviar por e-mail ou partilhar)
+221|Folha de cálculo (CSV)
+222|Falha na exportação
+223|Sem registos neste período.
+224|Início
+225|Fim
+226|Pausas
+227|Total trabalhado
+228|📥 Exportar este período…
+229|📍 localização registada
+230|Adicionar um registo
+231|Hora (24h)
+232|O que aconteceu?
+233|p. ex., Chegada à obra — Ponte 78-06.00
+234|Adicionar registo
+235|Cursos
+236|Adicionar trabalhador
+237|Membro da equipa
+238|Gerir obras
+239|Despesas da equipa
+240|Qualificação
+241|Adicionar qualificação
+242|Folha de trabalho
+243|Código de resgate
+244|Certificador
+245|Empresas
+246|Novo curso
+247|Curso
+248|Movimentação manual de cargas
+249|Trabalho em altura
+250|Primeiros socorros
+251|Discos abrasivos
+252|Espaços confinados
+253|Sinaleiro / Orientador de trânsito
+254|Sensibilização para o amianto
+255|Segurança contra incêndios
+256|Empilhador
+257|Que qualificação está a adicionar?
+258|Outra coisa
+259|p. ex., Certificado de canalizador
+260|Falta o código do passaporte
+261|Não foi possível certificar
+262|Não foi possível revogar
+263|Nada à espera de verificação.
+264|Certificar
+265|Revogar certificação
+266|Bem
+267|Difícil
+268|Como se sente?
+269|Uma verificação rápida e privada. Fica no seu telemóvel — mais ninguém a vê.
+270|Algo o preocupa? (opcional)
+271|Guardar verificação
+272|As suas verificações recentes
+273|Código não encontrado. Verifique-o e tente novamente.
+274|Qualificação
+275|A verificar…
+276|Resgatar passaporte
+277|Falta o código da empresa
+278|Eliminar empresa?
+279|Esta empresa
+280|Não foi possível eliminar
+281|Crie uma empresa uma vez e depois envie-lhes um código de resgate. Abrem o Construction Passport, escolhem Empregador, introduzem o código e a empresa e a equipa deles já lá estão. Bom para testadores que preferem não mexer na configuração.
+282|＋ Criar uma nova empresa
+283|Ainda não criou nenhuma empresa. Toque em «Criar uma nova empresa» para começar.
+284|Empresa
+285|Código da equipa
+286|Copiar código de resgate
+287|Eliminar empresa
+288|Introduza o nome da empresa.
+289|Criar uma nova empresa
+290|Receberá um código de resgate para enviar.
+291|Nome da empresa
+292|p. ex., Prime Peak Limited
+293|Profissão (opcional)
+294|p. ex., Trabalhos de fundações
+295|A guardar…
+296|Criar empresa
+297|Remover formando?
+298|Este formando
+299|Não foi possível remover
+300|Código do curso
+301|Ninguém se inscreveu ainda. Os formandos inscrevem-se com o código do curso.
+302|Formando
+303|Resposta em texto
+304|Sim / Não
+305|Escolha múltipla
+306|Não foi possível carregar o curso
+307|Verifique a data
+308|Introduza a data como AAAA-MM-DD, p. ex., 2026-10-05.
+309|Nome do curso
+310|Dê um nome ao curso, p. ex., Safe Pass.
+311|O curso não foi guardado.
+312|O curso foi criado, mas não chegou nenhum código de inscrição. Verifique a lista de cursos.
+313|Curso criado
+314|Não foi possível guardar
+315|p. ex., Safe Pass
+316|Fornecedor de formação / instrutor
+317|p. ex., SilerTech Training
+318|Que qualificação renova?
+319|(para o podermos sugerir a trabalhadores cuja qualificação expira)
+320|Onde se realiza?
+321|Local / morada, cidade, condado
+322|Detalhes de inscrição (ligação de reserva, telefone ou instruções)
+323|p. ex., https://… ou ligue 01 234 5678
+324|Preço (opcional)
+325|Datas das sessões
+326|Adicione as datas em que dá este curso. Os trabalhadores veem-nas e escolhem uma data.
+327|Data, AAAA-MM-DD (p. ex., 2026-10-05)
+328|Hora de início (opcional), p. ex., 09:00
+329|＋ Adicionar data
+330|Questionário pré-curso
+331|Perguntas a que os formandos respondem ao inscrever-se. Opcional.
+332|Nova pergunta
+333|Opções, separadas por vírgulas
+334|＋ Adicionar pergunta
+335|Listar na pesquisa de cursos
+336|Quando ativado, trabalhadores e empregadores podem encontrar este curso por distância e data.
+337|Guardar curso
+338|Criar curso e obter código de inscrição
+339|A sua empresa ainda não tem código. Configure-a novamente a partir do Perfil.
+340|Código do passaporte do trabalhador
+341|6 caracteres
+342|O trabalhador encontra-o no separador Partilhar da aplicação dele. É o código curto no fim da ligação do passaporte, depois de «?p=».
+343|É
+344|Empregado
+345|Subempreiteiro
+346|Atualmente
+347|Na equipa
+348|Fora da equipa
+349|«Fora da equipa» mantém-no na empresa sem estar numa equipa hoje, útil para um subempreiteiro entre trabalhos ou alguém que visita obras.
+350|A adicionar…
+351|Adicionar à equipa
+352|Não foi possível atualizar
+353|Despesas da empresa
+354|Ainda não foram enviadas despesas da empresa. Quando um trabalhador da sua equipa adicionar uma despesa da empresa, aparece aqui.
+355|Despesa
+356|Aprovar
+357|Rejeitar
+358|Não foi possível aprovar
+359|Remover da equipa?
+360|Continua na aplicação; apenas sai da lista da sua equipa.
+361|QUALIFICAÇÕES
+362|Ainda não há qualificações neste passaporte.
+363|Sem data de validade registada
+364|✓ Aprovado
+365|Aprovar este trabalhador
+366|Remover da equipa
+367|Férias
+368|Doença
+369|Feriado
+370|Sem trabalho
+371|Tipo
+372|Nota (opcional)
+373|Registar dia de folga
+374|Combustível
+375|Adicionar uma despesa
+376|🧾 Fotografar um recibo
+377|Comerciante
+378|Valor (€)
+379|Guardar despesa
+380|Ainda não há despesas.
+381|📄 Exportar despesas (PDF)
+382|Todas as despesas guardadas
+383|O envio de despesas ao empregador chega em breve.
+384|As suas qualificações, sempre consigo. Crie uma conta para o seu passaporte ficar guardado e nunca se perder.
+385|Começar
+386|Já tenho conta · Iniciar sessão
+387|Nova folha de trabalho
+388|Data
+389|Trabalho / n.º de ref.
+390|p. ex., Prime Management
+391|Obra / local
+392|p. ex., Ponte 78, N4
+393|Trabalhadores
+394|Nome no trabalho
+395|＋ Adicionar um trabalhador
+396|Máquinas / equipamento
+397|p. ex., Carrinha TM, sinalização, EPI
+398|＋ Adicionar máquina / equipamento
+399|Descrição dos trabalhos
+400|O que foi feito
+401|Materiais
+402|Materiais utilizados
+403|Fotografias
+404|📷 Tirar fotografia
+405|🖼️ Adicionar da galeria
+406|Tempo trabalhado
+407|Notas
+408|Mais alguma coisa (atrasos, problemas)
+409|Assinado por
+410|📄 Guardar e exportar PDF
+411|Folhas de trabalho guardadas
+412|Esta é uma primeira versão — envie-me a sua folha habitual e faço-a igual.
+413|Sessão iniciada, mas esta conta ainda não tem um passaporte guardado. Escolha quem é para continuar.
+414|Bem-vindo de volta
+415|Inicie sessão para trazer o seu passaporte para este telemóvel.
+416|voce@exemplo.com
+417|A sua palavra-passe
+418|A iniciar sessão…
+419|Iniciar sessão
+420|Crie o passaporte de um trabalhador antes de ele ter a aplicação. Adicione o nome, a profissão e as qualificações e depois envie-lhe o código de resgate. Quando instalar a aplicação e o introduzir, tudo aparece.
+421|Código de resgate para o trabalhador
+422|Copiar código
+423|NOVO TRABALHADOR
+424|Nome do trabalhador
+425|Criar passaporte e obter código
+426|CRIADOS ATÉ AGORA
+427|Ainda não criou passaportes.
+428|Qualificação não encontrada.
+429|É necessária permissão
+430|Permita o acesso às fotografias para escolher uma imagem da sua qualificação.
+431|Permita o acesso à câmara para fotografar a sua qualificação.
+432|Não foi possível adicionar a fotografia
+433|Eliminar esta qualificação?
+434|Certificado — frente
+435|Certificado — verso (opcional)
+436|Toque para ampliar
+437|🖼️ Escolher da galeria
+438|Nome da qualificação
+439|⚠ Sem data de validade registada
+440|Válido até (mês e ano)
+441|Ano
+442|Data de emissão (mês e ano)
+443|Estado
+444|Verificado
+445|Pendente
+446|Declarado por si
+447|O Smart Scan recorta a qualificação direita. Tirar fotografia usa a câmara normal. Qualquer alteração aqui atualiza automaticamente o passaporte partilhado.
+448|Eliminar esta qualificação
+449|Sou trabalhador
+450|Guarde o meu Safe Pass, qualificações e formações num só lugar.
+451|Giro uma equipa ou empresa
+452|Veja as qualificações da minha equipa e gira os documentos da obra.
+453|Sou fornecedor de formação
+454|Organize cursos, recolha os dados dos formandos e questionários e publique certificados.
+455|‹ Voltar
+456|Primeiro — quem é?
+457|Pode mudar mais tarde.
+458|Já tem conta? Iniciar sessão
+459|Sou certificador · Tenho um código
+460|Não é você? Terminar sessão
+461|Início de sessão de certificador
+462|Introduza o código de certificador que recebeu. Permite-lhe verificar e certificar passaportes.
+463|Código de certificador
+464|O seu código
+465|Iniciar sessão
+466|Introduza o código de resgate que recebeu.
+467|Código de resgate não encontrado.
+468|A minha empresa
+469|Introduza o nome da sua empresa.
+470|Como se chama a sua empresa?
+471|Introduza o código de resgate da empresa
+472|Este é o nome mostrado quando confirma um trabalhador.
+473|Alguém já criou a sua empresa, por isso introduza o código que lhe deram.
+474|Código de resgate da empresa
+475|p. ex., ABC123
+476|E-mail (para o seu passaporte ficar guardado)
+477|Pelo menos 6 caracteres
+478|A processar…
+479|Continuar
+480|Alguém já criou a nossa empresa? Introduza um código de resgate →
+481|← Criar antes uma nova empresa
+482|O seu passaporte está pronto. Pode adicionar detalhes, partilhá-lo ou adicionar mais qualificações a qualquer momento.
+483|Ver o meu passaporte
+484|Adicione a sua fotografia
+485|Uma fotografia nítida do rosto aparece na primeira página do passaporte, para que quem o receba veja logo que é mesmo você.
+486|📷 Tirar a minha fotografia
+487|Tirar-me uma fotografia
+488|Mais tarde
+489|Saltar por agora
+490|Quase todos os trabalhadores precisam de um Safe Pass válido para entrar numa obra na Irlanda. Digitalize a frente do cartão, o verso e adicione a data de validade.
+491|O outro que quase todas as obras pedem. Digitalize ambos os lados do certificado de movimentação manual de cargas e adicione a data de validade.
+492|Frente do cartão
+493|Verso (se tiver)
+494|Válido até (mês e ano, opcional)
+495|Data de emissão (mês e ano, opcional)
+496|Digitalizar cartão
+497|Não tenho / saltar por agora
+498|Outra qualificação
+499|Outras qualificações?
+500|Toque numa para a adicionar. Adicione as que quiser — ou salte e adicione mais tarde.
+501|Introduza o nome da sua empresa de formação.
+502|Como se chama a sua empresa de formação?
+503|Mostrado aos formandos quando aderem aos seus cursos.
+504|Introduza o seu nome.
+505|Código de resgate não encontrado. Verifique-o ou limpe o campo para continuar sem código.
+506|PASSO 1 DE 6
+507|Crie o seu passaporte
+508|O seu nome aparece no topo. Se o empregador já criou o seu passaporte, introduza o código de resgate dele e nós preenchemo-lo.
+509|p. ex., João Silva
+510|A sua profissão
+511|p. ex., Eletricista
+512|Código de resgate (opcional)
+513|Do empregador, se tiver
+514|A preparar…
+515|Conforme
+516|Não conforme
+517|Adicionar um ponto
+518|Descreva pelo menos uma coisa que observou.
+519|Cada ponto marcado Não conforme precisa de uma descrição do defeito.
+520|Auditoria guardada
+521|Nome da obra
+522|Obra / zona
+523|Local
+524|Morada ou cidade
+525|Tempo
+526|p. ex., Seco, ventoso
+527|PONTOS
+528|Ponto
+529|Descreva os defeitos encontrados (obrigatório se marcou um defeito)
+530|Mover para cima
+531|Mover para baixo
+532|＋ Adicionar o ponto seguinte
+533|Pontuação até agora:
+534|Guardar auditoria
+535|＋ Nova auditoria
+536|Auditorias anteriores
+537|Ainda não há auditorias.
+538|Auditoria
+539|· Pontuação
+540|Diário guardado
+541|Fica apenas neste telemóvel.
+542|Diário de obra
+543|p. ex., Ponte 78, obra sul
+544|p. ex., Seco, frio, início com nevoeiro
+545|Equipa na obra
+546|p. ex., Alfie, Oisin, Sam
+547|Trabalhos realizados
+548|O que foi feito hoje
+549|Entregas
+550|Materiais / equipamento entregues
+551|Atrasos / problemas
+552|Qualquer coisa que parou o trabalho
+553|Visitantes
+554|Visitantes / inspeções na obra
+555|Mais alguma coisa para registo
+556|Guardar registo do diário
+557|Ainda não há registos.
+558|Atrasos:
+559|O CÓDIGO DA SUA EQUIPA
+560|Dê-o aos seus trabalhadores. Quando o introduzem, a folha de horas deles mostra as suas obras.
+561|AS SUAS OBRAS
+562|Ainda não tem obras. Adicione a primeira abaixo.
+563|ADICIONAR UMA OBRA
+564|Localização (morada ou código postal, opcional)
+565|Adicionar obra
+566|Uma localização aqui ativa em breve a função de meteorologia da obra.
+567|Não está sozinho.
+568|Tudo é gratuito, confidencial e está disponível a qualquer hora. Nada do que toca aqui é rastreado ou partilhado com ninguém.
+569|Criada para a construção — incluindo problemas de dinheiro. Gratuito, 24/7, para todos na obra.
+570|Ligar 1800 939 122
+571|Enviar HARDHAT para 50808
+572|Seja o que for que o preocupe, a qualquer hora. Gratuito, 24/7.
+573|Ligar 116 123
+574|Se pensa em magoar-se ou está preocupado com alguém. Gratuito, 24/7.
+575|Ligar 1800 247 247
+576|Enviar HELP para 51444
+577|Prefere uma mensagem a uma chamada? Responde um voluntário treinado. Gratuito, 24/7.
+578|Enviar HELLO para 50808
+579|Isto é uma indicação de onde pedir ajuda, não um serviço médico — se a vida estiver em perigo, ligue 112 ou 999.
+580|Para o dia a dia, o Wysa é uma aplicação gratuita de autoajuda (CBT/DBT) — útil entre momentos difíceis, mas não para emergências.
+581|Em perigo agora? Ligue 112 ou 999
+582|Toque para ligar 112
+583|Eliminar curso?
+584|Este curso
+585|A sua empresa de formação
+586|＋ Novo curso
+587|Ainda não há cursos
+588|Crie um curso, defina um questionário prévio e partilhe o código de inscrição com os formandos. Eles inscrevem-se, indicam a morada postal para o certificado e respondem às suas perguntas. Vê tudo aqui.
+589|Eliminar curso
+590|Usar como trabalhador
+591|Idioma
+592|Mostrar uma segunda língua junto ao inglês
+593|Só inglês
+594|O inglês fica sempre no ecrã, para que a sua equipa e os chefes possam ler consigo.
+595|Fechar ✕
+615|Inicie sessão ou crie primeiro uma conta.
+618|Código de certificador não reconhecido.
+619|Sem validade
+620|Ação necessária
+621|Expira em breve
+622|Totalmente conforme
+623|Permita o acesso às fotografias para escolher uma imagem.
+624|Permita o acesso à câmara para tirar uma fotografia.
+625|Sugestão
+626|Ferramentas
+627|Refeições
+628|Viagem
+629|Alojamento
+630|Pneus e rodas
+631|Luzes e sinalização
+632|Travões
+633|Óleo e fluidos
+634|Espelhos e vidros
+635|Buzina e dispositivos de aviso
+636|Cintos de segurança / sistemas de retenção
+637|Extintor / kit de primeiros socorros
+638|Verificação de danos
+639|Carga fixa / seguro para usar
+640|Início de turno
+641|Fim de turno
+642|Dia de folga
+643|🔴 {0} expirou  
+644|🟠 {0} expira  
+645|Inspecionar: {0}
+646|Período gratuito: restam {0} dias, com tudo incluído. Depois o Passaporte continua gratuito; a folha de horas e as ferramentas de trabalho custam {1} EUR por mês (ou são gratuitas se o seu empregador tiver subscrição).
+647|O seu período gratuito terminou. O Passaporte e a partilha são gratuitos; a folha de horas e as ferramentas de trabalho custam {0} EUR por mês.
+648|Semana de {0}
+649|PASSAPORTES A VERIFICAR ({0})
+650|Feito. O seu passaporte foi preenchido{0}.
+651|FORMANDOS ({0})
+652|Código de inscrição: {0}\nDê-o aos seus formandos.
+653|Opções · {0}
+654|Enviado pela sua equipa · código da equipa {0}. Puxe para baixo para atualizar.
+655|Expira {0}
+656|As suas despesas · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Tirar fotografia ({0})
+659|Pronto, {0}!
+660|📸  Digitalizar {0}
+661|Adicionar {0} e concluir
+662|Pontuação {0}%. Fica apenas neste telemóvel.
+663|REGISTOS RECENTES ({0})
+664|PASSO {0} DE 6
+665|Expirou {0}
+666|Válido até {0}
+667|{0} está guardado neste dispositivo.
+668|{0} defeito(s)
+669|{0} e a equipa serão removidos.
+670|{0} será removido do curso.
+671|{0} será removido do seu Passaporte.
+672|{0} e as inscrições serão removidos.

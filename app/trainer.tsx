@@ -1,11 +1,13 @@
 import { useCallback, useState } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Button, Card } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 import { useSession } from '../src/lib/session';
 import { deleteCourse, listCourses, rows, str } from '../src/lib/api';
 import { logOut } from '../src/lib/account';
+import { LanguageButton } from '../src/components/LanguageButton';
 
 // Training provider home: list courses, open one to see its enrolments. Course creation is not in the backend contract yet.
 export default function Trainer() {
@@ -44,6 +46,7 @@ export default function Trainer() {
 
   return (
     <ScrollView contentContainerStyle={styles.body}>
+      <LanguageButton />
       <Text style={styles.h1}>{session.orgName ?? 'Your training business'}</Text>
       <Button label="＋  New course" onPress={() => router.push('/course/new')} />
       {err ? <Text style={{ color: colors.danger }}>{err}</Text> : null}

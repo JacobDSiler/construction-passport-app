@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { Button, Card, Field, SectionLabel } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 import { AuditPoint, AuditResult, SiteAudit, auditScore, loadSiteAudits, newRecordId, saveSiteAudits } from '../src/lib/records';

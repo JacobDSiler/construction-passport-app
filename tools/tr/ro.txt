@@ -1,0 +1,652 @@
+0|Echipă
+1|Echipa mea
+2|Pașaportul meu
+3|Distribuie
+4|Distribuie pașaportul
+5|Pericole
+6|Profil
+7|Nu s-a putut rezolva
+8|Raport de pericol
+9|Marchează ca rezolvat
+10|Rezolvat
+11|De rezolvat
+12|RAPOARTE DE REZOLVAT
+13|Nimic de rezolvat acum. Trage în jos pentru a reîmprospăta.
+14|REZOLVATE
+15|Încă nu există rapoarte rezolvate.
+16|Observă · Vorbește · Acționează · Fă diferența
+17|Compania ta
+18|＋ Adaugă un lucrător
+19|Încă nu ai echipă
+20|Roagă un lucrător să deschidă Distribuie în aplicația lui și să-ți citească codul pașaportului (6 caractere). Apasă „Adaugă un lucrător”, introdu-l și vei vedea aici calificările lui și le poți aproba.
+21|Gestionează șantierele
+22|Creează-ți șantierele și distribuie codul echipei, ca fișele de pontaj să arate șantierele reale.
+23|Creează pașapoarte pentru lucrători
+24|Construiește calificările unui lucrător înainte să aibă aplicația, apoi trimite-i un cod de revendicare.
+25|Cheltuielile echipei
+26|Vezi cheltuielile companiei trimise de echipa ta.
+27|Fișă de lucru
+28|Completează fișa de lucru a zilei și exportă-o ca PDF.
+29|Jurnal de șantier
+30|Jurnal zilnic: lucrări, echipa de pe șantier, livrări, întârzieri și vizitatori.
+31|Audit de șantier
+32|Auditează un șantier cu punctele tale. Corespunde, nu corespunde sau N/A, cu defectele notate.
+33|Companiile create de tine
+34|Creează o companie pentru un client sau un tester, apoi trimite-i un cod de revendicare.
+35|Asistență
+36|Linii de ajutor gratuite și confidențiale, inclusiv una creată pentru construcții. La orice oră.
+37|FOLOSEȘTI CA
+38|Angajator / Antreprenor
+39|Treci la lucrător
+40|Numele companiei / organizației
+41|Acesta este numele înregistrat când aprobi un lucrător.
+42|Salvează
+43|Deconectare
+44|Pașaport
+45|Construction Passport
+46|Pontaj
+47|Inspecții
+48|Act sigur
+49|Condiție nesigură
+50|Act nesigur
+51|Coleg de muncă
+52|Supervizor
+53|Altele
+54|ALEGE O CATEGORIE
+55|Salvat
+56|Exportă PDF
+57|Observație de pericol
+58|Categorie *
+59|💡 Sugestie
+60|🪖 Marchează pentru ședința de securitate
+61|Marchează raportul ca angajatorul tău să-l discute la următoarea ședință de securitate. Angajatorul decide când și cum.
+62|Fotografie
+63|📷 Fă o fotografie
+64|Alege din galerie
+65|Șterge
+66|Observație *
+67|Ce ai observat? Descrie clar.
+68|Client
+69|Proiect
+70|Supervizor (coordonator HOC)
+71|Locație / șantier
+72|Numele observatorului
+73|Raportează anonim (numele este ascuns în PDF; rămâne pe acest dispozitiv pentru evidență)
+74|Departament
+75|ex. Garduri, Lucrări de fundație
+76|Lucrare oprită de
+77|Acțiune imediată luată
+78|ex. Zona a fost delimitată și raportată supervizorului
+79|Acțiune suplimentară necesară
+80|ex. Electricianul să mute cablul deasupra
+81|Trimite observația de pericol
+82|Rapoartele tale salvate
+83|PDF eșuat
+84|Șterge
+85|Numele tău
+86|Editează
+87|Adaugă-ți numele
+88|Adaugă angajatorul
+89|Stare de conformitate
+90|Calificări
+91|Adaugă
+92|Încă nu ai calificări. Apasă Adaugă pentru a scana Safe Pass sau orice altă calificare în Pașaportul tău.
+93|Arată pașaportul meu (QR)
+94|Raportează un pericol
+95|Zilnic
+96|Săptămânal
+97|Lunar
+98|Defecte înregistrate
+99|Inspecție salvată
+100|Nu-l folosi până când defectele sunt remediate. Exporți raportul de defecte?
+101|Nu s-au găsit defecte.
+102|Neinspectat
+103|Inspecție scadentă
+104|Defecte raportate
+105|Adaugă mai întâi un vehicul
+106|Adaugă mai jos duba, excavatorul sau platforma ta, apoi fă o inspecție.
+107|＋ Inspecție nouă
+108|Utilaj mic · Vehicul comercial ≥3,5 t — cu raport de defecte în PDF
+109|Urmează
+110|Auditurile complete de siguranță a șantierului urmează.
+111|＋ Audit nou de șantier
+112|Audit complet de siguranță a șantierului — cu punctaj, constatări, fotografii și raport PDF
+113|Adaugă un vehicul sau un utilaj
+114|ex. Duba Transit, excavator de 3 tone, platformă MEWP
+115|Nr. înmatriculare / utilaj (opțional)
+116|Inspectează-l
+117|Adăugarea nu îl marchează ca sigur — pornește ca „neinspectat” până faci o inspecție.
+118|Încă nu ai vehicule sau utilaje. Adaugă mai sus duba, excavatorul sau platforma pentru a face inspecții.
+119|Vehiculele și utilajele tale
+120|Inspectează acum
+121|Inspecții anterioare
+122|Fără defecte
+123|Care anume?
+124|Defect
+125|Descrie defectul
+126|Termină inspecția
+127|Salvat. Pașaportul tău, așa cum este acum, este salvat în contul tău.
+128|Parola trebuie să aibă cel puțin 6 caractere.
+129|Cont creat. Confirmă e-mailul trimis, apoi conectează-te și apasă Salvează acum.
+130|Cont creat, iar pașaportul tău este salvat.
+131|Conectat. Apasă Salvează acum pentru a salva acest pașaport.
+132|Salvează-ți pașaportul
+133|Salvează în contul tău ce este acum pe acest telefon, ca să îl poți recupera dacă schimbi telefonul. Salvează după ce adaugi calificări.
+134|Conectat ca
+135|Se salvează…
+136|Salvează acum
+137|E-mail
+138|Parolă
+139|Creează cont și salvează
+140|Am deja un cont
+141|Distribuie mai întâi pașaportul
+142|Deschide o dată fila Distribuie ca angajatorul să te poată găsi, apoi adaugă din nou codul echipei.
+143|Nu s-a putut adăuga echipa
+144|Lucrător
+145|Rolurile de angajator și formator sunt reconstruite după partea de lucrător.
+146|Schimbă
+147|Verificare stare
+148|O verificare rapidă și privată despre cum te simți. Rămâne pe telefonul tău — nimeni altcineva nu o vede.
+149|Linii de ajutor gratuite și confidențiale — inclusiv una creată pentru construcții. La orice oră.
+150|Nume
+151|Meserie
+152|Telefon
+153|Angajator
+154|Salvează profilul
+155|Profilul tău a fost salvat, iar pașaportul distribuit se va actualiza.
+156|Echipele tale (opțional)
+157|Adaugă fiecare echipă pentru care lucrezi. Cea marcată „Activă” primește pontajele și cheltuielile noi — apasă pe alta pentru a schimba.
+158|Solicitat
+159|Alăturat
+160|· Activă
+161|Adaugă un cod de echipă
+162|Ai un cod de revendicare?
+163|Dacă angajatorul ți-a creat pașaportul, introdu codul lui pentru a-l completa automat.
+164|Sugestii de instruire
+165|Permite unui angajator să-ți sugereze cursuri (de exemplu când o calificare expiră). Tu le rezervi întotdeauna singur — datele tale nu sunt niciodată distribuite fără acordul tău.
+166|Planul tău
+167|Abonat.
+168|A doua limbă, cursuri de instruire și acces de certificator.
+169|Versiune
+170|Codul QR apare după ce pașaportul tău este distribuit.
+171|Arată-l unui antreprenor. Îl scanează cu orice cameră de telefon — fără aplicație — ca să-ți vadă pașaportul, fotografiile certificatelor și să te confirme.
+172|Nu s-a putut distribui încă pașaportul:
+173|Încearcă din nou
+174|Pașaportul distribuit este la zi ✓
+175|Orice modificare — adăugarea, editarea sau ștergerea unei calificări — se actualizează automat. Doar persoanele cărora le-l arăți îl pot vedea.
+176|Lasă angajatorul să adauge certificate
+177|Permite angajatorului să adauge certificate în pașaportul tău. Tu rămâi în control — poți opri oricând și poți șterge orice adaugă el.
+178|👁 Vezi ca public
+179|🔗 Copiază
+180|Copiat
+181|Linkul pașaportului tău este în clipboard.
+182|📤 Distribuie prin…
+183|📄 Salvează ca PDF
+184|Linkul deschis de QR — apasă pentru a vedea ce vede un angajator
+185|Zi
+186|Săptămână
+187|Lună
+188|Perioada ta gratuită de 90 de zile s-a încheiat
+189|Pontajul și instrumentele de lucru costă
+190|EUR pe lună sau sunt gratuite dacă angajatorul tău are abonament. Pașaportul și distribuirea rămân gratuite, mereu.
+191|La program
+192|În pauză
+193|Neînregistrat la program
+194|Apasă Începe programul când începi lucrul.
+195|Începe programul
+196|Revenit
+197|Pauză
+198|Termină programul
+199|Azi:
+200|＋ Adaugă sau completează retroactiv o înregistrare
+201|Azi
+202|Săptămâna aceasta
+203|Încă nu ai ore săptămâna aceasta. Apasă Începe programul pentru a începe.
+204|Apasă Găsește un pontaj pentru a vedea fiecare zi.
+205|Găsește un pontaj
+206|Caută o zi, o săptămână sau o lună — vezi orele și exportă-le.
+207|Înregistrează o zi liberă
+208|Concediu, boală, sărbătoare legală, fără lucru — înregistrat în pontaj și la angajator.
+209|Cheltuieli
+210|Fotografiază un bon — trimite-l angajatorului sau păstrează-l personal cu export separat.
+211|Completează fișa de lucru a zilei și exportă-o ca PDF.
+212|📥 Exportă ziua de azi…
+213|📄 Exportă săptămâna aceasta (PDF)
+214|Orele tale ajung automat la angajator după ce pașaportul îi este distribuit.
+215|Începe programul — adaugă o notă (opțional)
+216|Notă
+217|ex. La șantier, început cu ceață — Podul 78
+218|Anulează
+219|Exportă
+220|PDF (salvează, trimite pe e-mail sau distribuie)
+221|Foaie de calcul (CSV)
+222|Exportul a eșuat
+223|Nicio înregistrare pentru această perioadă.
+224|Început
+225|Sfârșit
+226|Pauze
+227|Total lucrat
+228|📥 Exportă această perioadă…
+229|📍 locație înregistrată
+230|Adaugă o înregistrare
+231|Ora (24h)
+232|Ce s-a întâmplat?
+233|ex. Sosire la șantier — Podul 78-06.00
+234|Adaugă înregistrarea
+235|Cursuri
+236|Adaugă lucrător
+237|Membru al echipei
+238|Gestionează șantierele
+239|Cheltuielile echipei
+240|Calificare
+241|Adaugă calificare
+242|Fișă de lucru
+243|Cod de revendicare
+244|Certificator
+245|Companii
+246|Curs nou
+247|Curs
+248|Manipulare manuală
+249|Lucru la înălțime
+250|Prim ajutor
+251|Discuri abrazive
+252|Spații închise
+253|Ghidaj / Semnalizator
+254|Conștientizare azbest
+255|Siguranță la incendiu
+256|Stivuitor
+257|Ce calificare adaugi?
+258|Altceva
+259|ex. Certificat de instalator
+260|Lipsește codul pașaportului
+261|Nu s-a putut certifica
+262|Nu s-a putut revoca
+263|Nimic în așteptare pentru verificare.
+264|Certifică
+265|Revocă certificarea
+266|Bine
+267|Greu
+268|Cum te simți?
+269|O verificare rapidă și privată. Rămâne pe telefonul tău — nimeni altcineva nu o vede.
+270|Ai ceva pe suflet? (opțional)
+271|Salvează verificarea
+272|Verificările tale recente
+273|Codul nu a fost găsit. Verifică-l și încearcă din nou.
+274|Calificare
+275|Se verifică…
+276|Revendică pașaportul
+277|Lipsește codul companiei
+278|Ștergi compania?
+279|Această companie
+280|Nu s-a putut șterge
+281|Creează o companie o singură dată, apoi trimite-le un cod de revendicare. Ei deschid Construction Passport, aleg Angajator, introduc codul, iar compania și echipa lor sunt deja acolo. Bun pentru testeri care nu vor să se complice cu configurarea.
+282|＋ Creează o companie nouă
+283|Nu ai creat încă nicio companie. Apasă „Creează o companie nouă” pentru a începe.
+284|Companie
+285|Codul echipei
+286|Copiază codul de revendicare
+287|Șterge compania
+288|Introdu numele companiei.
+289|Creează o companie nouă
+290|Vei primi un cod de revendicare pe care să îl trimiți.
+291|Numele companiei
+292|ex. Prime Peak Limited
+293|Meserie (opțional)
+294|ex. Lucrări de fundație
+295|Se salvează…
+296|Creează compania
+297|Elimini cursantul?
+298|Acest cursant
+299|Nu s-a putut elimina
+300|Codul cursului
+301|Nimeni nu s-a înscris încă. Cursanții se înscriu cu codul cursului.
+302|Cursant
+303|Răspuns text
+304|Da / Nu
+305|Variante multiple
+306|Nu s-a putut încărca cursul
+307|Verifică data
+308|Introdu data ca AAAA-LL-ZZ, ex. 2026-10-05.
+309|Numele cursului
+310|Dă un nume cursului, ex. Safe Pass.
+311|Cursul nu a fost salvat.
+312|Cursul a fost creat, dar nu a venit niciun cod de înscriere. Verifică lista de cursuri.
+313|Curs creat
+314|Nu s-a putut salva
+315|ex. Safe Pass
+316|Furnizor de instruire / instructor
+317|ex. SilerTech Training
+318|Ce calificare reînnoiește?
+319|(ca să îl putem sugera lucrătorilor a căror calificare expiră)
+320|Unde are loc?
+321|Locație / adresă, oraș, județ
+322|Detalii de înscriere (link de rezervare, telefon sau instrucțiuni)
+323|ex. https://… sau sună la 01 234 5678
+324|Preț (opțional)
+325|Datele sesiunilor
+326|Adaugă datele la care ții acest curs. Lucrătorii le pot vedea și alege o dată.
+327|Data, AAAA-LL-ZZ (ex. 2026-10-05)
+328|Ora de început (opțional), ex. 09:00
+329|＋ Adaugă o dată
+330|Chestionar înainte de curs
+331|Întrebări la care răspund cursanții când se înscriu. Opțional.
+332|Întrebare nouă
+333|Variante, separate prin virgule
+334|＋ Adaugă o întrebare
+335|Listează în căutarea de cursuri
+336|Când este activat, lucrătorii și angajatorii pot găsi acest curs după distanță și dată.
+337|Salvează cursul
+338|Creează cursul și primește codul de înscriere
+339|Compania ta nu are încă un cod. Configureaz-o din nou din Profil.
+340|Codul pașaportului lucrătorului
+341|6 caractere
+342|Lucrătorul îl găsește în fila Distribuie din aplicația lui. Este codul scurt de la sfârșitul linkului pașaportului, după „?p=”.
+343|Este
+344|Angajat
+345|Subcontractor
+346|În prezent
+347|În echipă
+348|Nu este în echipă
+349|„Nu este în echipă” îl păstrează la companie fără să fie într-o echipă azi, util pentru un subcontractor între lucrări sau cineva care vizitează șantiere.
+350|Se adaugă…
+351|Adaugă în echipă
+352|Nu s-a putut actualiza
+353|Cheltuielile companiei
+354|Nicio cheltuială a companiei trimisă încă. Când un lucrător din echipa ta adaugă o cheltuială a companiei, apare aici.
+355|Cheltuială
+356|Aprobă
+357|Respinge
+358|Nu s-a putut aproba
+359|Elimini din echipă?
+360|Rămâne în aplicație; doar iese din lista echipei tale.
+361|CALIFICĂRI
+362|Încă nu există calificări în acest pașaport.
+363|Nicio dată de expirare înregistrată
+364|✓ Aprobat
+365|Aprobă acest lucrător
+366|Elimină din echipă
+367|Concediu
+368|Boală
+369|Sărbătoare legală
+370|Fără lucru
+371|Tip
+372|Notă (opțional)
+373|Înregistrează ziua liberă
+374|Combustibil
+375|Adaugă o cheltuială
+376|🧾 Fotografiază un bon
+377|Comerciant
+378|Sumă (€)
+379|Salvează cheltuiala
+380|Încă nu există cheltuieli.
+381|📄 Exportă cheltuielile (PDF)
+382|Toate cheltuielile salvate
+383|Trimiterea cheltuielilor către angajator urmează.
+384|Calificările tale, mereu la tine. Creează un cont ca pașaportul tău să fie salvat și să nu se piardă niciodată.
+385|Începe
+386|Am deja un cont · Conectare
+387|Fișă de lucru nouă
+388|Data
+389|Lucrare / nr. ref.
+390|ex. Prime Management
+391|Șantier / locație
+392|ex. Podul 78, N4
+393|Muncitori
+394|Numele pe lucrare
+395|＋ Adaugă un muncitor
+396|Utilaje / echipamente
+397|ex. Dubă TM, semnalizare, IPV
+398|＋ Adaugă utilaj / echipament
+399|Descrierea lucrărilor
+400|Ce s-a efectuat
+401|Materiale
+402|Materiale folosite
+403|Fotografii
+404|📷 Fă o fotografie
+405|🖼️ Adaugă din galerie
+406|Timp lucrat
+407|Note
+408|Altceva (întârzieri, probleme)
+409|Semnat de
+410|📄 Salvează și exportă PDF
+411|Fișe de lucru salvate
+412|Aceasta este o primă versiune — trimite-mi fișa ta obișnuită și o fac identică.
+413|Conectat, dar acest cont nu are încă un pașaport salvat. Alege cine ești pentru a continua.
+414|Bine ai revenit
+415|Conectează-te ca să-ți aduci pașaportul pe acest telefon.
+416|tu@exemplu.com
+417|Parola ta
+418|Se conectează…
+419|Conectare
+420|Creează pașaportul unui lucrător înainte să aibă aplicația. Adaugă numele, meseria și calificările, apoi trimite-i codul de revendicare. Când instalează aplicația și îl introduce, totul apare.
+421|Cod de revendicare pentru lucrător
+422|Copiază codul
+423|LUCRĂTOR NOU
+424|Numele lucrătorului
+425|Creează pașaportul și primește codul
+426|CREATE PÂNĂ ACUM
+427|Încă nu ai creat pașapoarte.
+428|Calificarea nu a fost găsită.
+429|Este nevoie de permisiune
+430|Permite accesul la fotografii pentru a alege o poză cu calificarea ta.
+431|Permite accesul la cameră pentru a fotografia calificarea ta.
+432|Nu s-a putut adăuga fotografia
+433|Ștergi această calificare?
+434|Certificat — față
+435|Certificat — verso (opțional)
+436|Apasă pentru a mări
+437|🖼️ Alege din galerie
+438|Numele calificării
+439|⚠ Nicio dată de expirare înregistrată
+440|Expirare (lună și an)
+441|An
+442|Data emiterii (lună și an)
+443|Stare
+444|Verificat
+445|În așteptare
+446|Declarat de tine
+447|Smart Scan decupează calificarea drept. Fotografiază folosește camera obișnuită. Orice modificare de aici actualizează automat pașaportul distribuit.
+448|Șterge această calificare
+449|Sunt lucrător
+450|Păstrează-mi Safe Pass, calificările și instructajele într-un singur loc.
+451|Conduc o echipă sau o companie
+452|Vezi calificările echipei mele și gestionează documentele de șantier.
+453|Sunt furnizor de instruire
+454|Organizează cursuri, colectează datele cursanților și chestionarele și postează certificate.
+455|‹ Înapoi
+456|Mai întâi — cine ești?
+457|Poți schimba mai târziu.
+458|Ai deja un cont? Conectare
+459|Sunt certificator · Am un cod
+460|Nu ești tu? Deconectare
+461|Conectare certificator
+462|Introdu codul de certificator primit. Îți permite să verifici și să certifici pașapoarte.
+463|Cod de certificator
+464|Codul tău
+465|Conectare
+466|Introdu codul de revendicare primit.
+467|Codul de revendicare nu a fost găsit.
+468|Compania mea
+469|Introdu numele companiei tale.
+470|Cum se numește compania ta?
+471|Introdu codul de revendicare al companiei
+472|Acesta este numele afișat când confirmi un lucrător.
+473|Cineva ți-a creat deja compania, așa că introdu codul pe care ți l-a dat.
+474|Codul de revendicare al companiei
+475|ex. ABC123
+476|E-mail (ca pașaportul tău să fie salvat)
+477|Cel puțin 6 caractere
+478|Se lucrează…
+479|Continuă
+480|Ne-a creat deja cineva compania? Introdu un cod de revendicare →
+481|← Creează în schimb o companie nouă
+482|Pașaportul tău este gata. Poți adăuga date, îl poți distribui sau poți adăuga mai multe calificări oricând.
+483|Vezi pașaportul meu
+484|Adaugă-ți fotografia
+485|O fotografie clară de față apare pe prima pagină a pașaportului, ca oricine îl primește să vadă imediat că ești chiar tu.
+486|📷 Fă-ți fotografia
+487|Fă-mi fotografia
+488|Mai târziu
+489|Omite deocamdată
+490|Aproape orice lucrător are nevoie de un Safe Pass valid pentru a intra pe un șantier din Irlanda. Scanează fața cardului, verso și adaugă data de expirare.
+491|Celălalt pe care îl cere aproape orice șantier. Scanează ambele fețe ale certificatului de manipulare manuală și adaugă data de expirare.
+492|Fața cardului
+493|Verso (dacă are)
+494|Expirare (lună și an, opțional)
+495|Data emiterii (lună și an, opțional)
+496|Scanează cardul
+497|Nu am asta / omite deocamdată
+498|Altă calificare
+499|Alte calificări?
+500|Apasă pe una pentru a o adăuga. Adaugă câte vrei — sau omite și adaugă mai târziu.
+501|Introdu numele firmei tale de instruire.
+502|Cum se numește firma ta de instruire?
+503|Afișat cursanților când se alătură cursurilor tale.
+504|Introdu numele tău.
+505|Codul de revendicare nu a fost găsit. Verifică-l sau golește câmpul pentru a continua fără cod.
+506|PASUL 1 DIN 6
+507|Creează-ți pașaportul
+508|Numele tău apare deasupra. Dacă angajatorul ți-a creat deja pașaportul, introdu codul lui de revendicare și îl completăm noi.
+509|ex. Ion Popescu
+510|Meseria ta
+511|ex. Electrician
+512|Cod de revendicare (opțional)
+513|De la angajator, dacă ai
+514|Se pregătește…
+515|Corespunde
+516|Nu corespunde
+517|Adaugă un punct
+518|Descrie cel puțin un lucru observat.
+519|Fiecare punct marcat Nu corespunde necesită o descriere a defectului.
+520|Audit salvat
+521|Numele șantierului
+522|Șantier / zonă
+523|Locație
+524|Adresă sau oraș
+525|Vreme
+526|ex. Uscat, vânt
+527|PUNCTE
+528|Punct
+529|Descrie defectele găsite (obligatoriu dacă ai marcat un defect)
+530|Mută în sus
+531|Mută în jos
+532|＋ Adaugă punctul următor
+533|Punctaj până acum:
+534|Salvează auditul
+535|＋ Audit nou
+536|Audituri anterioare
+537|Încă nu există audituri.
+538|Audit
+539|· Punctaj
+540|Jurnal salvat
+541|Rămâne doar pe acest telefon.
+542|Jurnal de șantier
+543|ex. Podul 78, șantierul sud
+544|ex. Uscat, frig, început cu ceață
+545|Echipa de pe șantier
+546|ex. Alfie, Oisin, Sam
+547|Lucrări efectuate
+548|Ce s-a făcut azi
+549|Livrări
+550|Materiale / utilaje livrate
+551|Întârzieri / probleme
+552|Orice a oprit lucrarea
+553|Vizitatori
+554|Vizitatori / inspecții pe șantier
+555|Orice altceva pentru evidență
+556|Salvează înregistrarea din jurnal
+557|Încă nu există înregistrări.
+558|Întârzieri:
+559|CODUL ECHIPEI TALE
+560|Dă-l lucrătorilor tăi. Când îl introduc, pontajul lor arată șantierele tale.
+561|ȘANTIERELE TALE
+562|Încă nu ai șantiere. Adaugă-l pe primul mai jos.
+563|ADAUGĂ UN ȘANTIER
+564|Locație (adresă sau cod poștal, opțional)
+565|Adaugă șantier
+566|O locație aici activează funcția de vreme pentru șantier, care urmează.
+567|Nu ești singur.
+568|Totul este gratuit, confidențial și disponibil la orice oră. Nimic din ce apeși aici nu este urmărit sau distribuit cuiva.
+569|Creată pentru construcții — inclusiv pentru probleme de bani. Gratuit, 24/7, pentru toți cei de pe șantier.
+570|Sună la 1800 939 122
+571|Trimite HARDHAT la 50808
+572|Orice ai pe suflet, la orice oră. Gratuit, 24/7.
+573|Sună la 116 123
+574|Dacă te gândești să-ți faci rău sau ești îngrijorat pentru cineva. Gratuit, 24/7.
+575|Sună la 1800 247 247
+576|Trimite HELP la 51444
+577|Preferi un mesaj în loc de o convorbire? Un voluntar instruit răspunde. Gratuit, 24/7.
+578|Trimite HELLO la 50808
+579|Aceasta este o indicație spre ajutor, nu un serviciu medical — dacă viața este în pericol, sună la 112 sau 999.
+580|Pentru zi de zi, Wysa este o aplicație gratuită de auto-ajutor (CBT/DBT) — utilă între momentele grele, dar nu pentru urgențe.
+581|În pericol chiar acum? Sună la 112 sau 999
+582|Apasă pentru a suna la 112
+583|Ștergi cursul?
+584|Acest curs
+585|Firma ta de instruire
+586|＋ Curs nou
+587|Încă nu există cursuri
+588|Creează un curs, setează un chestionar dinainte și distribuie codul de înscriere cursanților. Ei se înscriu, dau adresa poștală pentru certificat și răspund la întrebările tale. Vezi totul aici.
+589|Șterge cursul
+590|Folosește ca lucrător
+591|Limbă
+592|Arată o a doua limbă lângă engleză
+593|Doar engleză
+594|Engleza rămâne mereu pe ecran, ca echipa și șefii tăi să poată citi împreună cu tine.
+595|Închide ✕
+615|Conectează-te sau creează mai întâi un cont.
+618|Codul de certificator nu a fost recunoscut.
+619|Fără expirare
+620|Acțiune necesară
+621|Expiră curând
+622|Conform în totalitate
+623|Permite accesul la fotografii pentru a alege o poză.
+624|Permite accesul la cameră pentru a face o fotografie.
+625|Sugestie
+626|Unelte
+627|Mâncare
+628|Transport
+629|Cazare
+630|Anvelope și roți
+631|Lumini și semnalizare
+632|Frâne
+633|Ulei și lichide
+634|Oglinzi și geamuri
+635|Claxon și dispozitive de avertizare
+636|Centuri de siguranță / sisteme de reținere
+637|Extinctor / trusă de prim ajutor
+638|Verificarea avariilor
+639|Încărcătură fixată / sigur de folosit
+640|Începere program
+641|Terminare program
+642|Zi liberă
+643|🔴 {0} expirat  
+644|🟠 {0} expiră  
+645|Inspectează: {0}
+646|Perioadă gratuită: {0} zile rămase, cu tot inclus. După aceea Pașaportul rămâne gratuit; pontajul și instrumentele de lucru costă {1} EUR pe lună (sau sunt gratuite dacă angajatorul tău are abonament).
+647|Perioada ta gratuită s-a încheiat. Pașaportul și distribuirea sunt gratuite; pontajul și instrumentele de lucru costă {0} EUR pe lună.
+648|Săptămâna din {0}
+649|PAȘAPOARTE DE VERIFICAT ({0})
+650|Gata. Pașaportul tău a fost completat{0}.
+651|CURSANȚI ({0})
+652|Cod de înscriere: {0}\nDă-l cursanților tăi.
+653|Variante · {0}
+654|Trimis de echipa ta · codul echipei {0}. Trage în jos pentru a reîmprospăta.
+655|Expiră {0}
+656|Cheltuielile tale · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Fă o fotografie ({0})
+659|Gata, {0}!
+660|📸  Scanează {0}
+661|Adaugă {0} și termină
+662|Punctaj {0}%. Rămâne doar pe acest telefon.
+663|ÎNREGISTRĂRI RECENTE ({0})
+664|PASUL {0} DIN 6
+665|Expirat {0}
+666|Valabil până la {0}
+667|{0} este salvat pe acest dispozitiv.
+668|{0} defect(e)
+669|{0} și echipa lui vor fi eliminate.
+670|{0} va fi eliminat din curs.
+671|{0} va fi scos din Pașaportul tău.
+672|{0} și înscrierile lui vor fi eliminate.

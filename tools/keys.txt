@@ -1,0 +1,674 @@
+0|Crew
+1|My Crew
+2|My Passport
+3|Share
+4|Share Passport
+5|Hazards
+6|Profile
+7|Could not resolve
+8|Hazard report
+9|Mark resolved
+10|Resolved
+11|To action
+12|REPORTS TO RESOLVE
+13|Nothing to action right now. Pull down to refresh.
+14|RESOLVED
+15|No resolved reports yet.
+16|Observe · Speak Up · Take Action · Make a Difference
+17|Your company
+18|＋ Add a worker
+19|No crew yet
+20|Ask a worker to open Share in their app and read you their passport code (6 characters). Tap "Add a worker" and enter it, and you'll see their tickets here and can greenlight them.
+21|Manage sites
+22|Create your sites and share the crew code so timesheets show real sites.
+23|Set up worker passports
+24|Build a worker's tickets before they have the app, then send them a claim code.
+25|Crew expenses
+26|See company expenses your crew submitted.
+27|Job sheet
+28|Fill in a job sheet for the day and export it as a PDF.
+29|Site diary
+30|Daily log of work, crew on site, deliveries, delays and visitors.
+31|Site audit
+32|Audit a site with your own points. Pass, fail or N/A, with the defects written up.
+33|Companies you've set up
+34|Set up a company for a client or tester, then send them a claim code.
+35|Support
+36|Free, confidential helplines, including one built for construction. Any hour.
+37|USING AS
+38|Employer / Contractor
+39|Switch to worker
+40|Company / organisation name
+41|This is the name recorded when you greenlight a worker.
+42|Save
+43|Log out
+44|Passport
+45|Construction Passport
+46|Timesheet
+47|Inspections
+48|Safe Act
+49|Unsafe Condition
+50|Unsafe Act
+51|Co-worker
+52|Supervisor
+53|Other
+54|SELECT A CATEGORY
+55|Saved
+56|Export PDF
+57|Hazard observation
+58|Category *
+59|💡 Suggestion
+60|🪖 Flag for Toolbox
+61|This flags the report so your employer knows to raise it at the next toolbox talk. Your employer decides when and how.
+62|Photo
+63|📷 Take Photo
+64|Choose from Library
+65|Remove
+66|Observation *
+67|What did you observe? Describe clearly.
+68|Client
+69|Project
+70|Supervisor (HOC coordinator)
+71|Location / site
+72|Observer's name
+73|Report anonymously (name hidden on the PDF; kept on this device for the record)
+74|Department
+75|e.g. Fencing, Groundworks
+76|Task stopped by
+77|Immediate action taken
+78|e.g. Coned off the area and reported to supervisor
+79|Further action required
+80|e.g. Electrician to reroute cable overhead
+81|Submit Hazard Observation
+82|Your saved reports
+83|PDF failed
+84|Delete
+85|Your name
+86|Edit
+87|Add your name
+88|Add your employer
+89|Compliance status
+90|Qualifications
+91|Add
+92|No tickets yet. Tap Add to scan your Safe Pass or any other ticket into your Passport.
+93|Show My Passport (QR)
+94|Report a Hazard
+95|Daily
+96|Weekly
+97|Monthly
+98|Defects recorded
+99|Inspection saved
+100|Do not use it until the defects are resolved. Export the defect report?
+101|No defects found.
+102|Not inspected
+103|Inspection due
+104|Defects reported
+105|Add a vehicle first
+106|Add your van, digger or MEWP below, then run an inspection.
+107|＋ New inspection
+108|Small plant · Commercial vehicle ≥3.5T — with defect report PDF
+109|Coming next
+110|Full site safety audits are next on the list.
+111|＋ New site audit
+112|Full site safety audit — scored, with findings, photos and PDF report
+113|Add a vehicle or machine
+114|e.g. Transit van, 3-tonne digger, MEWP
+115|Reg / plant no. (optional)
+116|Inspect it
+117|Adding it doesn't mark it safe — it starts as "not inspected" until you run an inspection.
+118|No vehicles or machines yet. Add your van, digger or MEWP above to run inspections.
+119|Your vehicles and machines
+120|Inspect now
+121|Past inspections
+122|No defects
+123|Which one?
+124|Defect
+125|Describe the defect
+126|Finish inspection
+127|Backed up. Your passport as it is right now is saved to your account.
+128|Password must be at least 6 characters.
+129|Account created. Confirm the email we sent, then log in and tap Back up now.
+130|Account created and your passport is backed up.
+131|Signed in. Tap Back up now to save this passport.
+132|Back up your passport
+133|Saves what is on this phone right now to your account, so you can get it back if you change phone. Back up after you add tickets.
+134|Signed in as
+135|Backing up…
+136|Back up now
+137|Email
+138|Password
+139|Create account and back up
+140|I already have an account
+141|Share your passport first
+142|Open the Share tab once so your employer can find you, then add the crew code again.
+143|Could not add the crew
+144|Worker
+145|The employer and trainer roles are rebuilt after the worker side.
+146|Switch
+147|Check-in
+148|A quick, private check on how you're doing. Stays on your phone — nobody else sees it.
+149|Free, confidential helplines — including one built for construction. Any hour.
+150|Name
+151|Trade
+152|Phone
+153|Employer
+154|Save Profile
+155|Your profile is saved and your shared passport will update.
+156|Your crews (optional)
+157|Add every crew you work for. The one marked "Active" is where new timesheets and expenses go — tap another to switch.
+158|Requested
+159|Joined
+160|· Active
+161|Add a crew code
+162|Have a claim code?
+163|If your employer set up your passport, enter their code to fill it in automatically.
+164|Training suggestions
+165|Let an employer suggest courses to you (for example when a ticket's expiring). You always book them yourself — your details are never shared without you.
+166|Your plan
+167|Subscribed.
+168|Second language, training courses and certifier access.
+169|Version
+170|QR appears once your passport is shared.
+171|Show this to a contractor. They scan it with any phone camera — no app needed — to see your passport, your cert photos, and confirm you.
+172|Could not share your passport yet:
+173|Try again
+174|Shared passport up to date ✓
+175|Any change you make — add, edit or remove a ticket — updates automatically. Only people you show it to can see it.
+176|Let my employer add certs
+177|Allow your employer to add certificates to your passport. You stay in control — turn it off anytime, and you can remove anything they add.
+178|👁 View as public
+179|🔗 Copy
+180|Copied
+181|Your passport link is on the clipboard.
+182|📤 Share via…
+183|📄 Save as PDF
+184|The link your QR opens — tap to preview what an employer sees
+185|Day
+186|Week
+187|Month
+188|Your 90-day free period has ended
+189|Timesheets and the working tools are
+190|EUR a month, or free if your employer subscribes. Your Passport and sharing stay free, always.
+191|On the clock
+192|On break
+193|Not clocked in
+194|Tap Clock In when you start work.
+195|Clock In
+196|Back on
+197|Break
+198|Clock Out
+199|Today:
+200|＋ Add or back-date an entry
+201|Today
+202|This week
+203|No hours yet this week. Tap Clock In to start.
+204|Tap Find a timesheet to see each day.
+205|Find a timesheet
+206|Look up a day, week or month — see the hours, and export it.
+207|Record a day off
+208|Holiday, sick, bank holiday, no work — logged to your timesheet and your employer.
+209|Expenses
+210|Snap a receipt — submit to your employer, or keep it personal with its own export.
+211|Fill in the day's job sheet and export it as a PDF.
+212|📥 Export today…
+213|📄 Export this week (PDF)
+214|Your hours flow to your employer automatically once your passport is shared with them.
+215|Clock in — add a note (optional)
+216|Note
+217|e.g. On site, foggy start — Bridge 78
+218|Cancel
+219|Export
+220|PDF (save, email or send)
+221|Spreadsheet (CSV)
+222|Export failed
+223|No entries for this period.
+224|Start
+225|Finish
+226|Breaks
+227|Net worked
+228|📥 Export this period…
+229|📍 location stamped
+230|Add an entry
+231|Time (24h)
+232|What happened?
+233|e.g. Arrive on site — Bridge 78-06.00
+234|Add entry
+235|Courses
+236|Add Worker
+237|Crew member
+238|Manage Sites
+239|Crew Expenses
+240|Qualification
+241|Add qualification
+242|Job Sheet
+243|Claim code
+244|Certifier
+245|Companies
+246|New course
+247|Course
+248|Manual Handling
+249|Working at Heights
+250|First Aid
+251|Abrasive Wheels
+252|Confined Space
+253|Banksman / Signaller
+254|Asbestos Awareness
+255|Fire Safety
+256|Forklift
+257|What ticket are you adding?
+258|Something else
+259|e.g. Pipe Fitting Cert
+260|Missing passport code
+261|Could not certify
+262|Could not revoke
+263|Nothing waiting for review.
+264|Certify
+265|Revoke certification
+266|Okay
+267|Rough
+268|How are you doing?
+269|A quick, private check. It stays on your phone — nobody else sees it.
+270|Anything on your mind? (optional)
+271|Save check-in
+272|Your recent check-ins
+273|That code was not found. Check it and try again.
+274|Ticket
+275|Checking…
+276|Claim passport
+277|Missing company code
+278|Delete company?
+279|This company
+280|Could not delete
+281|Set up a company once, then send them a claim code. They open Construction Passport, choose Employer, enter the code, and their company and crew are already there. Good for testers who would rather not fiddle with setup.
+282|＋ Set up a new company
+283|No companies set up yet. Tap “Set up a new company” to begin.
+284|Company
+285|Crew code
+286|Copy claim code
+287|Delete company
+288|Please enter the company name.
+289|Set up a new company
+290|You will get a claim code to send to them.
+291|Company name
+292|e.g. Prime Peak Limited
+293|Trade (optional)
+294|e.g. Groundworks
+295|Saving…
+296|Create company
+297|Remove student?
+298|This student
+299|Could not remove
+300|Course code
+301|No one has enrolled yet. Students enrol with the course code.
+302|Student
+303|Text answer
+304|Yes / No
+305|Multiple choice
+306|Could not load course
+307|Check the date
+308|Enter the date as YYYY-MM-DD, e.g. 2026-10-05.
+309|Course name
+310|Give the course a name, e.g. Safe Pass.
+311|The course was not saved.
+312|The course was created but no join code came back. Check the Courses list.
+313|Course created
+314|Couldn't save
+315|e.g. Safe Pass
+316|Training provider / instructor
+317|e.g. SilerTech Training
+318|Renews which ticket?
+319|(so we can suggest it to workers whose ticket is expiring)
+320|Where is it held?
+321|Venue / address, town, county
+322|Sign-up details (booking link, phone, or instructions)
+323|e.g. https://… or call 01 234 5678
+324|Price (optional)
+325|Session dates
+326|Add the dates you're running this course. Workers can see and pick a date.
+327|Date, YYYY-MM-DD (e.g. 2026-10-05)
+328|Start time (optional), e.g. 09:00
+329|＋ Add date
+330|Pre-training questionnaire
+331|Questions students answer when they enrol. Optional.
+332|New question
+333|Options, separated by commas
+334|＋ Add question
+335|List in course search
+336|When on, workers and employers can find this course by distance and date.
+337|Save course
+338|Create course & get join code
+339|Your company has no code yet. Set it up again from Profile.
+340|Worker passport code
+341|6 characters
+342|The worker finds this on the Share tab of their app. It's the short code at the end of their passport link, after "?p=".
+343|They are
+344|Employee
+345|Subcontractor
+346|Right now
+347|On the crew
+348|Not on a crew
+349|"Not on a crew" keeps them with the company without being on a crew today, handy for a subcontractor between jobs or someone out scouting sites.
+350|Adding…
+351|Add to crew
+352|Could not update
+353|Company expenses
+354|No company expenses submitted yet. When a worker on your crew code adds a company expense, it appears here.
+355|Expense
+356|Approve
+357|Reject
+358|Could not greenlight
+359|Remove from crew?
+360|They stay in the app; they just leave your crew list.
+361|TICKETS
+362|No tickets on this passport yet.
+363|No expiry on record
+364|✓ Greenlit
+365|Greenlight this worker
+366|Remove from crew
+367|Holiday
+368|Sick
+369|Bank holiday
+370|No work
+371|Type
+372|Note (optional)
+373|Record day off
+374|Fuel
+375|Add an expense
+376|🧾 Snap a receipt
+377|Merchant
+378|Amount (€)
+379|Save expense
+380|No expenses yet.
+381|📄 Export expenses (PDF)
+382|All saved expenses
+383|Sending expenses to your employer is coming next.
+384|Your tickets, always in your pocket. Create an account so your passport is saved and never lost.
+385|Get started
+386|I already have an account · Log in
+387|New job sheet
+388|Date
+389|Job / ref no.
+390|e.g. Prime Management
+391|Site / location
+392|e.g. Bridge 78, N4
+393|Operatives
+394|Name on the job
+395|＋ Add operative
+396|Plant / equipment
+397|e.g. TM van, signage, IPV
+398|＋ Add plant / equipment
+399|Description of works
+400|What was carried out
+401|Materials
+402|Materials used
+403|Photos
+404|📷 Take photo
+405|🖼️ Add from library
+406|Time taken
+407|Notes
+408|Anything else (delays, issues)
+409|Signed by
+410|📄 Save & export PDF
+411|Saved job sheets
+412|This is a first version — send me your usual job sheet and I'll match it exactly.
+413|Logged in, but this account has no saved passport yet. Pick who you are to continue.
+414|Welcome back
+415|Log in to bring your passport back onto this phone.
+416|you@example.com
+417|Your password
+418|Logging in…
+419|Log in
+420|Set up a worker's passport before they have the app. Add their name, trade and tickets, then send them the claim code. When they install the app and enter it, everything appears.
+421|Claim code for the worker
+422|Copy code
+423|NEW WORKER
+424|Worker's name
+425|Create passport & get code
+426|SET UP SO FAR
+427|No passports set up yet.
+428|Ticket not found.
+429|Permission needed
+430|Allow photo access to choose a picture of your ticket.
+431|Allow camera access to photograph your ticket.
+432|Could not add the photo
+433|Remove this ticket?
+434|Certificate — front
+435|Certificate — back (optional)
+436|Tap to enlarge
+437|🖼️ Choose from Library
+438|Ticket name
+439|⚠ No expiry date on record
+440|Expiry (month & year)
+441|Year
+442|Issue date (month & year)
+443|Status
+444|Verified
+445|Pending
+446|Self-listed
+447|Smart Scan crops the ticket flat. Take Photo uses your plain camera. Any change here updates your shared passport automatically.
+448|Remove this ticket
+449|I'm a worker
+450|Keep my Safe Pass, tickets and inductions in one place.
+451|I run a crew or company
+452|See my crew's tickets and manage site paperwork.
+453|I'm a training provider
+454|Run courses, collect student details & questionnaires, and post certs.
+455|‹ Back
+456|First up — which are you?
+457|You can change this later.
+458|Already have an account? Log in
+459|I'm a certifier · I have a code
+460|Not you? Log out
+461|Certifier sign-in
+462|Enter the certifier code you were given. It lets you review and certify passports.
+463|Certifier code
+464|Your code
+465|Sign in
+466|Enter the claim code you were given.
+467|That claim code was not found.
+468|My company
+469|Please enter your company name.
+470|What's your company called?
+471|Enter your company claim code
+472|This is the name shown when you confirm a worker.
+473|Someone set your company up already, so enter the code they gave you.
+474|Company claim code
+475|e.g. ABC123
+476|Email (so your passport is saved)
+477|At least 6 characters
+478|Working…
+479|Continue
+480|Someone already set us up? Enter a company claim code →
+481|← Set up a new company instead
+482|Your passport is ready. You can add dates, share it, or add more tickets any time.
+483|See my passport
+484|Add your photo
+485|A clear headshot goes on the front of your passport, so whoever you share it with sees straight away it's really you.
+486|📷 Take your photo
+487|Take my photo
+488|Retake later
+489|Skip for now
+490|Nearly every worker needs a valid Safe Pass to be on an Irish site. Scan the front of the card, the back, and add its expiry.
+491|The other one almost every site asks for. Scan both sides of your Manual Handling cert and add its expiry.
+492|Front of card
+493|Back of card (if it has one)
+494|Expiry (month & year, optional)
+495|Issue date (month & year, optional)
+496|Scan the card
+497|I don't have this / skip for now
+498|Other ticket
+499|Any other tickets?
+500|Tap one to add it. Add as many as you like — or skip and add them later.
+501|Please enter your training business name.
+502|What's your training business called?
+503|Shown to students when they join your courses.
+504|Please enter your name.
+505|That claim code was not found. Check it, or clear the box to continue without one.
+506|STEP 1 OF 6
+507|Set up your passport
+508|Your name goes on top. If your employer set your passport up already, enter their claim code and we'll fill it in.
+509|e.g. John Murphy
+510|Your trade
+511|e.g. Electrician
+512|Claim code (optional)
+513|From your employer, if any
+514|Setting up…
+515|Pass
+516|Fail
+517|Add a point
+518|Describe at least one thing you observed.
+519|Every point marked Fail needs a defect description.
+520|Audit saved
+521|Site name
+522|Site / area
+523|Location
+524|Address or town
+525|Weather
+526|e.g. Dry, windy
+527|POINTS
+528|Point
+529|Describe any defects found (required if you marked a defect)
+530|Move up
+531|Move down
+532|＋ Add next point
+533|Score so far:
+534|Save audit
+535|＋ New audit
+536|Previous audits
+537|No audits yet.
+538|Audit
+539|· Score
+540|Diary saved
+541|It is kept on this phone only.
+542|Site Diary
+543|e.g. Bridge 78, south compound
+544|e.g. Dry, cold, foggy start
+545|Crew on site
+546|e.g. Alfie, Oisin, Sam
+547|Work carried out
+548|What was done today
+549|Deliveries
+550|Materials / plant delivered
+551|Delays / issues
+552|Anything that held the job up
+553|Visitors
+554|Site visitors / inspections
+555|Anything else for the record
+556|Save diary entry
+557|No entries yet.
+558|Delays:
+559|YOUR CREW CODE
+560|Give this to your workers. When they enter it, their timesheet shows your sites.
+561|YOUR SITES
+562|No sites yet. Add your first one below.
+563|ADD A SITE
+564|Location (address or Eircode, optional)
+565|Add site
+566|A location here powers the site weather feature coming next.
+567|You're not on your own.
+568|All free, confidential, and open any hour. Nothing you tap here is tracked or shared with anyone.
+569|Built for construction — money worries too. Free, 24/7, for everyone on site.
+570|Call 1800 939 122
+571|Text HARDHAT to 50808
+572|Whatever's on your mind, any hour. Free, 24/7.
+573|Call 116 123
+574|If you're thinking of harming yourself, or worried about someone. Free, 24/7.
+575|Call 1800 247 247
+576|Text HELP to 51444
+577|Rather text than talk? A trained volunteer replies. Free, 24/7.
+578|Text HELLO to 50808
+579|This is a signpost to help, not a medical service — if life is in danger, call 112 or 999.
+580|For the day-to-day, Wysa is a free self-help app (CBT/DBT) — helpful between the tough moments, but not for emergencies.
+581|In danger right now? Call 112 or 999
+582|Tap to call 112
+583|Delete course?
+584|This course
+585|Your training business
+586|＋ New course
+587|No courses yet
+588|Create a course, set a pre-training questionnaire, and share the join code with your students. They enrol, give their postal address for their cert, and answer your questions. You see it all here.
+589|Delete course
+590|Use as a worker instead
+591|Language
+592|Show a second language next to English
+593|English only
+594|English always stays on screen, so your crew and bosses can read along with you.
+595|Close ✕
+596|Română
+597|Romanian
+598|Polski
+599|Polish
+600|Lietuvių
+601|Lithuanian
+602|Ukrainian
+603|Russian
+604|Português
+605|Portuguese
+606|Français
+607|French
+608|Italiano
+609|Italian
+610|Español
+611|Spanish
+612|Gaeilge
+613|Irish
+614|Filipino
+615|Log in or create an account first.
+616|Provided by Construction Passport (Prime Management 18)
+617|Get the Construction Passport app
+618|That certifier code was not recognised.
+619|No expiry
+620|Action needed
+621|Expiring soon
+622|Fully Compliant
+623|Allow photo access to choose a picture.
+624|Allow camera access to take a photo.
+625|Suggestion
+626|Tools
+627|Food
+628|Travel
+629|Accommodation
+630|Tyres and wheels
+631|Lights and indicators
+632|Brakes
+633|Oil and fluids
+634|Mirrors and windows
+635|Horn and warning devices
+636|Seat belts / restraints
+637|Fire extinguisher / first aid
+638|Damage check
+639|Load secure / safe to use
+640|Clock in
+641|Clock out
+642|Day off
+643|🔴 {0} expired  
+644|🟠 {0} expiring  
+645|Inspect: {0}
+646|Free trial: {0} days left with everything included. After that your Passport stays free; timesheets and working tools are {1} EUR a month (or free if your employer subscribes).
+647|Your free trial has ended. Passport and sharing are free; timesheets and working tools are {0} EUR a month.
+648|Week of {0}
+649|PASSPORTS FOR REVIEW ({0})
+650|Done. Your passport has been filled in{0}.
+651|STUDENTS ({0})
+652|Join code: {0}
+Share it with your students.
+653|Choice · {0}
+654|Submitted by your crew · crew code {0}. Pull down to refresh.
+655|Expires {0}
+656|Your expenses · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Take Photo ({0})
+659|You're all set, {0}!
+660|📸  Scan the {0}
+661|Add {0} and finish
+662|Score {0}%. Kept on this phone only.
+663|RECENT ENTRIES ({0})
+664|STEP {0} OF 6
+665|Expired {0}
+666|Valid to {0}
+667|{0} is saved on this device.
+668|{0} defect(s)
+669|{0} and its crew will be removed.
+670|{0} will be removed from the course.
+671|{0} will be taken off your Passport.
+672|{0} and its enrolments will be removed.

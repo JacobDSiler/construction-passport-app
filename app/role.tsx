@@ -1,9 +1,11 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, spacing } from '../src/theme';
 import { useSession } from '../src/lib/session';
 import { logOut } from '../src/lib/account';
+import { LanguageButton } from '../src/components/LanguageButton';
 
 const OPTIONS = [
   { key: 'worker', emoji: '👷', title: "I'm a worker", sub: 'Keep my Safe Pass, tickets and inductions in one place.', href: '/setup-worker' },
@@ -23,6 +25,7 @@ export default function RolePicker() {
           ‹ Back
         </Text>
       ) : null}
+      <LanguageButton />
       <Text style={styles.h1}>First up — which are you?</Text>
       <Text style={styles.sub}>You can change this later.</Text>
       {!loggedIn ? (

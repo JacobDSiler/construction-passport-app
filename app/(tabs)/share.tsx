@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, Linking, ScrollView, Share, StyleSheet, Switch, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, Linking, ScrollView, Share, StyleSheet, Switch, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import * as Clipboard from 'expo-clipboard';
 import QRCode from 'react-native-qrcode-svg';
 import { Attribution, Button, Card, Pill } from '../../src/components/ui';

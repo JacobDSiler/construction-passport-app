@@ -1,0 +1,652 @@
+0|Brigada
+1|Mano brigada
+2|Mano pasas
+3|Dalytis
+4|Dalytis pasu
+5|Pavojai
+6|Profilis
+7|Nepavyko išspręsti
+8|Pavojaus pranešimas
+9|Pažymėti kaip išspręstą
+10|Išspręsta
+11|Spręstina
+12|PRANEŠIMAI SPRENDIMUI
+13|Šiuo metu nėra ką spręsti. Patraukite žemyn, kad atnaujintumėte.
+14|IŠSPRĘSTA
+15|Išspręstų pranešimų dar nėra.
+16|Pastebėk · Kalbėk · Veik · Keisk
+17|Jūsų įmonė
+18|＋ Pridėti darbuotoją
+19|Dar neturite brigados
+20|Paprašykite darbuotojo savo programėlėje atidaryti Dalytis ir pasakyti savo paso kodą (6 simboliai). Spauskite „Pridėti darbuotoją“, įveskite jį ir čia matysite jo kvalifikacijas bei galėsite jas patvirtinti.
+21|Tvarkyti objektus
+22|Sukurkite savo objektus ir pasidalykite brigados kodu, kad darbo laiko lapai rodytų tikrus objektus.
+23|Kurti darbuotojų pasus
+24|Paruoškite darbuotojo kvalifikacijas, kol jis dar neturi programėlės, tada išsiųskite jam atsiėmimo kodą.
+25|Brigados išlaidos
+26|Peržiūrėkite jūsų brigados pateiktas įmonės išlaidas.
+27|Darbo lapas
+28|Užpildykite dienos darbo lapą ir eksportuokite į PDF.
+29|Objekto dienoraštis
+30|Kasdienis žurnalas: darbai, brigada objekte, pristatymai, vėlavimai ir lankytojai.
+31|Objekto auditas
+32|Atlikite objekto auditą pagal savo punktus. Atitinka, neatitinka arba netaikoma, su užrašytais trūkumais.
+33|Jūsų sukurtos įmonės
+34|Sukurkite įmonę klientui ar testuotojui ir išsiųskite jam atsiėmimo kodą.
+35|Pagalba
+36|Nemokamos, konfidencialios pagalbos linijos, įskaitant vieną, sukurtą statybininkams. Bet kuriuo metu.
+37|NAUDOJATE KAIP
+38|Darbdavys / Rangovas
+39|Perjungti į darbuotoją
+40|Įmonės / organizacijos pavadinimas
+41|Šis pavadinimas įrašomas, kai patvirtinate darbuotoją.
+42|Išsaugoti
+43|Atsijungti
+44|Pasas
+45|Construction Passport
+46|Darbo laiko lapas
+47|Patikros
+48|Saugus veiksmas
+49|Nesaugi sąlyga
+50|Nesaugus veiksmas
+51|Bendradarbis
+52|Vadovas
+53|Kita
+54|PASIRINKITE KATEGORIJĄ
+55|Išsaugota
+56|Eksportuoti PDF
+57|Pavojaus pastebėjimas
+58|Kategorija *
+59|💡 Pasiūlymas
+60|🪖 Pažymėti saugos susitikimui
+61|Pažymėkite pranešimą, kad jūsų darbdavys jį aptartų kitame saugos susitikime. Kada ir kaip – sprendžia darbdavys.
+62|Nuotrauka
+63|📷 Nufotografuoti
+64|Pasirinkti iš galerijos
+65|Pašalinti
+66|Pastebėjimas *
+67|Ką pastebėjote? Aprašykite aiškiai.
+68|Klientas
+69|Projektas
+70|Vadovas (HOC koordinatorius)
+71|Vieta / objektas
+72|Pranešėjo vardas
+73|Pranešti anonimiškai (vardas PDF faile paslėptas; įrašams lieka šiame įrenginyje)
+74|Skyrius
+75|pvz., Tvoros, Pamatų darbai
+76|Darbus sustabdė
+77|Imtasi skubaus veiksmo
+78|pvz., Zona aptverta ir pranešta vadovui
+79|Reikalingas tolesnis veiksmas
+80|pvz., Elektrikas turi perkelti kabelį aukščiau
+81|Pateikti pavojaus pastebėjimą
+82|Jūsų išsaugoti pranešimai
+83|PDF nepavyko
+84|Ištrinti
+85|Jūsų vardas
+86|Redaguoti
+87|Pridėkite savo vardą
+88|Pridėti darbdavį
+89|Atitikties būsena
+90|Kvalifikacijos
+91|Pridėti
+92|Kvalifikacijų dar nėra. Spauskite Pridėti, kad nuskenuotumėte Safe Pass ar kitą kvalifikaciją į savo Pasą.
+93|Rodyti mano pasą (QR)
+94|Pranešti apie pavojų
+95|Kasdien
+96|Kas savaitę
+97|Kas mėnesį
+98|Užfiksuoti defektai
+99|Patikra išsaugota
+100|Nenaudokite, kol defektai nebus pašalinti. Eksportuoti defektų ataskaitą?
+101|Defektų nerasta.
+102|Nepatikrinta
+103|Laikas patikrai
+104|Pranešta apie defektus
+105|Pirmiausia pridėkite transporto priemonę
+106|Žemiau pridėkite savo furgoną, ekskavatorių ar keltuvą, tada atlikite patikrą.
+107|＋ Nauja patikra
+108|Mažoji technika · Komercinė transporto priemonė ≥3,5 t — su defektų ataskaita PDF
+109|Netrukus
+110|Pilni objekto saugos auditai bus netrukus.
+111|＋ Naujas objekto auditas
+112|Pilnas objekto saugos auditas — su įvertinimu, pastebėjimais, nuotraukomis ir PDF ataskaita
+113|Pridėti transporto priemonę ar techniką
+114|pvz., Transit furgonas, 3 t ekskavatorius, MEWP keltuvas
+115|Registracijos / technikos numeris (neprivaloma)
+116|Patikrinti
+117|Pridėjimas nereiškia, kad saugu — pradeda kaip „nepatikrinta“, kol atliksite patikrą.
+118|Dar neturite transporto priemonių ar technikos. Aukščiau pridėkite savo furgoną, ekskavatorių ar keltuvą, kad atliktumėte patikras.
+119|Jūsų transporto priemonės ir technika
+120|Tikrinti dabar
+121|Ankstesnės patikros
+122|Defektų nėra
+123|Kuris?
+124|Defektas
+125|Aprašykite defektą
+126|Baigti patikrą
+127|Išsaugota. Jūsų pasas tokioks, koks dabar, išsaugotas jūsų paskyroje.
+128|Slaptažodis turi būti bent 6 simbolių.
+129|Paskyra sukurta. Patvirtinkite mūsų atsiųstą el. laišką, tada prisijunkite ir spauskite Išsaugoti dabar.
+130|Paskyra sukurta, o jūsų pasas išsaugotas.
+131|Prisijungta. Spauskite Išsaugoti dabar, kad išsaugotumėte šį pasą.
+132|Išsaugokite savo pasą
+133|Išsaugokite savo paskyroje tai, kas dabar šiame telefone, kad galėtumėte atkurti pakeitę telefoną. Išsaugokite pridėję kvalifikacijų.
+134|Prisijungta kaip
+135|Saugoma…
+136|Išsaugoti dabar
+137|El. paštas
+138|Slaptažodis
+139|Sukurti paskyrą ir išsaugoti
+140|Jau turiu paskyrą
+141|Pirmiausia pasidalykite pasu
+142|Kartą atidarykite skirtuką Dalytis, kad darbdavys galėtų jus rasti, tada vėl pridėkite brigados kodą.
+143|Nepavyko pridėti brigados
+144|Darbuotojas
+145|Darbdavio ir mokymų vedėjo vaidmenys atkuriami po darbuotojo dalies.
+146|Perjungti
+147|Savijautos patikra
+148|Greita, privati patikra, kaip jaučiatės. Lieka jūsų telefone — niekas kitas jos nemato.
+149|Nemokamos, konfidencialios pagalbos linijos — įskaitant vieną, sukurtą statybininkams. Bet kuriuo metu.
+150|Vardas
+151|Profesija
+152|Telefonas
+153|Darbdavys
+154|Išsaugoti profilį
+155|Jūsų profilis išsaugotas, o bendrinamas pasas bus atnaujintas.
+156|Jūsų brigados (neprivaloma)
+157|Pridėkite kiekvieną brigadą, kuriai dirbate. Pažymėta „Aktyvi“ gauna naujus darbo laiko lapus ir išlaidas — spauskite kitą, kad perjungtumėte.
+158|Paprašyta
+159|Prisijungta
+160|· Aktyvi
+161|Pridėti brigados kodą
+162|Turite atsiėmimo kodą?
+163|Jei darbdavys sukūrė jūsų pasą, įveskite jo kodą, kad jis būtų užpildytas automatiškai.
+164|Mokymų pasiūlymai
+165|Leiskite darbdaviui siūlyti kursus (pvz., kai kvalifikacija baigia galioti). Visada užsiregistruojate patys — jūsų duomenys niekada nebendrinami be jūsų sutikimo.
+166|Jūsų planas
+167|Prenumeruojama.
+168|Antroji kalba, mokymų kursai ir sertifikuotojo prieiga.
+169|Versija
+170|QR kodas atsiranda, kai jūsų pasas pasidalijamas.
+171|Parodykite jį rangovui. Jis nuskenuoja bet kurio telefono kamera — be programėlės — ir mato jūsų pasą, sertifikatų nuotraukas bei gali jus patvirtinti.
+172|Dar nepavyko pasidalyti pasu:
+173|Bandyti dar kartą
+174|Bendrinamas pasas atnaujintas ✓
+175|Bet koks pakeitimas — kvalifikacijos pridėjimas, redagavimas ar ištrynimas — atnaujinamas automatiškai. Jį mato tik tie, kuriems jį parodote.
+176|Leisti darbdaviui pridėti sertifikatus
+177|Leiskite darbdaviui pridėti sertifikatus į jūsų pasą. Jūs valdote — bet kada galite išjungti ir ištrinti viską, ką jis prideda.
+178|👁 Žiūrėti kaip viešai
+179|🔗 Kopijuoti
+180|Nukopijuota
+181|Jūsų paso nuoroda yra iškarpinėje.
+182|📤 Dalytis per…
+183|📄 Išsaugoti kaip PDF
+184|Nuoroda, kurią atidaro QR — spauskite, kad pamatytumėte, ką mato darbdavys
+185|Diena
+186|Savaitė
+187|Mėnuo
+188|Jūsų 90 dienų nemokamas laikotarpis baigėsi
+189|Darbo laiko lapas ir darbo įrankiai kainuoja
+190|EUR per mėnesį arba nemokami, jei jūsų darbdavys turi prenumeratą. Pasas ir dalijimasis lieka nemokami visada.
+191|Darbe
+192|Pertraukoje
+193|Neįregistruota darbe
+194|Spauskite Pradėti pamainą, kai pradedate darbą.
+195|Pradėti pamainą
+196|Grįžti
+197|Pertrauka
+198|Baigti pamainą
+199|Šiandien:
+200|＋ Pridėti arba užpildyti įrašą atgaline data
+201|Šiandien
+202|Šią savaitę
+203|Šią savaitę valandų dar nėra. Spauskite Pradėti pamainą, kad pradėtumėte.
+204|Spauskite Rasti darbo laiko lapą, kad pamatytumėte kiekvieną dieną.
+205|Rasti darbo laiko lapą
+206|Ieškokite dienos, savaitės ar mėnesio — žiūrėkite valandas ir eksportuokite.
+207|Užregistruoti laisvą dieną
+208|Atostogos, liga, valstybinė šventė, nėra darbo — įrašoma į darbo laiko lapą ir darbdaviui.
+209|Išlaidos
+210|Nufotografuokite kvitą — išsiųskite darbdaviui arba laikykite asmeniškai su atskiru eksportu.
+211|Užpildykite dienos darbo lapą ir eksportuokite į PDF.
+212|📥 Eksportuoti šiandienos dieną…
+213|📄 Eksportuoti šią savaitę (PDF)
+214|Jūsų valandos automatiškai pasiekia darbdavį, kai jam pasidalinate pasu.
+215|Pradėti pamainą — pridėkite pastabą (neprivaloma)
+216|Pastaba
+217|pvz., Objekte, pradėta rūke — Tiltas 78
+218|Atšaukti
+219|Eksportuoti
+220|PDF (išsaugoti, siųsti el. paštu ar dalytis)
+221|Skaičiuoklė (CSV)
+222|Eksportuoti nepavyko
+223|Šiuo laikotarpiu įrašų nėra.
+224|Pradžia
+225|Pabaiga
+226|Pertraukos
+227|Iš viso dirbta
+228|📥 Eksportuoti šį laikotarpį…
+229|📍 vieta užfiksuota
+230|Pridėti įrašą
+231|Laikas (24 val.)
+232|Kas įvyko?
+233|pvz., Atvykimas į objektą — Tiltas 78-06.00
+234|Pridėti įrašą
+235|Kursai
+236|Pridėti darbuotoją
+237|Brigados narys
+238|Tvarkyti objektus
+239|Brigados išlaidos
+240|Kvalifikacija
+241|Pridėti kvalifikaciją
+242|Darbo lapas
+243|Atsiėmimo kodas
+244|Sertifikuotojas
+245|Įmonės
+246|Naujas kursas
+247|Kursas
+248|Rankinis krovinių tvarkymas
+249|Darbas aukštyje
+250|Pirmoji pagalba
+251|Abrazyviniai diskai
+252|Uždarosios erdvės
+253|Signalizuotojas / Eismo vadovas
+254|Žinios apie asbestą
+255|Priešgaisrinė sauga
+256|Krautuvas
+257|Kokią kvalifikaciją pridedate?
+258|Kas nors kita
+259|pvz., Santechniko pažymėjimas
+260|Trūksta paso kodo
+261|Nepavyko sertifikuoti
+262|Nepavyko atšaukti
+263|Nieko nelaukia patvirtinimo.
+264|Sertifikuoti
+265|Atšaukti sertifikavimą
+266|Gerai
+267|Sunku
+268|Kaip jaučiatės?
+269|Greita, privati patikra. Lieka jūsų telefone — niekas kitas jos nemato.
+270|Ar kas nors slegia? (neprivaloma)
+271|Išsaugoti patikrą
+272|Jūsų paskutinės patikros
+273|Kodas nerastas. Patikrinkite jį ir bandykite dar kartą.
+274|Kvalifikacija
+275|Tikrinama…
+276|Atsiimti pasą
+277|Trūksta įmonės kodo
+278|Ištrinti įmonę?
+279|Ši įmonė
+280|Nepavyko ištrinti
+281|Sukurkite įmonę vieną kartą, tada išsiųskite jiems atsiėmimo kodą. Jie atidaro Construction Passport, pasirenka Darbdavys, įveda kodą, ir jų įmonė bei brigada jau ten. Tinka testuotojams, kurie nenori kapstytis su nustatymais.
+282|＋ Sukurti naują įmonę
+283|Dar nesukūrėte jokios įmonės. Spauskite „Sukurti naują įmonę“, kad pradėtumėte.
+284|Įmonė
+285|Brigados kodas
+286|Kopijuoti atsiėmimo kodą
+287|Ištrinti įmonę
+288|Įveskite įmonės pavadinimą.
+289|Sukurti naują įmonę
+290|Gausite atsiėmimo kodą, kurį galėsite išsiųsti.
+291|Įmonės pavadinimas
+292|pvz., Prime Peak Limited
+293|Profesija (neprivaloma)
+294|pvz., Pamatų darbai
+295|Saugoma…
+296|Sukurti įmonę
+297|Pašalinti kursantą?
+298|Šis kursantas
+299|Nepavyko pašalinti
+300|Kurso kodas
+301|Dar niekas neužsiregistravo. Kursantai registruojasi naudodami kurso kodą.
+302|Kursantas
+303|Tekstinis atsakymas
+304|Taip / Ne
+305|Keli pasirinkimai
+306|Nepavyko įkelti kurso
+307|Patikrinkite datą
+308|Įveskite datą kaip MMMM-MM-DD, pvz., 2026-10-05.
+309|Kurso pavadinimas
+310|Suteikite kursui pavadinimą, pvz., Safe Pass.
+311|Kursas neišsaugotas.
+312|Kursas sukurtas, bet registracijos kodas negautas. Patikrinkite kursų sąrašą.
+313|Kursas sukurtas
+314|Nepavyko išsaugoti
+315|pvz., Safe Pass
+316|Mokymų teikėjas / instruktorius
+317|pvz., SilerTech Training
+318|Kokią kvalifikaciją jis atnaujina?
+319|(kad galėtume jį siūlyti darbuotojams, kurių kvalifikacija baigia galioti)
+320|Kur vyksta?
+321|Vieta / adresas, miestas, grafystė
+322|Registracijos informacija (rezervacijos nuoroda, telefonas ar nurodymai)
+323|pvz., https://… arba skambinkite 01 234 5678
+324|Kaina (neprivaloma)
+325|Užsiėmimų datos
+326|Pridėkite datas, kada vedate šį kursą. Darbuotojai jas mato ir pasirenka datą.
+327|Data, MMMM-MM-DD (pvz., 2026-10-05)
+328|Pradžios laikas (neprivaloma), pvz., 09:00
+329|＋ Pridėti datą
+330|Klausimynas prieš kursą
+331|Klausimai, į kuriuos kursantai atsako registruodamiesi. Neprivaloma.
+332|Naujas klausimas
+333|Variantai, atskirti kableliais
+334|＋ Pridėti klausimą
+335|Rodyti kursų paieškoje
+336|Kai įjungta, darbuotojai ir darbdaviai gali rasti šį kursą pagal atstumą ir datą.
+337|Išsaugoti kursą
+338|Sukurti kursą ir gauti registracijos kodą
+339|Jūsų įmonė dar neturi kodo. Nustatykite ją iš naujo Profilyje.
+340|Darbuotojo paso kodas
+341|6 simboliai
+342|Darbuotojas jį randa savo programėlės skirtuke Dalytis. Tai trumpas kodas paso nuorodos gale, po „?p=“.
+343|Yra
+344|Darbuotojas
+345|Subrangovas
+346|Šiuo metu
+347|Brigadoje
+348|Ne brigadoje
+349|„Ne brigadoje“ palieka jį įmonėje, bet šiandien jis nėra brigadoje — naudinga subrangovui tarp darbų ar tam, kas lanko objektus.
+350|Pridedama…
+351|Pridėti į brigadą
+352|Nepavyko atnaujinti
+353|Įmonės išlaidos
+354|Įmonės išlaidų dar nepateikta. Kai jūsų brigados darbuotojas prideda įmonės išlaidas, jos atsiranda čia.
+355|Išlaida
+356|Patvirtinti
+357|Atmesti
+358|Nepavyko patvirtinti
+359|Pašalinti iš brigados?
+360|Lieka programėlėje; tik išeina iš jūsų brigados sąrašo.
+361|KVALIFIKACIJOS
+362|Šiame pase kvalifikacijų dar nėra.
+363|Galiojimo data neįrašyta
+364|✓ Patvirtinta
+365|Patvirtinti šį darbuotoją
+366|Pašalinti iš brigados
+367|Atostogos
+368|Liga
+369|Valstybinė šventė
+370|Nėra darbo
+371|Tipas
+372|Pastaba (neprivaloma)
+373|Užregistruoti laisvą dieną
+374|Kuras
+375|Pridėti išlaidą
+376|🧾 Nufotografuoti kvitą
+377|Pardavėjas
+378|Suma (€)
+379|Išsaugoti išlaidą
+380|Išlaidų dar nėra.
+381|📄 Eksportuoti išlaidas (PDF)
+382|Visos išsaugotos išlaidos
+383|Išlaidų siuntimas darbdaviui — netrukus.
+384|Jūsų kvalifikacijos, visada su jumis. Sukurkite paskyrą, kad jūsų pasas būtų išsaugotas ir niekada nedingtų.
+385|Pradėti
+386|Jau turiu paskyrą · Prisijungti
+387|Naujas darbo lapas
+388|Data
+389|Darbas / nuor. nr.
+390|pvz., Prime Management
+391|Objektas / vieta
+392|pvz., Tiltas 78, N4
+393|Darbuotojai
+394|Vardas darbe
+395|＋ Pridėti darbuotoją
+396|Technika / įranga
+397|pvz., TM furgonas, ženklinimas, AAP
+398|＋ Pridėti techniką / įrangą
+399|Darbų aprašymas
+400|Kas buvo atlikta
+401|Medžiagos
+402|Sunaudotos medžiagos
+403|Nuotraukos
+404|📷 Nufotografuoti
+405|🖼️ Pridėti iš galerijos
+406|Dirbtas laikas
+407|Pastabos
+408|Bet kas kita (vėlavimai, problemos)
+409|Pasirašė
+410|📄 Išsaugoti ir eksportuoti PDF
+411|Išsaugoti darbo lapai
+412|Tai pirmasis variantas — atsiųskite savo įprastą lapą ir padarysiu tokį patį.
+413|Prisijungta, bet šioje paskyroje dar nėra išsaugoto paso. Pasirinkite, kas esate, kad tęstumėte.
+414|Sveiki sugrįžę
+415|Prisijunkite, kad atsineštumėte savo pasą į šį telefoną.
+416|jus@pavyzdys.com
+417|Jūsų slaptažodis
+418|Jungiamasi…
+419|Prisijungti
+420|Sukurkite darbuotojo pasą, kol jis dar neturi programėlės. Pridėkite jo vardą, profesiją ir kvalifikacijas, tada išsiųskite jam atsiėmimo kodą. Kai jis įdiegs programėlę ir įves kodą, viskas atsiras.
+421|Darbuotojo atsiėmimo kodas
+422|Kopijuoti kodą
+423|NAUJAS DARBUOTOJAS
+424|Darbuotojo vardas
+425|Sukurti pasą ir gauti kodą
+426|SUKURTA IKI ŠIOL
+427|Dar nesukūrėte jokių pasų.
+428|Kvalifikacija nerasta.
+429|Reikalingas leidimas
+430|Leiskite prieigą prie nuotraukų, kad pasirinktumėte savo kvalifikacijos nuotrauką.
+431|Leiskite prieigą prie kameros, kad nufotografuotumėte savo kvalifikaciją.
+432|Nepavyko pridėti nuotraukos
+433|Ištrinti šią kvalifikaciją?
+434|Sertifikatas — priekis
+435|Sertifikatas — galas (neprivaloma)
+436|Spauskite, kad padidintumėte
+437|🖼️ Pasirinkti iš galerijos
+438|Kvalifikacijos pavadinimas
+439|⚠ Galiojimo data neįrašyta
+440|Galioja iki (mėnuo ir metai)
+441|Metai
+442|Išdavimo data (mėnuo ir metai)
+443|Būsena
+444|Patvirtinta
+445|Laukiama
+446|Jūsų deklaruota
+447|Smart Scan tiesiai apkarpo kvalifikaciją. Nufotografuoti naudoja įprastą kamerą. Bet koks pakeitimas čia automatiškai atnaujina bendrinamą pasą.
+448|Ištrinti šią kvalifikaciją
+449|Esu darbuotojas
+450|Laikykite mano Safe Pass, kvalifikacijas ir mokymus vienoje vietoje.
+451|Vadovauju brigadai ar įmonei
+452|Matykite savo brigados kvalifikacijas ir tvarkykite objekto dokumentus.
+453|Esu mokymų teikėjas
+454|Rengkite kursus, rinkite kursantų duomenis ir klausimynus bei skelbkite sertifikatus.
+455|‹ Atgal
+456|Pirmiausia — kas esate?
+457|Vėliau galėsite pakeisti.
+458|Jau turite paskyrą? Prisijungti
+459|Esu sertifikuotojas · Turiu kodą
+460|Ne jūs? Atsijungti
+461|Sertifikuotojo prisijungimas
+462|Įveskite gautą sertifikuotojo kodą. Jis leidžia tikrinti ir sertifikuoti pasus.
+463|Sertifikuotojo kodas
+464|Jūsų kodas
+465|Prisijungti
+466|Įveskite gautą atsiėmimo kodą.
+467|Atsiėmimo kodas nerastas.
+468|Mano įmonė
+469|Įveskite savo įmonės pavadinimą.
+470|Koks jūsų įmonės pavadinimas?
+471|Įveskite įmonės atsiėmimo kodą
+472|Šis pavadinimas rodomas, kai patvirtinate darbuotoją.
+473|Kažkas jau sukūrė jūsų įmonę, todėl įveskite jums duotą kodą.
+474|Įmonės atsiėmimo kodas
+475|pvz., ABC123
+476|El. paštas (kad jūsų pasas būtų išsaugotas)
+477|Bent 6 simboliai
+478|Dirbama…
+479|Tęsti
+480|Kažkas jau sukūrė mūsų įmonę? Įveskite atsiėmimo kodą →
+481|← Vietoj to sukurti naują įmonę
+482|Jūsų pasas paruoštas. Bet kada galite pridėti informacijos, juo pasidalyti ar pridėti daugiau kvalifikacijų.
+483|Žiūrėti mano pasą
+484|Pridėkite savo nuotrauką
+485|Aiški veido nuotrauka rodoma pirmame paso puslapyje, kad kiekvienas, kas jį gauna, iškart matytų, jog tai tikrai jūs.
+486|📷 Nusifotografuoti
+487|Nufotografuoti mane
+488|Vėliau
+489|Kol kas praleisti
+490|Beveik kiekvienam darbuotojui reikia galiojančio Safe Pass, kad patektų į objektą Airijoje. Nuskenuokite kortelės priekį, galą ir pridėkite galiojimo datą.
+491|Kitas dokumentas, kurio reikalauja beveik kiekvienas objektas. Nuskenuokite abi rankinio krovinių tvarkymo pažymėjimo puses ir pridėkite galiojimo datą.
+492|Kortelės priekis
+493|Galas (jei yra)
+494|Galioja iki (mėnuo ir metai, neprivaloma)
+495|Išdavimo data (mėnuo ir metai, neprivaloma)
+496|Skenuoti kortelę
+497|Neturiu / kol kas praleisti
+498|Kita kvalifikacija
+499|Kitos kvalifikacijos?
+500|Spauskite vieną, kad pridėtumėte. Pridėkite kiek norite — arba praleiskite ir pridėkite vėliau.
+501|Įveskite savo mokymų įmonės pavadinimą.
+502|Koks jūsų mokymų įmonės pavadinimas?
+503|Rodoma kursantams, kai jie prisijungia prie jūsų kursų.
+504|Įveskite savo vardą.
+505|Atsiėmimo kodas nerastas. Patikrinkite jį arba išvalykite lauką, kad tęstumėte be kodo.
+506|1 ŽINGSNIS IŠ 6
+507|Sukurkite savo pasą
+508|Jūsų vardas rodomas viršuje. Jei darbdavys jau sukūrė jūsų pasą, įveskite jo atsiėmimo kodą ir mes jį užpildysime.
+509|pvz., Jonas Jonaitis
+510|Jūsų profesija
+511|pvz., Elektrikas
+512|Atsiėmimo kodas (neprivaloma)
+513|Iš darbdavio, jei turite
+514|Ruošiama…
+515|Atitinka
+516|Neatitinka
+517|Pridėti punktą
+518|Aprašykite bent vieną pastebėtą dalyką.
+519|Kiekvienam punktui, pažymėtam Neatitinka, reikia defekto aprašymo.
+520|Auditas išsaugotas
+521|Objekto pavadinimas
+522|Objektas / zona
+523|Vieta
+524|Adresas arba miestas
+525|Oras
+526|pvz., Sausa, vėjuota
+527|PUNKTAI
+528|Punktas
+529|Aprašykite rastus defektus (privaloma, jei pažymėjote defektą)
+530|Perkelti aukštyn
+531|Perkelti žemyn
+532|＋ Pridėti kitą punktą
+533|Rezultatas iki šiol:
+534|Išsaugoti auditą
+535|＋ Naujas auditas
+536|Ankstesni auditai
+537|Auditų dar nėra.
+538|Auditas
+539|· Rezultatas
+540|Žurnalas išsaugotas
+541|Lieka tik šiame telefone.
+542|Objekto dienoraštis
+543|pvz., Tiltas 78, pietinis objektas
+544|pvz., Sausa, šalta, pradėta rūke
+545|Brigada objekte
+546|pvz., Alfie, Oisin, Sam
+547|Atlikti darbai
+548|Kas šiandien padaryta
+549|Pristatymai
+550|Pristatytos medžiagos / technika
+551|Vėlavimai / problemos
+552|Bet kas, kas sustabdė darbus
+553|Lankytojai
+554|Lankytojai / patikrinimai objekte
+555|Bet kas kita įrašui
+556|Išsaugoti žurnalo įrašą
+557|Įrašų dar nėra.
+558|Vėlavimai:
+559|JŪSŲ BRIGADOS KODAS
+560|Duokite jį savo darbuotojams. Kai jie jį įves, jų darbo laiko lapas rodys jūsų objektus.
+561|JŪSŲ OBJEKTAI
+562|Dar neturite objektų. Žemiau pridėkite pirmąjį.
+563|PRIDĖTI OBJEKTĄ
+564|Vieta (adresas ar pašto kodas, neprivaloma)
+565|Pridėti objektą
+566|Čia nurodyta vieta netrukus įjungs objekto oro funkciją.
+567|Nesate vieni.
+568|Viskas nemokama, konfidencialu ir prieinama bet kada. Niekas, ką čia paspaudžiate, nėra stebima ar kam nors perduodama.
+569|Sukurta statybininkams — taip pat ir pinigų problemoms. Nemokama, 24/7, kiekvienam objekte.
+570|Skambinti 1800 939 122
+571|Siųsti HARDHAT numeriu 50808
+572|Kad ir kas slėgtų, bet kada. Nemokama, 24/7.
+573|Skambinti 116 123
+574|Jei galvojate apie savęs žalojimą ar nerimaujate dėl kito. Nemokama, 24/7.
+575|Skambinti 1800 247 247
+576|Siųsti HELP numeriu 51444
+577|Mieliau žinutę nei pokalbį? Atsako apmokytas savanoris. Nemokama, 24/7.
+578|Siųsti HELLO numeriu 50808
+579|Tai nuoroda į pagalbą, o ne medicininė paslauga — jei gyvybei gresia pavojus, skambinkite 112 arba 999.
+580|Kasdienai Wysa yra nemokama savipagalbos programėlė (CBT/DBT) — naudinga tarp sunkių akimirkų, bet ne ekstremalioms situacijoms.
+581|Pavojuje dabar? Skambinkite 112 arba 999
+582|Spauskite, kad paskambintumėte 112
+583|Ištrinti kursą?
+584|Šis kursas
+585|Jūsų mokymų įmonė
+586|＋ Naujas kursas
+587|Kursų dar nėra
+588|Sukurkite kursą, nustatykite klausimyną iš anksto ir pasidalykite registracijos kodu su kursantais. Jie užsiregistruoja, nurodo pašto adresą sertifikatui ir atsako į jūsų klausimus. Viską matote čia.
+589|Ištrinti kursą
+590|Naudoti kaip darbuotojas
+591|Kalba
+592|Rodyti antrąją kalbą šalia anglų
+593|Tik anglų
+594|Anglų kalba visada lieka ekrane, kad jūsų brigada ir viršininkai galėtų skaityti kartu su jumis.
+595|Uždaryti ✕
+615|Pirmiausia prisijunkite arba sukurkite paskyrą.
+618|Sertifikuotojo kodas neatpažintas.
+619|Nėra galiojimo
+620|Reikia veiksmo
+621|Netrukus baigs galioti
+622|Visiškai atitinka
+623|Leiskite prieigą prie nuotraukų, kad pasirinktumėte nuotrauką.
+624|Leiskite prieigą prie kameros, kad nufotografuotumėte.
+625|Pasiūlymas
+626|Įrankiai
+627|Maistas
+628|Kelionė
+629|Apgyvendinimas
+630|Padangos ir ratai
+631|Žibintai ir signalai
+632|Stabdžiai
+633|Alyva ir skysčiai
+634|Veidrodžiai ir stiklai
+635|Signalas ir įspėjamieji įrenginiai
+636|Saugos diržai / apsaugos sistemos
+637|Gesintuvas / pirmosios pagalbos vaistinėlė
+638|Pažeidimų patikra
+639|Krovinys pritvirtintas / saugu naudoti
+640|Pamainos pradžia
+641|Pamainos pabaiga
+642|Laisva diena
+643|🔴 {0} nebegalioja  
+644|🟠 {0} baigia galioti  
+645|Patikrinti: {0}
+646|Nemokamas laikotarpis: liko {0} d., viskas įskaičiuota. Po to Pasas lieka nemokamas; darbo laiko lapas ir darbo įrankiai kainuoja {1} EUR per mėnesį (arba nemokami, jei jūsų darbdavys turi prenumeratą).
+647|Jūsų nemokamas laikotarpis baigėsi. Pasas ir dalijimasis nemokami; darbo laiko lapas ir darbo įrankiai kainuoja {0} EUR per mėnesį.
+648|Savaitė nuo {0}
+649|PASAI PATIKRINTI ({0})
+650|Atlikta. Jūsų pasas užpildytas{0}.
+651|KURSANTAI ({0})
+652|Registracijos kodas: {0}\nDuokite jį savo kursantams.
+653|Variantai · {0}
+654|Pateikė jūsų brigada · brigados kodas {0}. Patraukite žemyn, kad atnaujintumėte.
+655|Baigia galioti {0}
+656|Jūsų išlaidos · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Nufotografuoti ({0})
+659|Paruošta, {0}!
+660|📸  Skenuoti {0}
+661|Pridėti {0} ir baigti
+662|Rezultatas {0}%. Lieka tik šiame telefone.
+663|PASKUTINIAI ĮRAŠAI ({0})
+664|{0} ŽINGSNIS IŠ 6
+665|Nebegalioja nuo {0}
+666|Galioja iki {0}
+667|{0} išsaugota šiame įrenginyje.
+668|Defektų: {0}
+669|{0} ir jo brigada bus pašalinti.
+670|{0} bus pašalintas iš kurso.
+671|{0} bus pašalinta iš jūsų Paso.
+672|{0} ir jo registracijos bus pašalintos.

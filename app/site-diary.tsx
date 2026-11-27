@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, ScrollView, StyleSheet, View } from 'react-native';
+import { Text } from '../src/components/Text';
 import { Button, Card, Field, SectionLabel } from '../src/components/ui';
 import { colors, spacing } from '../src/theme';
 import { useSession } from '../src/lib/session';

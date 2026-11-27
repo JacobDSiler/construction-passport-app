@@ -1,0 +1,652 @@
+0|Foireann
+1|Mo Fhoireann
+2|Mo Phas
+3|Comhroinn
+4|Comhroinn an pas
+5|Contúirtí
+6|Próifíl
+7|Níorbh fhéidir a réiteach
+8|Tuarascáil contúirte
+9|Marcáil mar réitithe
+10|Réitithe
+11|Le réiteach
+12|TUARASCÁLACHA LE RÉITEACH
+13|Níl aon rud le réiteach faoi láthair. Tarraing síos chun athnuachan.
+14|RÉITITHE
+15|Níl aon tuarascáil réitithe fós.
+16|Tabhair faoi deara · Labhair · Gníomhaigh · Déan difríocht
+17|D’fhiontar
+18|＋ Cuir oibrí leis
+19|Níl foireann agat fós
+20|Iarr ar oibrí Comhroinn a oscailt ina aip agus cód a phas a insint duit (6 charachtar). Tapáil „Cuir oibrí leis“, cuir isteach é agus feicfidh tú a cháilíochtaí anseo, agus is féidir leat iad a cheadú.
+21|Bainistigh láithreáin
+22|Cruthaigh do láithreáin agus comhroinn cód na foirne ionas go dtaispeánfaidh na clár ama na láithreáin cheart.
+23|Cruthaigh pasanna d’oibrithe
+24|Réitigh cáilíochtaí oibrí sula mbíonn an aip aige, ansin seol cód éilimh chuige.
+25|Costais na foirne
+26|Féach ar chostais chomhlachta a sheol do fhoireann.
+27|Bileog oibre
+28|Líon isteach bileog oibre an lae agus easpórtáil mar PDF í.
+29|Dialann láithreáin
+30|Logleabhar laethúil: obair, foireann ar an láithreán, seachadtaí, moill agus cuairteoirí.
+31|Iniúchadh láithreáin
+32|Déan iniúchadh ar láithreán le do phointí féin. Comhlíonann, ní chomhlíonann nó N/B, agus lochtanna nótáilte.
+33|Comhlachtaí a chruthaigh tú
+34|Cruthaigh comhlacht do chliant nó do thástálaí, ansin seol cód éilimh chuige.
+35|Tacaíocht
+36|Línte cabhrach saor in aisce rúnda, lena n-áirítear ceann a cruthaíodh don tógáil. Am ar bith.
+37|Á ÚSÁID AGAT MAR
+38|Fostóir / Conraitheoir
+39|Aistrigh go hoibrí
+40|Ainm an chomhlachta / na heagraíochta
+41|Taifeadtar an t-ainm seo nuair a cheadaíonn tú oibrí.
+42|Sábháil
+43|Logáil amach
+44|Pas
+45|Construction Passport
+46|Clár ama
+47|Cigireachtaí
+48|Gníomh sábháilte
+49|Riocht neamhshábháilte
+50|Gníomh neamhshábháilte
+51|Comhoibrí
+52|Maoirseoir
+53|Eile
+54|ROGHNAIGH CATAGÓIR
+55|Sábháilte
+56|Easpórtáil PDF
+57|Breathnóireacht contúirte
+58|Catagóir *
+59|💡 Moladh
+60|🪖 Marcáil don chruinniú sábháilteachta
+61|Marcáil an tuarascáil ionas go bpléifidh d’fhostóir í ag an gcéad chruinniú sábháilteachta eile. Socraíonn an fostóir cathain agus conas.
+62|Grianghraf
+63|📷 Tóg grianghraf
+64|Roghnaigh ón ngailearaí
+65|Bain
+66|Breathnóireacht *
+67|Cad a thug tú faoi deara? Déan cur síos soiléir.
+68|Cliant
+69|Tionscadal
+70|Maoirseoir (comhordaitheoir HOC)
+71|Suíomh / láithreán
+72|Ainm an tuairisceora
+73|Tuairiscigh gan ainm (ainm i bhfolach sa PDF; fanann sé ar an ngléas seo mar thaifead)
+74|Roinn
+75|m.sh. Fálaí, Obair bhunúis
+76|Obair stoptha ag
+77|Gníomh láithreach déanta
+78|m.sh. Limistéar cordaithe agus tuairisc tugtha don mhaoirseoir
+79|Tuilleadh gníomhaíochta ag teastáil
+80|m.sh. Caithfidh an leictreoir an cábla a ardú
+81|Seol an bhreathnóireacht contúirte
+82|Do thuarascálacha sábháilte
+83|Theip ar an PDF
+84|Scrios
+85|D’ainm
+86|Cuir in eagar
+87|Cuir d’ainm leis
+88|Cuir fostóir leis
+89|Stádas comhlíonta
+90|Cáilíochtaí
+91|Cuir leis
+92|Níl aon cháilíocht agat fós. Tapáil Cuir leis chun Safe Pass nó cáilíocht eile a scanadh isteach i do Phas.
+93|Taispeáin mo phas (QR)
+94|Tuairiscigh contúirt
+95|Laethúil
+96|Seachtainiúil
+97|Míosúil
+98|Lochtanna taifeadta
+99|Cigireacht sábháilte
+100|Ná húsáid go dtí go ndéantar na lochtanna a cheartú. Easpórtáil an tuarascáil lochtanna?
+101|Níor aimsíodh aon locht.
+102|Gan cigireacht
+103|Cigireacht dlite
+104|Lochtanna tuairiscithe
+105|Cuir feithicil leis ar dtús
+106|Cuir do veain, do thochaltóir nó do ardán leis thíos, ansin déan cigireacht.
+107|＋ Cigireacht nua
+108|Gléasra beag · Feithicil tráchtála ≥3.5 t — le tuarascáil lochtanna PDF
+109|Ag teacht go luath
+110|Beidh iniúchtaí iomlána sábháilteachta láithreáin ag teacht go luath.
+111|＋ Iniúchadh nua láithreáin
+112|Iniúchadh iomlán sábháilteachta láithreáin — le scór, torthaí, grianghraif agus tuarascáil PDF
+113|Cuir feithicil nó gléasra leis
+114|m.sh. Veain Transit, tochaltóir 3 t, ardán MEWP
+115|Uimhir chláraithe / gléasra (roghnach)
+116|Déan cigireacht air
+117|Ní chiallaíonn é a chur leis go bhfuil sé sábháilte — tosaíonn sé mar „gan cigireacht“ go dtí go ndéanann tú cigireacht.
+118|Níl aon fheithicil ná gléasra agat fós. Cuir do veain, do thochaltóir nó do ardán leis thuas chun cigireachtaí a dhéanamh.
+119|Do fheithiclí agus do ghléasra
+120|Déan cigireacht anois
+121|Cigireachtaí roimhe seo
+122|Gan lochtanna
+123|Cé acu?
+124|Locht
+125|Déan cur síos ar an locht
+126|Críochnaigh an chigireacht
+127|Sábháilte. Tá do phas, mar atá anois, sábháilte i do chuntas.
+128|Caithfidh 6 charachtar ar a laghad a bheith san fhocal faire.
+129|Cuntas cruthaithe. Deimhnigh an ríomhphost a sheolamar, ansin logáil isteach agus tapáil Sábháil anois.
+130|Cuntas cruthaithe agus tá do phas sábháilte.
+131|Logáilte isteach. Tapáil Sábháil anois chun an pas seo a shábháil.
+132|Sábháil do phas
+133|Sábháil i do chuntas an méid atá ar an bhfón seo anois, ionas gur féidir leat é a fháil ar ais má athraíonn tú fón. Sábháil tar éis cáilíochtaí a chur leis.
+134|Logáilte isteach mar
+135|Ag sábháil…
+136|Sábháil anois
+137|Ríomhphost
+138|Focal faire
+139|Cruthaigh cuntas agus sábháil
+140|Tá cuntas agam cheana
+141|Comhroinn an pas ar dtús
+142|Oscail an cluaisín Comhroinn uair amháin ionas gur féidir leis an bhfostóir tú a aimsiú, ansin cuir cód na foirne leis arís.
+143|Níorbh fhéidir an fhoireann a chur leis
+144|Oibrí
+145|Atógtar róil an fhostóra agus an oiliúnóra tar éis chuid an oibrí.
+146|Aistrigh
+147|Seiceáil folláine
+148|Seiceáil tapa príobháideach ar an gcaoi a mbraitheann tú. Fanann sé ar do ghuthán — ní fheiceann aon duine eile é.
+149|Línte cabhrach saor in aisce rúnda — lena n-áirítear ceann a cruthaíodh don tógáil. Am ar bith.
+150|Ainm
+151|Ceird
+152|Teileafón
+153|Fostóir
+154|Sábháil an phróifíl
+155|Tá do phróifíl sábháilte agus déanfar an pas comhroinnte a nuashonrú.
+156|Do fhoirne (roghnach)
+157|Cuir gach foireann a n-oibríonn tú di leis. Faigheann an ceann atá marcáilte „Gníomhach“ na cláir ama agus na costais nua — tapáil ceann eile chun aistriú.
+158|Iarrtha
+159|Tar isteach
+160|· Gníomhach
+161|Cuir cód foirne leis
+162|An bhfuil cód éilimh agat?
+163|Má chruthaigh d’fhostóir do phas, cuir a chód isteach chun é a líonadh go huathoibríoch.
+164|Moltaí oiliúna
+165|Lig d’fhostóir cúrsaí a mholadh duit (mar shampla nuair a théann cáilíocht in éag). Is tú i gcónaí a chuireann in áirithe — ní chomhroinntear do shonraí gan do chead.
+166|Do phlean
+167|Suibscríofa.
+168|An dara teanga, cúrsaí oiliúna agus rochtain deimhnitheora.
+169|Leagan
+170|Taispeánfar an cód QR nuair a bheidh do phas comhroinnte.
+171|Taispeáin do chonraitheoir é. Scanann sé le ceamara aon fhóin é — gan aip — chun do phas agus grianghraif do theastas a fheiceáil agus tú a dheimhniú.
+172|Níorbh fhéidir an pas a chomhroinnt fós:
+173|Bain triail eile as
+174|Tá an pas comhroinnte cothrom le dáta ✓
+175|Nuashonraítear aon athrú — cáilíocht a chur leis, a chur in eagar nó a scriosadh — go huathoibríoch. Ní fheiceann é ach na daoine a dtaispeánann tú dóibh é.
+176|Lig don fhostóir teastais a chur leis
+177|Lig don fhostóir teastais a chur le do phas. Tá an smacht agat — is féidir leat é a mhúchadh am ar bith agus aon rud a chuireann sé leis a scriosadh.
+178|👁 Féach air mar phobal
+179|🔗 Cóipeáil
+180|Cóipeáilte
+181|Tá nasc do phais ar an ngearrthaisce.
+182|📤 Comhroinn trí…
+183|📄 Sábháil mar PDF
+184|An nasc a osclaíonn an QR — tapáil chun an méid a fheiceann fostóir a fheiceáil
+185|Lá
+186|Seachtain
+187|Mí
+188|Tá do thréimhse saor in aisce 90 lá caite
+189|Cosnaíonn an clár ama agus na huirlisí oibre
+190|EUR sa mhí nó tá siad saor in aisce má tá síntiús ag d’fhostóir. Fanann an Pas agus an chomhroinnt saor in aisce, i gcónaí.
+191|Ag obair
+192|Ar sos
+193|Gan síniú isteach
+194|Tapáil Tosaigh an tsíft nuair a thosaíonn tú ag obair.
+195|Tosaigh an tsíft
+196|Fill
+197|Sos
+198|Críochnaigh an tsíft
+199|Inniu:
+200|＋ Cuir isteach nó líon isteach iontráil siar-dhátaithe
+201|Inniu
+202|An tseachtain seo
+203|Níl aon uaireanta agat an tseachtain seo fós. Tapáil Tosaigh an tsíft chun tosú.
+204|Tapáil Aimsigh clár ama chun gach lá a fheiceáil.
+205|Aimsigh clár ama
+206|Cuardaigh lá, seachtain nó mí — féach ar na huaireanta agus easpórtáil.
+207|Taifead lá saor
+208|Saoire, tinneas, saoire bhainc, gan obair — taifeadta sa chlár ama agus ag an bhfostóir.
+209|Costais
+210|Tóg grianghraf de admháil — seol chuig d’fhostóir í nó coinnigh go príobháideach í le heaspórtáil ar leith.
+211|Líon isteach bileog oibre an lae agus easpórtáil mar PDF í.
+212|📥 Easpórtáil inniu…
+213|📄 Easpórtáil an tseachtain seo (PDF)
+214|Sroicheann d’uaireanta d’fhostóir go huathoibríoch tar éis duit do phas a chomhroinnt leis.
+215|Tosaigh an tsíft — cuir nóta leis (roghnach)
+216|Nóta
+217|m.sh. Ar an láithreán, tús i gceo — Droichead 78
+218|Cealaigh
+219|Easpórtáil
+220|PDF (sábháil, seol ríomhphost nó comhroinn)
+221|Scarbhileog (CSV)
+222|Theip ar an easpórtáil
+223|Níl aon iontráil don tréimhse seo.
+224|Tús
+225|Deireadh
+226|Sosanna
+227|Iomlán oibrithe
+228|📥 Easpórtáil an tréimhse seo…
+229|📍 suíomh taifeadta
+230|Cuir iontráil leis
+231|Am (24u)
+232|Cad a tharla?
+233|m.sh. Tuirlingt ar an láithreán — Droichead 78-06.00
+234|Cuir iontráil leis
+235|Cúrsaí
+236|Cuir oibrí leis
+237|Ball foirne
+238|Bainistigh láithreáin
+239|Costais na foirne
+240|Cáilíocht
+241|Cuir cáilíocht leis
+242|Bileog oibre
+243|Cód éilimh
+244|Deimhnitheoir
+245|Comhlachtaí
+246|Cúrsa nua
+247|Cúrsa
+248|Láimhsiú de láimh
+249|Obair ar airde
+250|Garchabhair
+251|Dioscaí scríobacha
+252|Spásanna iata
+253|Comharthóir / Treoraí tráchta
+254|Feasacht ar aispeist
+255|Sábháilteacht dóiteáin
+256|Trucail ardaithe
+257|Cén cháilíocht atá á cur leis agat?
+258|Rud eile
+259|m.sh. Teastas pluiméara
+260|Cód an phas ar iarraidh
+261|Níorbh fhéidir a dheimhniú
+262|Níorbh fhéidir a chúlghairm
+263|Níl aon rud ag fanacht le fíorú.
+264|Deimhnigh
+265|Cúlghairm an deimhniú
+266|Go maith
+267|Deacair
+268|Conas atá tú ag mothú?
+269|Seiceáil tapa príobháideach. Fanann sé ar do ghuthán — ní fheiceann aon duine eile é.
+270|An bhfuil rud éigin ort? (roghnach)
+271|Sábháil an tseiceáil
+272|Do sheiceálacha le déanaí
+273|Níor aimsíodh an cód. Seiceáil é agus bain triail eile as.
+274|Cáilíocht
+275|Ag seiceáil…
+276|Éiligh pas
+277|Cód an chomhlachta ar iarraidh
+278|Scrios an comhlacht?
+279|An comhlacht seo
+280|Níorbh fhéidir a scriosadh
+281|Cruthaigh comhlacht uair amháin, ansin seol cód éilimh chucu. Osclaíonn siad Construction Passport, roghnaíonn siad Fostóir, cuireann siad an cód isteach, agus tá a gcomhlacht agus a bhfoireann ann cheana. Go maith do thástálaithe nach mian leo a bheith ag útamáil leis an socrú.
+282|＋ Cruthaigh comhlacht nua
+283|Níor chruthaigh tú aon chomhlacht fós. Tapáil „Cruthaigh comhlacht nua“ chun tosú.
+284|Comhlacht
+285|Cód na foirne
+286|Cóipeáil an cód éilimh
+287|Scrios an comhlacht
+288|Cuir isteach ainm an chomhlachta.
+289|Cruthaigh comhlacht nua
+290|Gheobhaidh tú cód éilimh le seoladh.
+291|Ainm an chomhlachta
+292|m.sh. Prime Peak Limited
+293|Ceird (roghnach)
+294|m.sh. Obair bhunúis
+295|Ag sábháil…
+296|Cruthaigh an comhlacht
+297|Bain an traenálaí?
+298|An traenálaí seo
+299|Níorbh fhéidir a bhaint
+300|Cód an chúrsa
+301|Níor chláraigh aon duine fós. Cláraíonn traenálaithe le cód an chúrsa.
+302|Traenálaí
+303|Freagra téacs
+304|Tá / Níl
+305|Il-rogha
+306|Níorbh fhéidir an cúrsa a luchtú
+307|Seiceáil an dáta
+308|Cuir isteach an dáta mar BBBB-MM-LL, m.sh. 2026-10-05.
+309|Ainm an chúrsa
+310|Tabhair ainm don chúrsa, m.sh. Safe Pass.
+311|Níor sábháladh an cúrsa.
+312|Cruthaíodh an cúrsa ach níor tháinig aon chód clárúcháin ar ais. Seiceáil liosta na gcúrsaí.
+313|Cúrsa cruthaithe
+314|Níorbh fhéidir a shábháil
+315|m.sh. Safe Pass
+316|Soláthraí oiliúna / teagascóir
+317|m.sh. SilerTech Training
+318|Cén cháilíocht a athnuaitheann sé?
+319|(ionas gur féidir linn é a mholadh d’oibrithe a bhfuil a gcáilíocht ag dul in éag)
+320|Cá bhfuil sé ar siúl?
+321|Suíomh / seoladh, baile, contae
+322|Sonraí clárúcháin (nasc áirithinte, fón nó treoracha)
+323|m.sh. https://… nó cuir fón ar 01 234 5678
+324|Praghas (roghnach)
+325|Dátaí seisiún
+326|Cuir leis na dátaí a reáchtálann tú an cúrsa seo. Feiceann oibrithe iad agus roghnaíonn siad dáta.
+327|Dáta, BBBB-MM-LL (m.sh. 2026-10-05)
+328|Am tosaithe (roghnach), m.sh. 09:00
+329|＋ Cuir dáta leis
+330|Ceistneoir réamh-chúrsa
+331|Ceisteanna a fhreagraíonn traenálaithe nuair a chláraíonn siad. Roghnach.
+332|Ceist nua
+333|Roghanna, scartha le camóga
+334|＋ Cuir ceist leis
+335|Liostáil sa chuardach cúrsaí
+336|Nuair a bhíonn sé ar siúl, is féidir le hoibrithe agus fostóirí an cúrsa seo a aimsiú de réir achair agus dáta.
+337|Sábháil an cúrsa
+338|Cruthaigh an cúrsa agus faigh an cód clárúcháin
+339|Níl cód ag do chomhlacht fós. Socraigh arís é ón bPróifíl.
+340|Cód pas an oibrí
+341|6 charachtar
+342|Aimsíonn an t-oibrí é sa chluaisín Comhroinn ina aip. Is é an cód gearr é ag deireadh nasc an phais, tar éis „?p=“.
+343|Is
+344|Fostaí
+345|Fochonraitheoir
+346|Faoi láthair
+347|Ar an bhfoireann
+348|Nach bhfuil ar an bhfoireann
+349|Coinníonn „Nach bhfuil ar an bhfoireann“ sa chomhlacht é gan a bheith ar fhoireann inniu, úsáideach d’fhochonraitheoir idir poist nó duine a thugann cuairt ar láithreáin.
+350|Á chur leis…
+351|Cuir leis an bhfoireann
+352|Níorbh fhéidir a nuashonrú
+353|Costais an chomhlachta
+354|Níor seoladh aon chostas comhlachta fós. Nuair a chuireann oibrí ar d’fhoireann costas comhlachta leis, tagann sé aníos anseo.
+355|Costas
+356|Ceadaigh
+357|Diúltaigh
+358|Níorbh fhéidir a cheadú
+359|Bain den fhoireann?
+360|Fanann sé san aip; ach imíonn sé de liosta d’fhoirne.
+361|CÁILÍOCHTAÍ
+362|Níl aon cháilíocht sa phas seo fós.
+363|Níor taifeadadh aon dáta éaga
+364|✓ Ceadaithe
+365|Ceadaigh an t-oibrí seo
+366|Bain den fhoireann
+367|Saoire
+368|Tinneas
+369|Saoire bhainc
+370|Gan obair
+371|Cineál
+372|Nóta (roghnach)
+373|Taifead lá saor
+374|Breosla
+375|Cuir costas leis
+376|🧾 Tóg grianghraf d’admháil
+377|Ceannaí
+378|Suim (€)
+379|Sábháil an costas
+380|Níl aon costas ann fós.
+381|📄 Easpórtáil costais (PDF)
+382|Gach costas sábháilte
+383|Beidh costais a sheoladh chuig d’fhostóir ag teacht go luath.
+384|Do chuid cáilíochtaí, leat i gcónaí. Cruthaigh cuntas ionas go mbeidh do phas sábháilte agus nach gcaillfear go brách é.
+385|Tosaigh
+386|Tá cuntas agam cheana · Logáil isteach
+387|Bileog oibre nua
+388|Dáta
+389|Obair / uimh. thag.
+390|m.sh. Prime Management
+391|Láithreán / suíomh
+392|m.sh. Droichead 78, N4
+393|Oibrithe
+394|Ainm ar an obair
+395|＋ Cuir oibrí leis
+396|Gléasra / trealamh
+397|m.sh. Veain TM, comharthaíocht, PPE
+398|＋ Cuir gléasra / trealamh leis
+399|Cur síos ar an obair
+400|Cad a rinneadh
+401|Ábhair
+402|Ábhair a úsáideadh
+403|Grianghraif
+404|📷 Tóg grianghraf
+405|🖼️ Cuir leis ón ngailearaí
+406|Am oibrithe
+407|Nótaí
+408|Aon rud eile (moill, fadhbanna)
+409|Sínithe ag
+410|📄 Sábháil agus easpórtáil PDF
+411|Bileoga oibre sábháilte
+412|Is céad leagan é seo — seol do bhileog ghnách chugam agus déanfaidh mé ceann comhionann.
+413|Logáilte isteach, ach níl pas sábháilte sa chuntas seo fós. Roghnaigh cé tú féin chun leanúint ar aghaidh.
+414|Fáilte ar ais
+415|Logáil isteach chun do phas a thabhairt chuig an bhfón seo.
+416|tusa@sampla.com
+417|D’fhocal faire
+418|Ag logáil isteach…
+419|Logáil isteach
+420|Cruthaigh pas oibrí sula mbíonn an aip aige. Cuir a ainm, a cheird agus a cháilíochtaí leis, ansin seol an cód éilimh chuige. Nuair a shuiteálann sé an aip agus a chuireann sé isteach é, taispeánfar gach rud.
+421|Cód éilimh don oibrí
+422|Cóipeáil an cód
+423|OIBRÍ NUA
+424|Ainm an oibrí
+425|Cruthaigh pas agus faigh cód
+426|CRUTHAITHE GO DTÍ SEO
+427|Níor chruthaigh tú aon phas fós.
+428|Níor aimsíodh an cháilíocht.
+429|Teastaíonn cead
+430|Ceadaigh rochtain ar ghrianghraif chun pictiúr de do cháilíocht a roghnú.
+431|Ceadaigh rochtain ar cheamara chun grianghraf a thógáil de do cháilíocht.
+432|Níorbh fhéidir an grianghraf a chur leis
+433|Scrios an cháilíocht seo?
+434|Teastas — éadan
+435|Teastas — cúl (roghnach)
+436|Tapáil chun formhéadú
+437|🖼️ Roghnaigh ón ngailearaí
+438|Ainm na cáilíochta
+439|⚠ Níor taifeadadh aon dáta éaga
+440|Éagann (mí agus bliain)
+441|Bliain
+442|Dáta eisiúna (mí agus bliain)
+443|Stádas
+444|Fíoraithe
+445|Ar feitheamh
+446|Dearbhaithe agat
+447|Gearrann Smart Scan an cháilíocht díreach. Úsáideann Tóg grianghraf an ceamara gnáth. Nuashonraíonn aon athrú anseo an pas comhroinnte go huathoibríoch.
+448|Scrios an cháilíocht seo
+449|Is oibrí mé
+450|Coinnigh mo Safe Pass, mo cháilíochtaí agus m’oiliúint in aon áit amháin.
+451|Bainistím foireann nó comhlacht
+452|Féach ar cháilíochtaí mo fhoirne agus bainistigh doiciméid an láithreáin.
+453|Is soláthraí oiliúna mé
+454|Reáchtáil cúrsaí, bailigh sonraí agus ceistneoirí traenálaithe agus postáil teastais.
+455|‹ Ar ais
+456|Ar dtús — cé tú féin?
+457|Is féidir leat é a athrú ar ball.
+458|An bhfuil cuntas agat cheana? Logáil isteach
+459|Is deimhnitheoir mé · Tá cód agam
+460|Nach tú? Logáil amach
+461|Logáil isteach deimhnitheora
+462|Cuir isteach an cód deimhnitheora a fuair tú. Ligeann sé duit pasanna a fhíorú agus a dheimhniú.
+463|Cód deimhnitheora
+464|Do chód
+465|Logáil isteach
+466|Cuir isteach an cód éilimh a fuair tú.
+467|Níor aimsíodh an cód éilimh.
+468|Mo chomhlacht
+469|Cuir isteach ainm do chomhlachta.
+470|Cad is ainm do do chomhlacht?
+471|Cuir isteach cód éilimh an chomhlachta
+472|Is é seo an t-ainm a thaispeántar nuair a dheimhníonn tú oibrí.
+473|Chruthaigh duine éigin do chomhlacht cheana, mar sin cuir isteach an cód a thug siad duit.
+474|Cód éilimh an chomhlachta
+475|m.sh. ABC123
+476|Ríomhphost (ionas go mbeidh do phas sábháilte)
+477|6 charachtar ar a laghad
+478|Ag obair…
+479|Lean ar aghaidh
+480|An ndearna duine éigin ár gcomhlacht a chruthú cheana? Cuir isteach cód éilimh →
+481|← Cruthaigh comhlacht nua ina ionad
+482|Tá do phas réidh. Is féidir leat sonraí a chur leis, é a chomhroinnt nó tuilleadh cáilíochtaí a chur leis am ar bith.
+483|Féach ar mo phas
+484|Cuir do ghrianghraf leis
+485|Taispeánfar grianghraf soiléir d’aghaidhe ar chéad leathanach an phais, ionas go bhfeicfidh gach duine a fhaigheann é go díreach gur tusa atá ann.
+486|📷 Tóg mo ghrianghraf
+487|Tóg mo ghrianghraf
+488|Ar ball
+489|Scoit faoi láthair
+490|Teastaíonn Safe Pass bailí ó bheagnach gach oibrí chun dul isteach i láithreán in Éirinn. Scan éadan an chárta, an cúl agus cuir an dáta éaga leis.
+491|An ceann eile a iarrann beagnach gach láithreán. Scan dhá thaobh an teastais láimhsithe de láimh agus cuir an dáta éaga leis.
+492|Éadan an chárta
+493|Cúl (má tá ceann ann)
+494|Éagann (mí agus bliain, roghnach)
+495|Dáta eisiúna (mí agus bliain, roghnach)
+496|Scan an cárta
+497|Níl sé agam / scoit faoi láthair
+498|Cáilíocht eile
+499|Cáilíochtaí eile?
+500|Tapáil ceann chun é a chur leis. Cuir an oiread agus is mian leat leis — nó scoit agus cuir leis ar ball.
+501|Cuir isteach ainm do chomhlachta oiliúna.
+502|Cad is ainm do do chomhlacht oiliúna?
+503|Taispeántar do thraenálaithe nuair a thagann siad isteach i do chúrsaí.
+504|Cuir isteach d’ainm.
+505|Níor aimsíodh an cód éilimh. Seiceáil é nó glan an réimse chun leanúint ar aghaidh gan cód.
+506|CAMÓG 1 DE 6
+507|Cruthaigh do phas
+508|Taispeánfar d’ainm ar an mbarr. Má chruthaigh d’fhostóir do phas cheana, cuir isteach a chód éilimh agus líonfaimid isteach é.
+509|m.sh. Seán Ó Briain
+510|Do cheird
+511|m.sh. Leictreoir
+512|Cód éilimh (roghnach)
+513|Ón bhfostóir, má tá ceann agat
+514|Á ullmhú…
+515|Comhlíonann
+516|Ní chomhlíonann
+517|Cuir pointe leis
+518|Déan cur síos ar rud amháin ar a laghad a thug tú faoi deara.
+519|Teastaíonn cur síos ar an locht do gach pointe a marcáladh Ní chomhlíonann.
+520|Iniúchadh sábháilte
+521|Ainm an láithreáin
+522|Láithreán / limistéar
+523|Suíomh
+524|Seoladh nó baile
+525|Aimsir
+526|m.sh. Tirim, gaofar
+527|POINTÍ
+528|Pointe
+529|Déan cur síos ar na lochtanna a fuarthas (riachtanach má mharcáil tú locht)
+530|Bog suas
+531|Bog síos
+532|＋ Cuir an chéad phointe eile leis
+533|Scór go dtí seo:
+534|Sábháil an t-iniúchadh
+535|＋ Iniúchadh nua
+536|Iniúchtaí roimhe seo
+537|Níl aon iniúchadh ann fós.
+538|Iniúchadh
+539|· Scór
+540|Logleabhar sábháilte
+541|Fanann sé ar an bhfón seo amháin.
+542|Dialann láithreáin
+543|m.sh. Droichead 78, láithreán theas
+544|m.sh. Tirim, fuar, tús i gceo
+545|Foireann ar an láithreán
+546|m.sh. Alfie, Oisín, Sam
+547|Obair déanta
+548|Cad a rinneadh inniu
+549|Seachadtaí
+550|Ábhair / trealamh seachadta
+551|Moill / fadhbanna
+552|Aon rud a stop an obair
+553|Cuairteoirí
+554|Cuairteoirí / cigireachtaí ar an láithreán
+555|Aon rud eile don taifead
+556|Sábháil iontráil an logleabhair
+557|Níl aon iontráil ann fós.
+558|Moill:
+559|CÓD D’FHOIRNE
+560|Tabhair d’oibrithe é. Nuair a chuireann siad isteach é, taispeánann a gclár ama do láithreáin.
+561|DO LÁITHREÁIN
+562|Níl aon láithreán agat fós. Cuir an chéad cheann leis thíos.
+563|CUIR LÁITHREÁN LEIS
+564|Suíomh (seoladh nó cód poist, roghnach)
+565|Cuir láithreán leis
+566|Gníomhachtóidh suíomh anseo gné aimsire an láithreáin go luath.
+567|Níl tú i d’aonar.
+568|Tá gach rud saor in aisce, rúnda agus ar fáil am ar bith. Ní rianaítear ná ní chomhroinntear le haon duine aon rud a thapálann tú anseo.
+569|Cruthaithe don tógáil — fiú le haghaidh fadhbanna airgid. Saor in aisce, 24/7, do gach duine ar an láithreán.
+570|Cuir fón ar 1800 939 122
+571|Seol HARDHAT chuig 50808
+572|Cibé rud atá ag déanamh buartha duit, am ar bith. Saor in aisce, 24/7.
+573|Cuir fón ar 116 123
+574|Má tá tú ag smaoineamh ort féin a ghortú nó má tá imní ort faoi dhuine éigin. Saor in aisce, 24/7.
+575|Cuir fón ar 1800 247 247
+576|Seol HELP chuig 51444
+577|Is fearr leat teachtaireacht ná glao? Freagraíonn deonach oilte. Saor in aisce, 24/7.
+578|Seol HELLO chuig 50808
+579|Is leid é seo faoin áit le cabhair a fháil, ní seirbhís leighis — má tá beatha i mbaol, cuir fón ar 112 nó 999.
+580|Don saol laethúil, is aip féinchabhrach saor in aisce é Wysa (CBT/DBT) — úsáideach idir chnapáin, ach ní do chásanna éigeandála.
+581|I mbaol anois? Cuir fón ar 112 nó 999
+582|Tapáil chun glaoch ar 112
+583|Scrios an cúrsa?
+584|An cúrsa seo
+585|Do chomhlacht oiliúna
+586|＋ Cúrsa nua
+587|Níl aon chúrsa ann fós
+588|Cruthaigh cúrsa, socraigh ceistneoir roimh ré agus comhroinn an cód clárúcháin le traenálaithe. Cláraíonn siad, tugann siad an seoladh poist don teastas agus freagraíonn siad do cheisteanna. Feiceann tú gach rud anseo.
+589|Scrios an cúrsa
+590|Úsáid mar oibrí
+591|Teanga
+592|Taispeáin an dara teanga in aice leis an mBéarla
+593|Béarla amháin
+594|Fanann an Béarla ar an scáileán i gcónaí, ionas gur féidir le d’fhoireann agus do bhoss léamh in éineacht leat.
+595|Dún ✕
+615|Logáil isteach nó cruthaigh cuntas ar dtús.
+618|Níor aithníodh cód an deimhnitheora.
+619|Gan éag
+620|Gníomh ag teastáil
+621|Ag dul in éag go luath
+622|Comhlíonta go hiomlán
+623|Ceadaigh rochtain ar ghrianghraif chun pictiúr a roghnú.
+624|Ceadaigh rochtain ar cheamara chun grianghraf a thógáil.
+625|Moladh
+626|Uirlisí
+627|Bia
+628|Taisteal
+629|Lóistín
+630|Boscaí agus rothaí
+631|Soilse agus comharthaíocht
+632|Coscáin
+633|Ola agus sreabhach
+634|Scátháin agus gloine
+635|Adharc agus gléasanna rabhaidh
+636|Criosanna sábháilteachta / córais choinneála
+637|Múchtóir dóiteáin / áis garchabhrach
+638|Seiceáil damáiste
+639|Lasta daingnithe / sábháilte le húsáid
+640|Tús síofte
+641|Deireadh síofte
+642|Lá saor
+643|🔴 {0} imithe in éag  
+644|🟠 {0} ag dul in éag  
+645|Déan cigireacht: {0}
+646|Tréimhse saor in aisce: {0} lá fágtha, gach rud san áireamh. Ina dhiaidh sin fanann an Pas saor in aisce; cosnaíonn an clár ama agus na huirlisí oibre {1} EUR sa mhí (nó tá siad saor in aisce má tá síntiús ag d’fhostóir).
+647|Tá do thréimhse saor in aisce caite. Tá an Pas agus an chomhroinnt saor in aisce; cosnaíonn an clár ama agus na huirlisí oibre {0} EUR sa mhí.
+648|Seachtain ó {0}
+649|PASANNA LE FÍORÚ ({0})
+650|Déanta. Líonadh do phas{0}.
+651|TRAENÁLAITHE ({0})
+652|Cód clárúcháin: {0}\nTabhair do do thraenálaithe é.
+653|Roghanna · {0}
+654|Seolta ag d’fhoireann · cód foirne {0}. Tarraing síos chun athnuachan.
+655|Éagann {0}
+656|Do chostais · €{0}
+657|📐 Smart Scan ({0})
+658|📷 Tóg grianghraf ({0})
+659|Réidh, {0}!
+660|📸  Scan {0}
+661|Cuir {0} leis agus críochnaigh
+662|Scór {0}%. Fanann sé ar an bhfón seo amháin.
+663|IONTRÁLACHA LE DÉANAÍ ({0})
+664|CAMÓG {0} DE 6
+665|Imithe in éag {0}
+666|Bailí go dtí {0}
+667|Tá {0} sábháilte ar an ngléas seo.
+668|{0} locht
+669|Bainfear {0} agus a fhoireann.
+670|Bainfear {0} den chúrsa.
+671|Bainfear {0} de do Phas.
+672|Bainfear {0} agus a chláruithe.

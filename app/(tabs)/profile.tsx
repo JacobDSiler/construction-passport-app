@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, Switch, View } from 'react-native';
+import { Text } from '../../src/components/Text';
 import { useRouter } from 'expo-router';
 import Constants from 'expo-constants';
 import { Attribution, Button, Card, Field } from '../../src/components/ui';
@@ -10,6 +11,7 @@ import { Crew, loadCrews, saveCrews } from '../../src/lib/records';
 import { requestJoin, setSuggestionConsent } from '../../src/lib/api';
 import { loadJson, saveJson } from '../../src/lib/storage';
 import { createAccount, currentAccountEmail, linkToAccount, signInOnly } from '../../src/lib/account';
+import { LanguageButton } from '../../src/components/LanguageButton';
 
 const SUGGEST_KEY = 'cp.suggestConsent.v1';
 
@@ -164,6 +166,7 @@ export default function ProfileTab() {
         </View>
         <Text style={styles.switch} onPress={() => Alert.alert('Coming next', 'The employer and trainer roles are rebuilt after the worker side.')}>Switch</Text>
       </Card>
+      <LanguageButton />
       <LinkCard icon="🟢" title="Check-in" body="A quick, private check on how you're doing. Stays on your phone — nobody else sees it." onPress={() => router.push('/checkin')} />
       <LinkCard icon="🆘" title="Support" body="Free, confidential helplines — including one built for construction. Any hour." onPress={() => router.push('/support')} />
       <Card>
