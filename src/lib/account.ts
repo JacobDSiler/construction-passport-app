@@ -22,6 +22,27 @@ export async function backupToAccount(): Promise<void> {
   if (error) console.warn('[claim]', error.message);
 }
 
+/** The signed-in account's email, or null when nobody is signed in. */
+export async function currentAccountEmail(): Promise<string | null> {
+  const { data } = await need().auth.getSession();
+  return data.session?.user?.email ?? null;
+}
+
+/** Link the (already published) passport to the signed-in account. Throws with a plain message on failure. */
+export async function linkToAccount(): Promise<void> {
+  const sb = need();
+  const { data: s } = await sb.auth.getSession();
+  if (!s.session) throw new Error('Log in or create an account first.');
+  const { error } = await sb.rpc('claim_passport', { p_owner_token: await getOwnerToken() });
+  if (error) throw new Error(error.message);
+}
+
+/** Signs in without restoring anything, so nothing on this phone is replaced. */
+export async function signInOnly(email: string, password: string): Promise<void> {
+  const { error } = await need().auth.signInWithPassword({ email: norm(email), password });
+  if (error) throw new Error(error.message);
+}
+
 export async function createAccount(email: string, password: string, meta?: Record<string, unknown>): Promise<void> {
   const sb = need();
   const { data, error } = await sb.auth.signUp({ email: norm(email), password, options: { data: meta ?? {} } });
