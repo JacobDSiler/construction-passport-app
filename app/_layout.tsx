@@ -26,6 +26,7 @@ function Screens() {
         <Stack.Screen name="qualification/[id]" options={{ headerShown: true, title: bi('Qualification') }} />
         <Stack.Screen name="add-qualification" options={{ headerShown: true, title: bi('Add qualification') }} />
         <Stack.Screen name="day-off" options={{ headerShown: true, title: bi('Record a day off') }} />
+        <Stack.Screen name="schedule" options={{ headerShown: true, title: bi('Weekly schedule') }} />
         <Stack.Screen name="job-sheet" options={{ headerShown: true, title: bi('Job Sheet') }} />
         <Stack.Screen name="expenses" options={{ headerShown: true, title: bi('Expenses') }} />
         <Stack.Screen name="support" options={{ headerShown: true, title: bi('Support') }} />

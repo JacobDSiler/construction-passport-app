@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { CameraView, useCameraPermissions } from 'expo-camera';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { Text } from '../src/components/Text';
 import { useRouter } from 'expo-router';
@@ -19,7 +20,7 @@ function Seg<T extends string>({ value, options, onChange }: { value: T; options
   );
 }
 
-// Add a worker to the crew by the 6-character code on their Share tab. (QR scanning comes with the camera build.)
+// Add a worker to the crew by the 6-character code on their Share tab. (Scan their QR code or type the code.)
 export default function CrewAdd() {
   const router = useRouter();
   const { session } = useSession();
@@ -28,6 +29,26 @@ export default function CrewAdd() {
   const [assignment, setAssignment] = useState<CrewAssignment>('crew');
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [scanning, setScanning] = useState(false);
+  const [perm, requestPerm] = useCameraPermissions();
+
+  async function startScan() {
+    if (!perm?.granted) {
+      const r = await requestPerm();
+      if (!r.granted) return setErr('Camera permission is needed to scan. You can type the code instead.');
+    }
+    setErr(null);
+    setScanning(true);
+  }
+
+  // Accepts a full passport link (…?p=ABC123) or a bare code.
+  function onScanned(data: string) {
+    const m = /[?&]p=([A-Za-z0-9]{4,12})/.exec(data);
+    const c = (m ? m[1] : data.trim()).toUpperCase();
+    if (!/^[A-Z0-9]{4,12}$/.test(c)) return setErr("That QR code isn't a Construction Passport.");
+    setCode(c);
+    setScanning(false);
+  }
 
   async function go() {
     if (!session.orgCode) return setErr('Your company has no code yet. Set it up again from Profile.');
@@ -45,6 +66,14 @@ export default function CrewAdd() {
 
   return (
     <ScrollView contentContainerStyle={styles.body} keyboardShouldPersistTaps="handled">
+      {scanning ? (
+        <View style={{ gap: spacing.sm }}>
+          <CameraView style={{ height: 320, borderRadius: 16, overflow: 'hidden' }} facing="back" barcodeScannerSettings={{ barcodeTypes: ['qr'] }} onBarcodeScanned={({ data }) => onScanned(data)} />
+          <Button label="Cancel scan" onPress={() => setScanning(false)} />
+        </View>
+      ) : (
+        <Button label="Scan worker's QR code" onPress={startScan} />
+      )}
       <Field label="Worker passport code" value={code} onChangeText={setCode} placeholder="6 characters" autoCapitalize="characters" autoCorrect={false} />
       <Text style={styles.help}>The worker finds this on the Share tab of their app. It's the short code at the end of their passport link, after "?p=".</Text>
       <Text style={styles.label}>They are</Text>

@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { loadSchedule, eventsFromSchedule, weekdayIndex } from '../../src/lib/schedule';
 import { Alert, Pressable, ScrollView, Share, StyleSheet, View } from 'react-native';
 import { Text } from '../../src/components/Text';
 import { useRouter } from 'expo-router';
@@ -15,6 +16,17 @@ type Scope = 'Day' | 'Week' | 'Month';
 export default function TimesheetTab() {
   const router = useRouter();
   const { worker, events, addEvent, removeEvent, access } = useStore();
+
+  async function fillToday() {
+    const today = new Date();
+    const sched = await loadSchedule();
+    const row = sched[weekdayIndex(today)];
+    if (!row.on) { Alert.alert('Not a working day', 'Today is switched off in your weekly schedule.'); return; }
+    if (eventsForDay(events, today).some((e) => e.kind === 'clock_in')) { Alert.alert('Already started', 'Today already has a clock in. Delete it first if you want to replace it.'); return; }
+    const evs = eventsFromSchedule(today, row);
+    if (!evs.length) { Alert.alert('Check your schedule', 'The finish time must be after the start time.'); return; }
+    for (const e of evs) await addEvent(e.kind, { at: e.at, note: e.note });
+  }
   const [noteFor, setNoteFor] = useState<EventKind | null>(null);
   const [note, setNote] = useState('');
   const [addOpen, setAddOpen] = useState(false);
@@ -96,6 +108,8 @@ export default function TimesheetTab() {
       </Card>
 
       <NavCard icon="🔎" title="Find a timesheet" body="Look up a day, week or month — see the hours, and export it." onPress={() => setFindOpen(true)} />
+      <NavCard icon="⚡" title="Fill today from my schedule" body="Adds today's usual start, break and finish from your weekly schedule." onPress={fillToday} />
+      <NavCard icon="📅" title="Weekly schedule" body="Set your usual hours for each day of the week." onPress={() => router.push('/schedule')} />
       <NavCard icon="🗓️" title="Record a day off" body="Holiday, sick, bank holiday, no work — logged to your timesheet and your employer." onPress={() => router.push('/day-off')} />
       <NavCard icon="🧾" title="Expenses" body="Snap a receipt — submit to your employer, or keep it personal with its own export." onPress={() => router.push('/expenses')} />
       <NavCard icon="📋" title="Job sheet" body="Fill in the day's job sheet and export it as a PDF." onPress={() => router.push('/job-sheet')} />
