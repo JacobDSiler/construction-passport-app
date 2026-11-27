@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Construction Passport for companies</title>
+<style>
+  :root{--navy:#1E4D7B;--bg:#EDF1F6;--text:#13283B;--muted:#5F7385;--card:#fff;--border:#D6DEE6;--danger:#C0392B}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,sans-serif}
+  main{max-width:560px;margin:0 auto;padding:24px 16px 64px}
+  h1{font-size:28px;margin:0 0 6px} p{color:var(--muted);margin:0 0 18px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin:0 0 12px;cursor:pointer;display:block}
+  .card input{margin-right:10px} .card strong{font-size:18px} .card small{display:block;color:var(--muted)}
+  label.f{display:block;font-weight:700;margin:16px 0 6px} input[type=text],input[type=email]{width:100%;padding:12px;border:1px solid var(--border);border-radius:10px;font-size:16px}
+  button{width:100%;margin-top:18px;padding:14px;border:0;border-radius:12px;background:var(--navy);color:#fff;font-size:17px;font-weight:800}
+  button:disabled{opacity:.5} #msg{color:var(--danger);margin-top:12px}
+  .ok{background:#E6F4EA;border-radius:12px;padding:14px;margin-bottom:16px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Construction Passport for your company</h1>
+  <p>Choose a package for your crew. Payment is handled securely by Stripe; we never see your card details. Workers' Passports stay free.</p>
+  <div id="paid" class="ok" hidden>Thank you. Your company plan is being activated and will show in the app within a minute or two.</div>
+  <form id="form">
+    <div id="tiers"></div>
+    <label class="f" for="org">Your company code</label>
+    <input id="org" type="text" autocomplete="off" placeholder="The code shown on your Crew screen" maxlength="10">
+    <label class="f" for="email">Email for your invoice</label>
+    <input id="email" type="email" autocomplete="email" placeholder="you@company.ie">
+    <button id="go" type="submit">Continue to payment</button>
+    <div id="msg" role="alert"></div>
+  </form>
+</main>
+<script>
+// DRAFT TIERS: names, bands and prices are for Sam and Jacob to agree. Prices live in Stripe, not here.
+const TIERS = [
+  { id: "tier1", name: "Small crew",   band: "Up to 5 workers",   price: "Price to be confirmed" },
+  { id: "tier2", name: "Growing crew", band: "6 to 15 workers",   price: "Price to be confirmed" },
+  { id: "tier3", name: "Contractor",   band: "16 to 40 workers",  price: "Price to be confirmed" },
+  { id: "tier4", name: "Large site",   band: "41 or more workers", price: "Price to be confirmed" }
+];
+const FUNCTION_URL = "https://untoyialszpcvpsqujsy.supabase.co/functions/v1/create-checkout";
+const ANON_KEY = ""; // paste the public anon key here at deploy time (it is a public client key)
+
+const tiersEl = document.getElementById("tiers");
+TIERS.forEach((t, i) => {
+  const l = document.createElement("label");
+  l.className = "card";
+  l.innerHTML = '<input type="radio" name="tier" value="' + t.id + '"' + (i === 0 ? " checked" : "") + '><strong></strong><small></small>';
+  l.querySelector("strong").textContent = t.name;
+  l.querySelector("small").textContent = t.band + " · " + t.price;
+  tiersEl.appendChild(l);
+});
+if (new URLSearchParams(location.search).get("paid")) document.getElementById("paid").hidden = false;
+
+document.getElementById("form").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const msg = document.getElementById("msg"), btn = document.getElementById("go");
+  msg.textContent = ""; btn.disabled = true;
+  try {
+    const r = await fetch(FUNCTION_URL, {
+      method: "POST",
+      headers: { "content-type": "application/json", apikey: ANON_KEY, authorization: "Bearer " + ANON_KEY },
+      body: JSON.stringify({
+        orgCode: document.getElementById("org").value,
+        email: document.getElementById("email").value,
+        tier: document.querySelector("input[name=tier]:checked").value
+      })
+    });
+    const d = await r.json();
+    if (!r.ok || !d.url) throw new Error(d.error || "Something went wrong.");
+    location.href = d.url;
+  } catch (e) { msg.textContent = e.message; btn.disabled = false; }
+});
+</script>
+</body>
+</html>
